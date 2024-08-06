@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56BE762F17E5897500A5F05A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BE762E17E5897500A5F05A /* Foundation.framework */; };
+		56BE763117E5897500A5F05A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BE763017E5897500A5F05A /* CoreGraphics.framework */; };
+		56BE763317E5897500A5F05A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BE763217E5897500A5F05A /* UIKit.framework */; };
+		56BE763917E5897500A5F05A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56BE763717E5897500A5F05A /* InfoPlist.strings */; };
+		56BE763B17E5897500A5F05A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BE763A17E5897500A5F05A /* main.m */; };
+		56BE763F17E5897500A5F05A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BE763E17E5897500A5F05A /* AppDelegate.m */; };
+		56BE764217E5897500A5F05A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56BE764017E5897500A5F05A /* Main.storyboard */; };
+		56BE764517E5897500A5F05A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BE764417E5897500A5F05A /* ViewController.m */; };
+		56BE764717E5897500A5F05A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56BE764617E5897500A5F05A /* Images.xcassets */; };
+		56BE764E17E5897600A5F05A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BE764D17E5897600A5F05A /* XCTest.framework */; };
+		56BE764F17E5897600A5F05A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BE762E17E5897500A5F05A /* Foundation.framework */; };
+		56BE765017E5897600A5F05A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56BE763217E5897500A5F05A /* UIKit.framework */; };
+		56BE765817E5897600A5F05A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56BE765617E5897600A5F05A /* InfoPlist.strings */; };
+		56BE765A17E5897600A5F05A /* colortorchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56BE765917E5897600A5F05A /* colortorchTests.m */; };
+		56BE766417E58A5700A5F05A /* 8581849-torche-isolate-on-black-backgrounds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56BE766317E58A5700A5F05A /* 8581849-torche-isolate-on-black-backgrounds.jpg */; };
+		56BE766B17E59B2700A5F05A /* Images-2.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56BE766A17E59B2700A5F05A /* Images-2.xcassets */; };
+		56BE766D17E5ABBA00A5F05A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56BE766C17E5ABBA00A5F05A /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56BE765117E5897600A5F05A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56BE762317E5897500A5F05A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56BE762A17E5897500A5F05A;
+			remoteInfo = colortorch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56BE762B17E5897500A5F05A /* colortorch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colortorch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56BE762E17E5897500A5F05A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		56BE763017E5897500A5F05A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		56BE763217E5897500A5F05A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		56BE763617E5897500A5F05A /* colortorch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "colortorch-Info.plist"; sourceTree = "<group>"; };
+		56BE763817E5897500A5F05A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56BE763A17E5897500A5F05A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56BE763C17E5897500A5F05A /* colortorch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "colortorch-Prefix.pch"; sourceTree = "<group>"; };
+		56BE763D17E5897500A5F05A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56BE763E17E5897500A5F05A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56BE764117E5897500A5F05A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56BE764317E5897500A5F05A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		56BE764417E5897500A5F05A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		56BE764617E5897500A5F05A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		56BE764C17E5897600A5F05A /* colortorchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = colortorchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56BE764D17E5897600A5F05A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		56BE765517E5897600A5F05A /* colortorchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "colortorchTests-Info.plist"; sourceTree = "<group>"; };
+		56BE765717E5897600A5F05A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56BE765917E5897600A5F05A /* colortorchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = colortorchTests.m; sourceTree = "<group>"; };
+		56BE766317E58A5700A5F05A /* 8581849-torche-isolate-on-black-backgrounds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "8581849-torche-isolate-on-black-backgrounds.jpg"; sourceTree = "<group>"; };
+		56BE766517E5999C00A5F05A /* ctr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ctr.png; sourceTree = "<group>"; };
+		56BE766617E599A700A5F05A /* ctr4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ctr4.png; sourceTree = "<group>"; };
+		56BE766717E59A4100A5F05A /* ct120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ct120.png; sourceTree = "<group>"; };
+		56BE766817E59A4D00A5F05A /* ct80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ct80.png; sourceTree = "<group>"; };
+		56BE766917E59A5700A5F05A /* ct58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ct58.png; sourceTree = "<group>"; };
+		56BE766A17E59B2700A5F05A /* Images-2.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Images-2.xcassets"; sourceTree = "<group>"; };
+		56BE766C17E5ABBA00A5F05A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56BE762817E5897500A5F05A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BE763117E5897500A5F05A /* CoreGraphics.framework in Frameworks */,
+				56BE763317E5897500A5F05A /* UIKit.framework in Frameworks */,
+				56BE762F17E5897500A5F05A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56BE764917E5897600A5F05A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BE764E17E5897600A5F05A /* XCTest.framework in Frameworks */,
+				56BE765017E5897600A5F05A /* UIKit.framework in Frameworks */,
+				56BE764F17E5897600A5F05A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56BE762217E5897500A5F05A = {
+			isa = PBXGroup;
+			children = (
+				56BE766C17E5ABBA00A5F05A /* Default-568h@2x.png */,
+				56BE766917E59A5700A5F05A /* ct58.png */,
+				56BE766817E59A4D00A5F05A /* ct80.png */,
+				56BE766717E59A4100A5F05A /* ct120.png */,
+				56BE766617E599A700A5F05A /* ctr4.png */,
+				56BE766517E5999C00A5F05A /* ctr.png */,
+				56BE763417E5897500A5F05A /* colortorch */,
+				56BE765317E5897600A5F05A /* colortorchTests */,
+				56BE762D17E5897500A5F05A /* Frameworks */,
+				56BE762C17E5897500A5F05A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56BE762C17E5897500A5F05A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56BE762B17E5897500A5F05A /* colortorch.app */,
+				56BE764C17E5897600A5F05A /* colortorchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56BE762D17E5897500A5F05A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56BE762E17E5897500A5F05A /* Foundation.framework */,
+				56BE763017E5897500A5F05A /* CoreGraphics.framework */,
+				56BE763217E5897500A5F05A /* UIKit.framework */,
+				56BE764D17E5897600A5F05A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56BE763417E5897500A5F05A /* colortorch */ = {
+			isa = PBXGroup;
+			children = (
+				56BE766317E58A5700A5F05A /* 8581849-torche-isolate-on-black-backgrounds.jpg */,
+				56BE763D17E5897500A5F05A /* AppDelegate.h */,
+				56BE763E17E5897500A5F05A /* AppDelegate.m */,
+				56BE764017E5897500A5F05A /* Main.storyboard */,
+				56BE764317E5897500A5F05A /* ViewController.h */,
+				56BE764417E5897500A5F05A /* ViewController.m */,
+				56BE764617E5897500A5F05A /* Images.xcassets */,
+				56BE766A17E59B2700A5F05A /* Images-2.xcassets */,
+				56BE763517E5897500A5F05A /* Supporting Files */,
+			);
+			path = colortorch;
+			sourceTree = "<group>";
+		};
+		56BE763517E5897500A5F05A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56BE763617E5897500A5F05A /* colortorch-Info.plist */,
+				56BE763717E5897500A5F05A /* InfoPlist.strings */,
+				56BE763A17E5897500A5F05A /* main.m */,
+				56BE763C17E5897500A5F05A /* colortorch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56BE765317E5897600A5F05A /* colortorchTests */ = {
+			isa = PBXGroup;
+			children = (
+				56BE765917E5897600A5F05A /* colortorchTests.m */,
+				56BE765417E5897600A5F05A /* Supporting Files */,
+			);
+			path = colortorchTests;
+			sourceTree = "<group>";
+		};
+		56BE765417E5897600A5F05A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56BE765517E5897600A5F05A /* colortorchTests-Info.plist */,
+				56BE765617E5897600A5F05A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56BE762A17E5897500A5F05A /* colortorch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56BE765D17E5897600A5F05A /* Build configuration list for PBXNativeTarget "colortorch" */;
+			buildPhases = (
+				56BE762717E5897500A5F05A /* Sources */,
+				56BE762817E5897500A5F05A /* Frameworks */,
+				56BE762917E5897500A5F05A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = colortorch;
+			productName = colortorch;
+			productReference = 56BE762B17E5897500A5F05A /* colortorch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56BE764B17E5897600A5F05A /* colortorchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56BE766017E5897600A5F05A /* Build configuration list for PBXNativeTarget "colortorchTests" */;
+			buildPhases = (
+				56BE764817E5897600A5F05A /* Sources */,
+				56BE764917E5897600A5F05A /* Frameworks */,
+				56BE764A17E5897600A5F05A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56BE765217E5897600A5F05A /* PBXTargetDependency */,
+			);
+			name = colortorchTests;
+			productName = colortorchTests;
+			productReference = 56BE764C17E5897600A5F05A /* colortorchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56BE762317E5897500A5F05A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Richards Louis";
+				TargetAttributes = {
+					56BE764B17E5897600A5F05A = {
+						TestTargetID = 56BE762A17E5897500A5F05A;
+					};
+				};
+			};
+			buildConfigurationList = 56BE762617E5897500A5F05A /* Build configuration list for PBXProject "colortorch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56BE762217E5897500A5F05A;
+			productRefGroup = 56BE762C17E5897500A5F05A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56BE762A17E5897500A5F05A /* colortorch */,
+				56BE764B17E5897600A5F05A /* colortorchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56BE762917E5897500A5F05A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BE764717E5897500A5F05A /* Images.xcassets in Resources */,
+				56BE766417E58A5700A5F05A /* 8581849-torche-isolate-on-black-backgrounds.jpg in Resources */,
+				56BE763917E5897500A5F05A /* InfoPlist.strings in Resources */,
+				56BE766B17E59B2700A5F05A /* Images-2.xcassets in Resources */,
+				56BE764217E5897500A5F05A /* Main.storyboard in Resources */,
+				56BE766D17E5ABBA00A5F05A /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56BE764A17E5897600A5F05A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BE765817E5897600A5F05A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56BE762717E5897500A5F05A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BE764517E5897500A5F05A /* ViewController.m in Sources */,
+				56BE763F17E5897500A5F05A /* AppDelegate.m in Sources */,
+				56BE763B17E5897500A5F05A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56BE764817E5897600A5F05A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56BE765A17E5897600A5F05A /* colortorchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56BE765217E5897600A5F05A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56BE762A17E5897500A5F05A /* colortorch */;
+			targetProxy = 56BE765117E5897600A5F05A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56BE763717E5897500A5F05A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56BE763817E5897500A5F05A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		56BE764017E5897500A5F05A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56BE764117E5897500A5F05A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56BE765617E5897600A5F05A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56BE765717E5897600A5F05A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56BE765B17E5897600A5F05A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		56BE765C17E5897600A5F05A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56BE765E17E5897600A5F05A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Infant Louis Richards C (GCGC57VXSF)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "colortorch/colortorch-Prefix.pch";
+				INFOPLIST_FILE = "colortorch/colortorch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		56BE765F17E5897600A5F05A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Infant Louis Richards C (UHDBH2TEY2)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "colortorch/colortorch-Prefix.pch";
+				INFOPLIST_FILE = "colortorch/colortorch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		56BE766117E5897600A5F05A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/colortorch.app/colortorch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "colortorch/colortorch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "colortorchTests/colortorchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		56BE766217E5897600A5F05A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/colortorch.app/colortorch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "colortorch/colortorch-Prefix.pch";
+				INFOPLIST_FILE = "colortorchTests/colortorchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56BE762617E5897500A5F05A /* Build configuration list for PBXProject "colortorch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56BE765B17E5897600A5F05A /* Debug */,
+				56BE765C17E5897600A5F05A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56BE765D17E5897600A5F05A /* Build configuration list for PBXNativeTarget "colortorch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56BE765E17E5897600A5F05A /* Debug */,
+				56BE765F17E5897600A5F05A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56BE766017E5897600A5F05A /* Build configuration list for PBXNativeTarget "colortorchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56BE766117E5897600A5F05A /* Debug */,
+				56BE766217E5897600A5F05A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56BE762317E5897500A5F05A /* Project object */;
+}

@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		562863781D840F2800E2F3ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562863741D840F2800E2F3ED /* ViewController.swift */; };
+		562863791D840F2800E2F3ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 562863751D840F2800E2F3ED /* Main.storyboard */; };
+		5628637A1D840F2800E2F3ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562863761D840F2800E2F3ED /* AppDelegate.swift */; };
+		5628637B1D840F2800E2F3ED /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562863771D840F2800E2F3ED /* ViewController2.swift */; };
+		5662426A1D83536E006DA5DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 566242691D83536E006DA5DB /* Assets.xcassets */; };
+		5681D7991EF62370006C458C /* css in Resources */ = {isa = PBXBuildFile; fileRef = 5681D7931EF62370006C458C /* css */; };
+		5681D79A1EF62370006C458C /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 5681D7941EF62370006C458C /* fonts */; };
+		5681D79B1EF62370006C458C /* images in Resources */ = {isa = PBXBuildFile; fileRef = 5681D7951EF62370006C458C /* images */; };
+		5681D79C1EF62370006C458C /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 5681D7961EF62370006C458C /* index.html */; };
+		5681D79D1EF62370006C458C /* js in Resources */ = {isa = PBXBuildFile; fileRef = 5681D7971EF62370006C458C /* js */; };
+		5681D79E1EF62370006C458C /* offline.html in Resources */ = {isa = PBXBuildFile; fileRef = 5681D7981EF62370006C458C /* offline.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		562863721D840D3200E2F3ED /* Eptro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Eptro.entitlements; sourceTree = "<group>"; };
+		562863731D840F2700E2F3ED /* Eptro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Eptro-Bridging-Header.h"; sourceTree = "<group>"; };
+		562863741D840F2800E2F3ED /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		562863751D840F2800E2F3ED /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		562863761D840F2800E2F3ED /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		562863771D840F2800E2F3ED /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		566242621D83536E006DA5DB /* Eptro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eptro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		566242691D83536E006DA5DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5662426E1D83536E006DA5DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5681D7931EF62370006C458C /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		5681D7941EF62370006C458C /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		5681D7951EF62370006C458C /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		5681D7961EF62370006C458C /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		5681D7971EF62370006C458C /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		5681D7981EF62370006C458C /* offline.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = offline.html; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5662425F1D83536E006DA5DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		566242591D83536E006DA5DB = {
+			isa = PBXGroup;
+			children = (
+				566242641D83536E006DA5DB /* Eptro */,
+			);
+			sourceTree = "<group>";
+		};
+		566242631D83536E006DA5DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				566242621D83536E006DA5DB /* Eptro.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		566242641D83536E006DA5DB /* Eptro */ = {
+			isa = PBXGroup;
+			children = (
+				5681D7931EF62370006C458C /* css */,
+				5681D7941EF62370006C458C /* fonts */,
+				5681D7951EF62370006C458C /* images */,
+				5681D7961EF62370006C458C /* index.html */,
+				5681D7971EF62370006C458C /* js */,
+				5681D7981EF62370006C458C /* offline.html */,
+				562863721D840D3200E2F3ED /* Eptro.entitlements */,
+				566242691D83536E006DA5DB /* Assets.xcassets */,
+				5662426E1D83536E006DA5DB /* Info.plist */,
+				562863741D840F2800E2F3ED /* ViewController.swift */,
+				562863751D840F2800E2F3ED /* Main.storyboard */,
+				562863761D840F2800E2F3ED /* AppDelegate.swift */,
+				562863771D840F2800E2F3ED /* ViewController2.swift */,
+				566242631D83536E006DA5DB /* Products */,
+				562863731D840F2700E2F3ED /* Eptro-Bridging-Header.h */,
+			);
+			path = Eptro;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		566242611D83536E006DA5DB /* Eptro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 566242711D83536E006DA5DB /* Build configuration list for PBXNativeTarget "Eptro" */;
+			buildPhases = (
+				5662425E1D83536E006DA5DB /* Sources */,
+				5662425F1D83536E006DA5DB /* Frameworks */,
+				566242601D83536E006DA5DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Eptro;
+			productName = Eptro;
+			productReference = 566242621D83536E006DA5DB /* Eptro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5662425A1D83536E006DA5DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Richiesoft Inc";
+				TargetAttributes = {
+					566242611D83536E006DA5DB = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = UHDBH2TEY2;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 5662425D1D83536E006DA5DB /* Build configuration list for PBXProject "Eptro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 566242591D83536E006DA5DB;
+			productRefGroup = 566242631D83536E006DA5DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				566242611D83536E006DA5DB /* Eptro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		566242601D83536E006DA5DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5681D79B1EF62370006C458C /* images in Resources */,
+				5681D7991EF62370006C458C /* css in Resources */,
+				5681D79E1EF62370006C458C /* offline.html in Resources */,
+				5662426A1D83536E006DA5DB /* Assets.xcassets in Resources */,
+				5681D79D1EF62370006C458C /* js in Resources */,
+				5681D79C1EF62370006C458C /* index.html in Resources */,
+				562863791D840F2800E2F3ED /* Main.storyboard in Resources */,
+				5681D79A1EF62370006C458C /* fonts in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5662425E1D83536E006DA5DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5628637A1D840F2800E2F3ED /* AppDelegate.swift in Sources */,
+				562863781D840F2800E2F3ED /* ViewController.swift in Sources */,
+				5628637B1D840F2800E2F3ED /* ViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5662426F1D83536E006DA5DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		566242701D83536E006DA5DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		566242721D83536E006DA5DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Eptro/Eptro.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Eptro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.richiesoft.eptro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Eptro/Eptro-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		566242731D83536E006DA5DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Eptro/Eptro.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Eptro/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.richiesoft.eptro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Eptro/Eptro-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5662425D1D83536E006DA5DB /* Build configuration list for PBXProject "Eptro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5662426F1D83536E006DA5DB /* Debug */,
+				566242701D83536E006DA5DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		566242711D83536E006DA5DB /* Build configuration list for PBXNativeTarget "Eptro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				566242721D83536E006DA5DB /* Debug */,
+				566242731D83536E006DA5DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5662425A1D83536E006DA5DB /* Project object */;
+}
