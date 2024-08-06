@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <!-- Google font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,700,900' rel='stylesheet' type='text/css'>
+    <!-- Css -->
+    <link rel="stylesheet" type="text/css" href="css/library/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/library/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/library/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/md-font.css">
+    <link rel="stylesheet" type="text/css" href="css/search_style.css">
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+    <title>Mega Course - Learning and Courses HTML5 Template</title>
+</head>
+<body class="home" onload="changeImage();">
+
+<!-- PAGE WRAP -->
+
+
+    <!-- PRELOADER -->
+    <div id="preloader">
+        <div class="pre-icon">
+            <div class="pre-item pre-item-1"></div>
+            <div class="pre-item pre-item-2"></div>
+            <div class="pre-item pre-item-3"></div>
+            <div class="pre-item pre-item-4"></div>
+        </div>
+    </div>
+    <!-- END / PRELOADER -->
+
+
+
+
+    <!-- AFTER SLIDER -->
+    <section >
+
+        <div class="container">
+
+            <div class="after-slider-content tb">
+                <div class="inner tb-cell">
+                    <h4 align="center"><img src="images/logo.png"></h4>
+                    <div class="course-keyword">
+                        <input type="text" style="border:1px solid #cecece; text-align:center" placeholder="What you want to learn...  🔎">
+                    </div>
+					<br>
+                    <div class="mc-select-wrap">
+                        <div class="mc-select">
+                            <select class="select" name="" id="when_to_start">
+                                <option value="" selected>When to start?</option>
+                                <option value="">Today</option>
+								<option value="">Upcoming week</option>
+								<option value="">This Month</option>
+								<option value="">Just Browsing</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="mc-select-wrap">
+                        <div class="mc-select">
+                            <select class="select" name="" id="level_of_training">
+                                <option value="" selected>Level of training?</option>
+                                <option value="">Elementary</option>
+                                <option value="">Middle School</option>
+								<option value="">High School</option>
+								<option value="">College</option>
+								<option value="">Professional</option>
+                            </select>
+                        </div>
+                    </div>
+					<div class="mc-select-wrap">
+                        <div class="mc-select">
+                            <select class="select" name="" id="where_do_you_live">
+                                <option value="" selected>Where do you live?</option>
+                                <option value="">Hyderabad</option>
+                                <option value="">Chennai</option>
+								<option value="">Coimbatore</option>
+								<option value="">Mumbai</option>
+								<option value="">Delhi</option>
+								<option value="">Others (Coming soon)</option>
+                            </select>
+                        </div>
+                    </div>
+					<div class="mc-select-wrap">
+                        <div class="mc-select">
+                            <select class="select" name="" id="tutor_meet_option">
+                                <option value="" selected>Tutor meet options</option>
+                                <option value="">Tutor's Location</option>
+                                <option value="">Beyondschool Center</option>
+								<option value="">Home</option>
+								<option value="">Online (Coming soon)</option>
+								<option value="">Skip this filter</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="tb-cell text-right">
+                    <div class="form-actions" align="center">
+                        <input type="submit" onClick="location.href='SearchList.html'" value="Find Tutor" class="mc-btn btn-style-1">
+                    </div>
+                </div>
+                <!--<div class="link" align="center">
+                    <a href="login.html">
+                        <i class="icon md-arrow-right"></i>Login
+                    </a>
+                </div>-->
+            </div>
+        </div>
+    </section>
+    <!-- END / AFTER SLIDER -->
+
+
+
+</div>
+<!-- END / PAGE WRAP -->
+
+<!-- Load jQuery -->
+<script type="text/javascript" src="js/library/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/library/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/library/jquery.owl.carousel.js"></script>
+<script type="text/javascript" src="js/library/jquery.appear.min.js"></script>
+<script type="text/javascript" src="js/library/perfect-scrollbar.min.js"></script>
+<script type="text/javascript" src="js/library/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+                var userdetails = {
+                    Page: "0",
+                    PageSize: "9999",
+                    SortType: "Desc",
+                    criteria:{IsActive:true}
+                };
+
+                var mUrl ="http://122.165.222.222:3306/BeyondSchoolAPI/api/Beyond/GetCategoryMasterListWithSearchCriteriaCount";
+                $.post(mUrl,userdetails,function (Data, textStatus) {
+
+                   // alert("Result:"+Data);
+                    $("#level_of_training").empty().append($("<option></option>").val("[-]").html("Please select"));
+                    $.each(Data, function(index) {
+                        $("#level_of_training").append($("<option></option>").val(Data[index].CategoryName).html(Data[index].CategoryName));
+                    });
+
+                })
+                .fail(function (jqXHR, textStatus, err) {
+                    alert("Error:"+err);
+                });
+
+    });
+
+    $('#when_to_start').on('change', function(event) {
+        var val = $(this).val();
+
+    });
+
+    $('#level_of_training').on('change', function(event) {
+        var val = $(this).val();
+
+    });
+
+
+    $('#where_do_you_live').on('change', function(event) {
+        var val = $(this).val();
+
+    });
+
+
+    $('#tutor_meet_option').on('change', function(event) {
+        var val = $(this).val();
+
+    });
+
+</script>
+</body>
+</html>

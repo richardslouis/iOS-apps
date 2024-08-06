@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <!-- Google font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,700,900' rel='stylesheet' type='text/css'>
+    <!-- Css -->
+    <link rel="stylesheet" type="text/css" href="css/library/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/library/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/library/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/md-font.css">
+    <link rel="stylesheet" type="text/css" href="css/TutorRegisterStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/radiobutton.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+    <title>Mega Course - Learning and Courses HTML5 Template</title>
+</head>
+<body class="home" onload="$('#tutor_address').val(localStorage.getItem('PickedAddress'));">
+
+<!-- PRELOADER -->
+<div id="preloader">
+    <div class="pre-icon">
+        <div class="pre-item pre-item-1"></div>
+        <div class="pre-item pre-item-2"></div>
+        <div class="pre-item pre-item-3"></div>
+        <div class="pre-item pre-item-4"></div>
+    </div>
+</div>
+<!-- END / PRELOADER -->
+
+<!-- LOGIN -->
+<section class="login-content">
+    <!--        <div class="awe-parallax bg-login-content"></div>
+            <div class="awe-overlay"></div>-->
+    <div class="container">
+        <div class="row">
+
+            <!-- FORM -->
+            <div class="col-lg-4 pull-right div_alignment">
+                <div class="form-login div_color">
+                    <form>
+                        <h4 align="center"><img src="images/logo.png"></h4>
+                        <h5 class="text-uppercase">Tutor Registration</h5>
+
+                        <div class="form-fullname">
+                            <input class ="first-name"type="text" style="border:1px solid #000000; color: #000000" id="first-name" placeholder="First name">
+                            <input class="last-name" type="text" style="border:1px solid #000000; color: #000000" id="last-name" placeholder="Last name">
+                        </div>
+
+
+                        <div class="form-email">
+                            <input type="email" style="border:1px solid #000000; color: #000000" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-password">
+                            <input type="password" style="border:1px solid #000000; color: #000000" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-radio">
+                            <p> <br/></p>
+                            Gender:&nbsp;&nbsp;&nbsp;&nbsp; <input id="male" type="radio" name="gender" value="male">
+                            <label for="male">Male</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input id="female" type="radio" name="gender" value="female">
+                            <label for="female">Female</label>
+                        </div>
+                        <div class="form-phone">
+                            <input type="tel" style="border:1px solid #000000; color: #000000" id="phone" placeholder="Mobile No">
+                        </div>
+                        <div class="form-qualification">
+                            <input type="text" style="border:1px solid #000000; color: #000000" id="qualification" placeholder="Qualification">
+                        </div>
+                        <p>
+                            <br/>
+                        </p>
+                        <div class="form-comments">
+                            <textarea name="comments" readonly id="tutor_address" onclick="getLocation();" style="border:1px solid #000000; color: #000000;" rows="3"  placeholder="Address"></textarea>
+
+                        </div>
+                        <div class="form-subject">
+                            <input type="text" style="border:1px solid #000000; color: #000000" id="subject" placeholder="In Which Subject You Have To Teach">
+                        </div>
+
+                        <br>
+                        <div class="form-submit-1">
+                            <input type="button" value="Submit" class="mc-btn btn-style-1" onclick="AddTutorDetails()">
+                        </div>
+                       <!-- <div class="link">
+                            <a href="login.html">
+                                <i class="icon md-arrow-right"></i>Already have account ? Log in
+                            </a>
+                        </div>-->
+                    </form>
+                </div>
+            </div>
+            <!-- END / FORM -->
+
+        </div>
+    </div>
+</section>
+<!-- END / LOGIN -->
+
+</div>
+<!-- END / PAGE WRAP -->
+</body>
+<!-- Load jQuery -->
+<script type="text/javascript" src="js/library/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/library/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/library/jquery.owl.carousel.js"></script>
+<script type="text/javascript" src="js/library/jquery.appear.min.js"></script>
+<script type="text/javascript" src="js/library/perfect-scrollbar.min.js"></script>
+<script type="text/javascript" src="js/library/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
+<script type="text/javascript" src="js/aToast.js"></script>
+<script src="js/getlocation.js"> </script>
+
+<script type="text/javascript">
+
+    $(document).ready(function(){
+
+        var strUserId = "";
+        var today = new Date();
+        var dd = today.getDate();
+        var mm = today.getMonth()+1; //January is 0!
+
+        var yyyy = today.getFullYear();
+        if(dd<10){
+            dd='0'+dd
+        }
+        if(mm<10){
+            mm='0'+mm
+        }
+        var today = yyyy+'-'+mm+'-'+dd;
+    });
+
+    function AddTutorDetails() {
+
+        /*if (navigator.onLine) {
+            alert("online");
+        }else{
+            alert("offline");
+        }*/
+
+        jQuery.support.cors = true;
+
+        var UserName=$("#first-name").val();
+        var LastName=$("#last-name").val();
+        var MobileNo=$("#phone").val();
+        var EmailId=$("#email").val();
+        var Password=$("#password").val();
+        var Qualification=$("#qualification").val();
+        var Subject=$("#subject").val();
+        var TutorDetails_Id=0;
+        var Genders=$('input[name="gender"]:checked').val();
+        var Address=$("#autocomplete_textarea").val();
+        var phoneno = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+        if (UserName == "")
+        {
+            alert("Enter First Name");
+            return false;
+        }
+        if (LastName == "") {
+            alert("Enter Last Name");
+            return false;
+        }
+        if(Password ==""){
+            alert("Enter Password");
+            return false;
+        }
+
+        if (EmailId == "") {
+            alert("Enter Email");
+            return false;
+        }
+        var emailPat = /^(\".*\"|[A-Za-z]\w*)@(\[\d{1,3}(\.\d{1,3}){3}]|[A-Za-z]\w*(\.[A-Za-z]\w*)+)$/
+        var EmailmatchArray = EmailId.match(emailPat);
+        if (EmailmatchArray == null) {
+            alert("Your email address seems incorrect. Please try again.");
+            return false;
+        }
+        if (MobileNo == "" ){
+            alert("Please enter the mobile number.");
+            return false;
+        }
+        if((MobileNo.match(phoneno)))
+        {
+
+        }
+        else
+        {
+            alert("Please Enter Valid Mobile Number");
+            return false;
+        }
+        // var Add=localStorage.getItem("PINCODE");
+       // var SplitAddress=Address.split(",");
+        // var address1=localStorage.getItem("country");
+        var IsActive=true;
+
+
+
+        var SignupVariable= {
+            TutorDetails_Id:TutorDetails_Id,
+            Name:UserName,
+            Gender:Genders,
+            Education:Qualification,
+            EmailId:EmailId,
+            MobileNo:MobileNo,
+            Password:Password,
+            AreaOfInterest:Subject,
+            AddressDetails:{Address1:Address}
+
+        };
+
+        /* var mJson="{\"Page\":0,\"PageSize\":9999,\"SortType\":\"Desc,\"criteria\":{\"IsActive\":true}}";
+         var dataone=JSON.stringify(signdetailsVaraiable);
+         */
+        var mUrl ="http://122.165.222.222:3306/BeyondSchoolAPI/api/Beyond/SaveTutorDetails";
+        $.post(mUrl,SignupVariable,function (Data, textStatus) {
+            var items = [];
+            toast = aToast({dir:"center", bottom:300,right:500});
+            toast.show("Tutor Registeration Saved Successfully... Once We Aprooved You Login to Your Account..",3);
+            //alert("Result:"+Data.Result);
+
+        },'json')
+                .fail(function (jqXHR, textStatus, err) {
+                    alert("Error:"+err);
+                });
+
+    };
+
+    function getLocation() {
+
+        if (navigator.onLine) {
+          //alert("onready of location");
+          if (navigator.geolocation) {
+              navigator.geolocation.getCurrentPosition(showPosition,errorCallback,{maximumAge:60000, timeout:5000});
+          } else {
+              alert("Geolocation is not supported by this browser.");
+          }
+
+      }else{
+
+            alert("No network. Please check your internet connection...");
+      }
+
+    };
+
+    function showPosition(position) {
+       /* alert("Latitude: " + position.coords.latitude +
+                "Longitude: " + position.coords.longitude);*/
+
+        localStorage.setItem("lat",position.coords.latitude);
+        localStorage.setItem("long",position.coords.longitude);
+
+        location.href="LocationPicker.html";
+
+
+    }
+
+    function errorCallback(error){
+
+        alert("error :"+error.code);
+    }
+
+
+
+</script>
+
+</html>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lxH-qn-Aoz"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ibi-d1-5hO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="ViewCon">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iBb-de-gLK">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" red="1" green="0.39417159680000002" blue="0.4658870839" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="jRP-B6-Qfs" userLabel="Activity">
+                                <rect key="frame" x="36" y="49" width="37" height="37"/>
+                                <color key="color" red="1" green="0.39417159680000002" blue="0.4658870839" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="iBb-de-gLK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="MEC-Lg-paz"/>
+                            <constraint firstItem="jRP-B6-Qfs" firstAttribute="centerY" secondItem="iBb-de-gLK" secondAttribute="centerY" id="NN2-LS-4U6"/>
+                            <constraint firstItem="iBb-de-gLK" firstAttribute="centerX" secondItem="jRP-B6-Qfs" secondAttribute="centerX" id="W8h-Xk-1OL"/>
+                            <constraint firstItem="iBb-de-gLK" firstAttribute="bottom" secondItem="Ibi-d1-5hO" secondAttribute="top" id="cgi-y7-3FM"/>
+                            <constraint firstItem="iBb-de-gLK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="d7W-pd-frb"/>
+                            <constraint firstAttribute="trailing" secondItem="iBb-de-gLK" secondAttribute="trailing" id="tVv-ZU-bzx"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activity" destination="jRP-B6-Qfs" id="J67-K4-c4u"/>
+                        <outlet property="myWebView" destination="iBb-de-gLK" id="7DD-qD-ebI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="303.75" y="364.43661971830983"/>
+        </scene>
+    </scenes>
+</document>

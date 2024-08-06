@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+
+    <title>Google Address Autocomplete API</title>
+
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,200' rel='stylesheet' type='text/css'>
+    <link type="text/css" rel="stylesheet"  href="css/library/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet"  href="css/library/font-awesome.min.css">
+    <link type="text/css" rel="stylesheet"  href="css/style.css">
+</head>
+<body onload="initialize()">
+
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-8">
+            <form class="form-horizontal">
+
+                <h2 class="text-center underline">Demo 1</h2>
+                <div class="form-group" style="margin-bottom: 10px;">
+                    <label  class="col-sm-2 control-label">Address</label>
+                    <div class="col-sm-10">
+                        <textarea class="form-control" rows="5" id="autocomplete_textarea" ></textarea>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Street address</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" id="street_number">
+                        <br/>
+                        <input class="form-control" id="route">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">City</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" id="locality">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">State</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" id="administrative_area_level_1">
+
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Country</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" id="country">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Zip code</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" id="postal_code">
+                    </div>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
+<script type="text/javascript" src="js/library/jquery-1.11.0.min.js"></script>
+<script src="js/getlocation.js"> </script>
+</body>
+</html>

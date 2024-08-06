@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <!-- Google font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,700,900' rel='stylesheet' type='text/css'>
+    <!-- Css -->
+    <link rel="stylesheet" type="text/css" href="css/library/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/library/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/library/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/md-font.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/RatingScreen.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+
+    <![endif]-->
+    <title>Beyond School</title>
+</head>
+<body id="page-top" class="home">
+
+<!-- PRELOADER -->
+<div id="preloader">
+    <div class="pre-icon">
+        <div class="pre-item pre-item-1"></div>
+        <div class="pre-item pre-item-2"></div>
+        <div class="pre-item pre-item-3"></div>
+        <div class="pre-item pre-item-4"></div>
+    </div>
+</div>
+<!-- END / PRELOADER -->
+
+<!-- LOGIN -->
+<section >
+    <!-- <div class="awe-parallax bg-login-content"></div>
+      <div class="awe-overlay"></div>-->
+    <div class="container">
+        <div class="row">
+
+            <!-- FORM -->
+
+            <div class="col-lg-4 pull-right div_alignment">
+                <div class="form-login div_color ">
+                    <form style="text-align: center;">
+                        <h4 align="center"><img src="images/logo.png"></h4>
+                        <h2 class="text-uppercase">Student Rating</h2>
+                        <div class="stars">
+                            <form action="">
+                                <input class="star star-5" id="star-5" type="radio" name="star" value="Awesame !!" onclick="postToController();"/>
+                                <label class="star star-5" for="star-5" title="Super !!"></label>
+                                <input class="star star-4" id="star-4" type="radio" name="star" value="Excellent" onclick="postToController();"/>
+                                <label class="star star-4" for="star-4" title="Geil "></label>
+                                <input class="star star-3" id="star-3" type="radio" name="star" value="Good" onclick="postToController();"/>
+                                <label class="star star-3" for="star-3" title="Gut "></label>
+                                <input class="star star-2" id="star-2" type="radio" name="star" value="Ok" onclick="postToController();"/>
+                                <label class="star star-2" for="star-2" title="So gut wie "></label>
+                                <input class="star star-1" id="star-1" type="radio" name="star" value="Need to Improve" onclick="postToController();"/>
+                                <label class="star star-1" for="star-1" title="Schlecht "></label>
+                            </form>
+                        </div>
+                        <div class="form-feedback">
+                            <input type="text" style="text-align: center;border:0px solid #cecece; color: #525252;width: 100%" placeholder="" name="Title" id="title" readonly="true"/>
+                        </div>
+                        <p>
+                            <br/>
+                        </p>
+                        <div class="form-comments">
+                            <textarea name="comments" style="border:1px solid #cecece; color: #525252" placeholder="Comments"></textarea>
+                        </div>
+
+                        <div class="form-submit-1">
+                            <input type="submit" value="Submit" class="mc-btn btn-style-1">
+                        </div>
+
+                        <div class="link">
+                            <a href="index.html">
+                                <i class="icon md-arrow-right"></i>Are You Finished ? Back to Home
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- END / FORM -->
+
+
+        </div>
+    </div>
+</section>
+<!-- END / LOGIN -->
+
+</div>
+<!-- END / PAGE WRAP -->
+</body>
+<!-- Load jQuery -->
+<script type="text/javascript" src="js/library/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/library/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/library/jquery.owl.carousel.js"></script>
+<script type="text/javascript" src="js/library/jquery.appear.min.js"></script>
+<script type="text/javascript" src="js/library/perfect-scrollbar.min.js"></script>
+<script type="text/javascript" src="js/library/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script>
+    function postToController() {
+        for (i = 0; i < document.getElementsByName('star').length; i++) {
+            if(document.getElementsByName('star')[i].checked == true) {
+                var ratingValue = document.getElementsByName('star')[i].value;
+                var title = document.getElementById('title');
+                title.value=ratingValue;
+                break;
+            }
+        }
+        //alert(ratingValue);
+
+    }
+</script>
+
+</html>

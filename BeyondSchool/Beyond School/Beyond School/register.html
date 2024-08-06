@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <!-- Google font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,700,900' rel='stylesheet' type='text/css'>
+    <!-- Css -->
+    <link rel="stylesheet" type="text/css" href="css/library/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/library/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/library/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/md-font.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+    <title>Mega Course - Learning and Courses HTML5 Template</title>
+</head>
+<body id="page-top" class="home">
+
+<!-- PRELOADER -->
+<div id="preloader">
+    <div class="pre-icon">
+        <div class="pre-item pre-item-1"></div>
+        <div class="pre-item pre-item-2"></div>
+        <div class="pre-item pre-item-3"></div>
+        <div class="pre-item pre-item-4"></div>
+    </div>
+</div>
+<!-- END / PRELOADER -->
+
+<!-- LOGIN -->
+<section class="login-content">
+    <!--        <div class="awe-parallax bg-login-content"></div>
+            <div class="awe-overlay"></div>-->
+    <div class="container">
+        <div class="row">
+
+            <!-- FORM -->
+            <div class="col-lg-4 pull-right div_alignment">
+                <div class="form-login div_color">
+                    <form>
+                        <h4 align="center"><img src="images/logo.png"></h4>
+                        <h2 class="text-uppercase">sign up</h2>
+                        <div class="question-content">
+                            <div class="answer" style="color: #000000">
+                                I am A
+                                <ul class="answer-list">
+                                    <li>
+                                        <input type="checkbox" name="checkbox-1" id="checkbox-1">
+                                        <label for="checkbox-1">
+                                            <i class="icon icon_check md-check-1"></i>
+                                            Tutor
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="checkbox-1" id="checkbox-2">
+                                        <label for="checkbox-2">
+                                            <i class="icon icon_check md-check-1"></i>
+                                            Student
+                                        </label>
+                                    </li>
+
+                                </ul>
+
+                            </div>
+
+                        </div>
+                        <div class="form-fullname">
+                            <input class ="first-name"type="text" style="border:1px solid #000000; color: #000000" placeholder="First name">
+                            <input class="last-name" type="text" style="border:1px solid #000000; color: #000000" placeholder="Last name">
+                        </div>
+                        <div class="form-datebirth">
+                            <input type="text" style="border:1px solid #000000; color: #000000" placeholder="Date of Birth">
+                        </div>
+                        <div class="form-email">
+                            <input type="text" style="border:1px solid #000000; color: #000000" placeholder="Email">
+                        </div>
+                        <div class="form-password">
+                            <input type="password" style="border:1px solid #000000; color: #000000" placeholder="Password">
+                        </div>
+
+                        <div class="form-submit-1">
+                            <input type="button" value="Become a member" class="mc-btn btn-style-1" onclick="AddUserDetails()">
+                        </div>
+                        <div class="link">
+                            <a href="login.html">
+                                <i class="icon md-arrow-right"></i>Already have account ? Log in
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- END / FORM -->
+
+        </div>
+    </div>
+</section>
+<!-- END / LOGIN -->
+
+</div>
+<!-- END / PAGE WRAP -->
+</body>
+<!-- Load jQuery -->
+<script type="text/javascript" src="js/library/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/library/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/library/jquery.owl.carousel.js"></script>
+<script type="text/javascript" src="js/library/jquery.appear.min.js"></script>
+<script type="text/javascript" src="js/library/perfect-scrollbar.min.js"></script>
+<script type="text/javascript" src="js/library/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script type="text/javascript">
+
+    $(document).ready(function(){
+
+        var strUserId = "";
+        var today = new Date();
+        var dd = today.getDate();
+        var mm = today.getMonth()+1; //January is 0!
+
+        var yyyy = today.getFullYear();
+        if(dd<10){
+            dd='0'+dd
+        }
+        if(mm<10){
+            mm='0'+mm
+        }
+        var today = yyyy+'-'+mm+'-'+dd;
+    });
+
+    function AddUserDetails() {
+        /*     jQuery.support.cors = true;
+         var adduserdetails = {
+         UserDetails_Id:"0",
+         Ref_Id:"3",
+         UserType: "Tutor",
+         UserName:"Anand",
+         Mobile:"7708531342",
+         EmailId:"anand@yahoo.com",
+         Password:"Anand123",
+         isActive:"true"
+         };
+
+         $.ajax({
+         url: 'http://122.165.222.222:3306/BeyondSchoolAPI/api/Beyond/SaveUserDetails',
+         type: 'POST',
+         data:JSON.stringify(adduserdetails),
+         contentType: 'application/json;charset=utf-8',
+         success: function (data) {
+         alert("Success");
+         },
+         error: function (x, y) {
+         alert("Error"+JSON.stringify(x));
+         //alert(x.status+"########"+ x.readyState+"$$$$$$$$"+ x.statusText+"Not Success:"+z);
+         }
+         });*/
+
+        var encodedString = btoa("asdf1234");
+
+        var adduserdetails = {
+            UserDetails_Id: "0",
+            UserType: "Tutor",
+            Ref_Id: "2",
+            UserName: "Ragu",
+            MobileNo: "7708531342",
+            EmailId: "anand@yahoo.com",
+            Password: "asdf1234"
+
+        };
+
+       var userdetails = {
+           UserName: "Ragu",
+           UserType: "Tutor",
+           Password: "12345sss"
+    };
+
+        var dataone=JSON.stringify(adduserdetails);
+
+       // var mUrl ="http://122.165.222.222:3306/BeyondSchoolAPI/api/Beyond/SaveUserDetails";
+        var mUrl ="http://122.165.222.222:3306/BeyondSchoolAPI/api/Beyond/UserAuthentication";
+        $.post(mUrl,userdetails,function (Data, textStatus) {
+                    var items = [];
+                    alert("Result:"+Data.Result);
+
+                })
+                .fail(function (jqXHR, textStatus, err) {
+                    alert("Error:"+err);
+                });
+
+    };
+
+</script>
+
+</html>

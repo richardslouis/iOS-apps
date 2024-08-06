@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <!-- Google font -->
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300,400,700,900' rel='stylesheet' type='text/css'>
+    <!-- Css -->
+    <link rel="stylesheet" type="text/css" href="css/library/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/library/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/library/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="css/md-font.css">
+    <link rel="stylesheet" type="text/css" href="css/TutorRegisterStyle.css">
+    <link rel="stylesheet" type="text/css" href="css/radiobutton.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <![endif]-->
+    <title>Beyond School | Tutor Registration</title>
+
+    <style>
+        @font-face {
+            font-family: 'Myriad-Pro-Light';
+            src: url('css/fonts/new/Myriad-Pro-Light.ttf');
+        }
+        @font-face {
+            font-family: 'San-Francisco-Thin';
+            src: url('css/fonts/new/San-Francisco-Thin.ttf');
+        }
+
+
+        h5,h6, a, input{
+            font-family:San-Francisco-Thin;
+        }
+
+        #btn{
+            font-family:Myriad-Pro-Light;
+        }
+    </style>
+
+</head>
+<body class="home" onload="initialize()">
+
+<!-- PRELOADER -->
+<div id="preloader">
+    <div class="pre-icon">
+        <div class="pre-item pre-item-1"></div>
+        <div class="pre-item pre-item-2"></div>
+        <div class="pre-item pre-item-3"></div>
+        <div class="pre-item pre-item-4"></div>
+    </div>
+</div>
+<!-- END / PRELOADER -->
+
+<!-- LOGIN -->
+<section class="login-content">
+    <!--        <div class="awe-parallax bg-login-content"></div>
+            <div class="awe-overlay"></div>-->
+    <div class="container">
+        <div class="row">
+
+            <!-- FORM -->
+            <div class="col-lg-4 pull-right div_alignment">
+                <div class="form-login">
+                    <form>
+                        <h4 align="center"><img src="images/logo.png"></h4>
+                        <br>
+                        <h5 align="center" class="text-uppercase">Tutor Sign Up</h5>
+                        <div class="form-email">
+                            <input type="text" style="border:1px solid #ffffff; color: #000000" id="email" placeholder="Email">
+                        </div>
+                        <div class="form-fullname">
+                            <input class ="first-name"type="text" style="border:1px solid #ffffff; color: #000000" id="first-name" placeholder="First name">
+                            <input class="last-name" type="text" style="border:1px solid #ffffff; color: #000000" id="last-name" placeholder="Last name">
+                        </div>
+                        <div class="form-radio" style="color: #ffffff;">
+                            <p> <br/></p>
+                            Gender:&nbsp;&nbsp;&nbsp;&nbsp; <input id="male" type="radio" name="gender" value="male">
+                            <label for="male">Male</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <input id="female" type="radio" name="gender" value="female">
+                            <label for="female">Female</label>
+                        </div>
+
+
+                       <!-- <div class="form-password">
+                            <input type="password" style="border:1px solid #ffffff; color: #000000" id="password" placeholder="Password">
+                        </div>-->
+
+                        <div class="form-phone">
+                            <input type="text" style="border:1px solid #ffffff; color: #000000;" id="phone" placeholder="Mobile No">
+                        </div>
+                       <!-- <div class="form-qualification">
+                            <input type="text" style="border:1px solid #000000; color: #000000" id="qualification" placeholder="Qualification">
+                        </div>-->
+                        <p>
+                            <br/>
+                        </p>
+                        <div class="form-comments">
+                            <textarea name="comments" style="border:1px solid #ffffff; color: #000000;" rows="5" id="autocomplete_textarea" placeholder="Address"></textarea>
+
+                        </div>
+                        <div class="form-phone">
+                            <input type="text" style="border:1px solid #ffffff; color: #000000" id="skypeid" placeholder="Skype ID">
+                        </div>
+                        <div class="form-checkbox" style="color: #ffffff;">
+                            <p> <br/></p>
+                            Terms of Service & Privacy Policy<br><br> <input id="accept" type="checkbox"  value="I accept">
+                            <label for="accept">I accept <a href="#">Beyond School Privacy Policy</a> </label>
+                        </div>
+
+                        <br>
+                        <div id="btn" class="form-submit-1">
+                            <input type="button" value="Sign Up" class="mc-btn btn-style-1" onclick="AddTutorDetails()">
+                        </div>
+                       <!-- <div class="link">
+                            <a href="login.html">
+                                <i class="icon md-arrow-right"></i>Already have account ? Log in
+                            </a>
+                        </div>-->
+                    </form>
+                </div>
+            </div>
+            <!-- END / FORM -->
+
+        </div>
+    </div>
+</section>
+<!-- END / LOGIN -->
+
+</div>
+<!-- END / PAGE WRAP -->
+</body>
+<!-- Load jQuery -->
+<script type="text/javascript" src="js/library/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/library/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/library/jquery.owl.carousel.js"></script>
+<script type="text/javascript" src="js/library/jquery.appear.min.js"></script>
+<script type="text/javascript" src="js/library/perfect-scrollbar.min.js"></script>
+<script type="text/javascript" src="js/library/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/scripts.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
+<script type="text/javascript" src="js/aToast.js"></script>
+<script src="js/getlocation.js"> </script>
+
+<script type="text/javascript">
+
+    $(document).ready(function(){
+
+        var strUserId = "";
+        var today = new Date();
+        var dd = today.getDate();
+        var mm = today.getMonth()+1; //January is 0!
+
+        var yyyy = today.getFullYear();
+        if(dd<10){
+            dd='0'+dd
+        }
+        if(mm<10){
+            mm='0'+mm
+        }
+        var today = yyyy+'-'+mm+'-'+dd;
+    });
+
+    function AddTutorDetails() {
+
+        jQuery.support.cors = true;
+
+        var UserName=$("#first-name").val();
+        var MobileNo=$("#phone").val();
+        var EmailId=$("#email").val();
+        var Password=$("#password").val();
+        var Qualification=$("#qualification").val();
+        var Subject=$("#subject").val();
+        var TutorDetails_Id=0;
+        var Genders=$('input[name="gender"]:checked').val();
+        var Address=$("#autocomplete_textarea").val();
+       // var Add=localStorage.getItem("PINCODE");
+       // var SplitAddress=Address.split(",");
+        // var address1=localStorage.getItem("country");
+        var IsActive=true;
+
+
+
+        var SignupVariable= {
+            TutorDetails_Id:TutorDetails_Id,
+            Name:UserName,
+            Gender:Genders,
+            Education:Qualification,
+            EmailId:EmailId,
+            MobileNo:MobileNo,
+            Password:Password,
+            AreaOfInterest:Subject,
+            AddressDetails:{Address1:Address}
+
+        };
+
+        /* var mJson="{\"Page\":0,\"PageSize\":9999,\"SortType\":\"Desc,\"criteria\":{\"IsActive\":true}}";
+         var dataone=JSON.stringify(signdetailsVaraiable);
+         */
+        var mUrl ="http://122.165.222.222:3306/BeyondSchoolAPI/api/Beyond/SaveTutorDetails";
+        $.post(mUrl,SignupVariable,function (Data, textStatus) {
+
+            toast = aToast({dir:"center", top:530,right:500});
+            toast.show("Tutor Registeration Saved Successfully... Once We Aprooved You Login to Your Account..",3);
+            //alert("Result:"+Data.Result);
+
+        },'json')
+                .fail(function (jqXHR, textStatus, err) {
+                    alert("Error:"+err);
+                });
+
+    };
+
+</script>
+
+</html>
