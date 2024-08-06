@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<actor PGFVersion="0.17" id="id360567" GSCVersion="0.9.91"><attributes><text id="name">LEDClockBase</text><size id="size"><real id="width">480</real><real id="height">320</real></size><image id="image">LEDClockBase</image></attributes><behaviors/><aspects><physics/></aspects></actor>
