@@ -1,0 +1,340 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5681D7CF1EF65CED006C458C /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 5681D7C71EF65CED006C458C /* assets */; };
+		5681D7D01EF65CED006C458C /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = 5681D7C81EF65CED006C458C /* b.png */; };
+		5681D7D11EF65CED006C458C /* css in Resources */ = {isa = PBXBuildFile; fileRef = 5681D7C91EF65CED006C458C /* css */; };
+		5681D7D21EF65CED006C458C /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 5681D7CA1EF65CED006C458C /* fonts */; };
+		5681D7D31EF65CED006C458C /* images in Resources */ = {isa = PBXBuildFile; fileRef = 5681D7CB1EF65CED006C458C /* images */; };
+		5681D7D41EF65CED006C458C /* js in Resources */ = {isa = PBXBuildFile; fileRef = 5681D7CC1EF65CED006C458C /* js */; };
+		5681D7D51EF65CED006C458C /* offline.html in Resources */ = {isa = PBXBuildFile; fileRef = 5681D7CD1EF65CED006C458C /* offline.html */; };
+		5681D7D61EF65CED006C458C /* proceed.html in Resources */ = {isa = PBXBuildFile; fileRef = 5681D7CE1EF65CED006C458C /* proceed.html */; };
+		56B08D2B1D2EDDF30050682D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56B08D2A1D2EDDF30050682D /* Assets.xcassets */; };
+		56B08D3B1D2EDF550050682D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B08D371D2EDF550050682D /* ViewController.swift */; };
+		56B08D3C1D2EDF550050682D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56B08D381D2EDF550050682D /* Main.storyboard */; };
+		56B08D3D1D2EDF550050682D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56B08D391D2EDF550050682D /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5681D7C71EF65CED006C458C /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		5681D7C81EF65CED006C458C /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
+		5681D7C91EF65CED006C458C /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		5681D7CA1EF65CED006C458C /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		5681D7CB1EF65CED006C458C /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		5681D7CC1EF65CED006C458C /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		5681D7CD1EF65CED006C458C /* offline.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = offline.html; sourceTree = "<group>"; };
+		5681D7CE1EF65CED006C458C /* proceed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proceed.html; sourceTree = "<group>"; };
+		56B08D231D2EDDF30050682D /* Magpoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magpoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B08D2A1D2EDDF30050682D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56B08D2F1D2EDDF30050682D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56B08D351D2EDE390050682D /* Magpoke.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Magpoke.entitlements; sourceTree = "<group>"; };
+		56B08D361D2EDF550050682D /* Magpoke-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Magpoke-Bridging-Header.h"; sourceTree = "<group>"; };
+		56B08D371D2EDF550050682D /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		56B08D381D2EDF550050682D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		56B08D391D2EDF550050682D /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56B08D201D2EDDF30050682D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56B08D1A1D2EDDF30050682D = {
+			isa = PBXGroup;
+			children = (
+				56B08D251D2EDDF30050682D /* Magpoke */,
+				56B08D241D2EDDF30050682D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56B08D241D2EDDF30050682D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56B08D231D2EDDF30050682D /* Magpoke.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56B08D251D2EDDF30050682D /* Magpoke */ = {
+			isa = PBXGroup;
+			children = (
+				5681D7C71EF65CED006C458C /* assets */,
+				5681D7C81EF65CED006C458C /* b.png */,
+				5681D7C91EF65CED006C458C /* css */,
+				5681D7CA1EF65CED006C458C /* fonts */,
+				5681D7CB1EF65CED006C458C /* images */,
+				5681D7CC1EF65CED006C458C /* js */,
+				5681D7CD1EF65CED006C458C /* offline.html */,
+				5681D7CE1EF65CED006C458C /* proceed.html */,
+				56B08D371D2EDF550050682D /* ViewController.swift */,
+				56B08D381D2EDF550050682D /* Main.storyboard */,
+				56B08D391D2EDF550050682D /* AppDelegate.swift */,
+				56B08D351D2EDE390050682D /* Magpoke.entitlements */,
+				56B08D2A1D2EDDF30050682D /* Assets.xcassets */,
+				56B08D2F1D2EDDF30050682D /* Info.plist */,
+				56B08D361D2EDF550050682D /* Magpoke-Bridging-Header.h */,
+			);
+			path = Magpoke;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56B08D221D2EDDF30050682D /* Magpoke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56B08D321D2EDDF30050682D /* Build configuration list for PBXNativeTarget "Magpoke" */;
+			buildPhases = (
+				56B08D1F1D2EDDF30050682D /* Sources */,
+				56B08D201D2EDDF30050682D /* Frameworks */,
+				56B08D211D2EDDF30050682D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magpoke;
+			productName = Magpoke;
+			productReference = 56B08D231D2EDDF30050682D /* Magpoke.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56B08D1B1D2EDDF30050682D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Richiesoft Inc";
+				TargetAttributes = {
+					56B08D221D2EDDF30050682D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = UHDBH2TEY2;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 56B08D1E1D2EDDF30050682D /* Build configuration list for PBXProject "Magpoke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56B08D1A1D2EDDF30050682D;
+			productRefGroup = 56B08D241D2EDDF30050682D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56B08D221D2EDDF30050682D /* Magpoke */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56B08D211D2EDDF30050682D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5681D7D11EF65CED006C458C /* css in Resources */,
+				5681D7CF1EF65CED006C458C /* assets in Resources */,
+				56B08D2B1D2EDDF30050682D /* Assets.xcassets in Resources */,
+				5681D7D61EF65CED006C458C /* proceed.html in Resources */,
+				5681D7D41EF65CED006C458C /* js in Resources */,
+				5681D7D21EF65CED006C458C /* fonts in Resources */,
+				5681D7D01EF65CED006C458C /* b.png in Resources */,
+				5681D7D51EF65CED006C458C /* offline.html in Resources */,
+				5681D7D31EF65CED006C458C /* images in Resources */,
+				56B08D3C1D2EDF550050682D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56B08D1F1D2EDDF30050682D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B08D3D1D2EDF550050682D /* AppDelegate.swift in Sources */,
+				56B08D3B1D2EDF550050682D /* ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		56B08D301D2EDDF30050682D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		56B08D311D2EDDF30050682D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		56B08D331D2EDDF30050682D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Magpoke/Magpoke.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Magpoke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.richiesoft.Magpoke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Magpoke/Magpoke-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		56B08D341D2EDDF30050682D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = Magpoke/Magpoke.entitlements;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Magpoke/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = com.richiesoft.Magpoke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Magpoke/Magpoke-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56B08D1E1D2EDDF30050682D /* Build configuration list for PBXProject "Magpoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B08D301D2EDDF30050682D /* Debug */,
+				56B08D311D2EDDF30050682D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56B08D321D2EDDF30050682D /* Build configuration list for PBXNativeTarget "Magpoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B08D331D2EDDF30050682D /* Debug */,
+				56B08D341D2EDDF30050682D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56B08D1B1D2EDDF30050682D /* Project object */;
+}
