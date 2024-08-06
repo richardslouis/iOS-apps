@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2840" systemVersion="12C60" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="mFC-uL-Xpu">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1926"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="8hN-zl-SH9">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="mFC-uL-Xpu" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xoe-Lz-ezc">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView multipleTouchEnabled="YES" contentMode="scaleToFill" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CZg-M7-RdJ">
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="405" id="ibF-D1-ove"/>
+                                </constraints>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                            </webView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="http://www.google.com" borderStyle="roundedRect" minimumFontSize="17" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="2jG-AD-N6C">
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="235" id="gol-yM-VNe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="done"/>
+                                <connections>
+                                    <action selector="addressEntered:" destination="Mjh-bE-IPr" eventType="editingDidEndOnExit" id="pUk-Ff-bQh"/>
+                                    <action selector="addressEntered:" destination="mFC-uL-Xpu" eventType="editingDidEndOnExit" id="qWA-NT-rNk"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P8x-vg-pr1">
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" hidesWhenStopped="YES" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="fcG-tL-OY0"/>
+                        </subviews>
+                        <color key="backgroundColor" red="0.80738356209999995" green="0.21081786599999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="2jG-AD-N6C" firstAttribute="top" secondItem="xoe-Lz-ezc" secondAttribute="top" constant="6" id="9tb-Zh-c0p"/>
+                            <constraint firstItem="fcG-tL-OY0" firstAttribute="leading" secondItem="2jG-AD-N6C" secondAttribute="trailing" constant="8" symbolic="YES" type="default" id="EbU-lW-Tpw"/>
+                            <constraint firstItem="fcG-tL-OY0" firstAttribute="centerY" secondItem="2jG-AD-N6C" secondAttribute="centerY" type="default" id="FWb-PN-yKy"/>
+                            <constraint firstItem="CZg-M7-RdJ" firstAttribute="trailing" secondItem="xoe-Lz-ezc" secondAttribute="trailing" type="default" id="RCg-fy-vvM"/>
+                            <constraint firstAttribute="trailing" secondItem="P8x-vg-pr1" secondAttribute="trailing" constant="5" id="VE7-M4-kGG"/>
+                            <constraint firstItem="CZg-M7-RdJ" firstAttribute="leading" secondItem="xoe-Lz-ezc" secondAttribute="leading" type="default" id="fvr-LS-heb"/>
+                            <constraint firstItem="CZg-M7-RdJ" firstAttribute="bottom" secondItem="xoe-Lz-ezc" secondAttribute="bottom" type="default" id="os3-XV-Kqo"/>
+                            <constraint firstItem="P8x-vg-pr1" firstAttribute="top" secondItem="2jG-AD-N6C" secondAttribute="top" type="default" id="qca-Jr-2yr"/>
+                            <constraint firstAttribute="trailing" secondItem="fcG-tL-OY0" secondAttribute="trailing" constant="51" id="tjq-Bu-fQ2"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="address" destination="2jG-AD-N6C" id="RxL-EA-tY3"/>
+                        <outlet property="browser" destination="CZg-M7-RdJ" id="Qet-Le-tNO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mjh-bE-IPr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-493" y="-742"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="addressEntered:" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="address" candidateClass="UITextField"/>
+                <relationship kind="outlet" name="browser" candidateClass="UIWebView"/>
+            </relationships>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		274DD7A3E55625049100A94B /* libPods-Magpoke.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 67EFBD2202778A1A26362C04 /* libPods-Magpoke.a */; };
+		56B08CE81D2E41310050682D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B08CE71D2E41310050682D /* main.m */; };
+		56B08CF41D2E41310050682D /* Magpoke.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 56B08CF21D2E41310050682D /* Magpoke.xcdatamodeld */; };
+		56B08CF61D2E41310050682D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56B08CF51D2E41310050682D /* Assets.xcassets */; };
+		56B08D061D2E474F0050682D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B08D011D2E474F0050682D /* AppDelegate.m */; };
+		56B08D071D2E474F0050682D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B08D031D2E474F0050682D /* ViewController.m */; };
+		56B08D081D2E474F0050682D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56B08D041D2E474F0050682D /* Main.storyboard */; };
+		56B08D091D2E474F0050682D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56B08D051D2E474F0050682D /* LaunchScreen.storyboard */; };
+		56B08D0B1D2E4EC30050682D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B08D0A1D2E4EC30050682D /* SystemConfiguration.framework */; };
+		56B08D0D1D2E4ED90050682D /* OneSignal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56B08D0C1D2E4ED90050682D /* OneSignal.framework */; };
+		56B08D111D2E5B750050682D /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 56B08D0E1D2E5B750050682D /* assets */; };
+		56B08D121D2E5B750050682D /* images in Resources */ = {isa = PBXBuildFile; fileRef = 56B08D0F1D2E5B750050682D /* images */; };
+		56B08D131D2E5B750050682D /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 56B08D101D2E5B750050682D /* index.html */; };
+		56B08D191D2E6CD10050682D /* b.png in Resources */ = {isa = PBXBuildFile; fileRef = 56B08D181D2E6CD10050682D /* b.png */; };
+		56B3AC8B1EF55AC900431CC9 /* css in Resources */ = {isa = PBXBuildFile; fileRef = 56B3AC861EF55AC900431CC9 /* css */; };
+		56B3AC8C1EF55AC900431CC9 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 56B3AC871EF55AC900431CC9 /* fonts */; };
+		56B3AC8D1EF55AC900431CC9 /* proceed.html in Resources */ = {isa = PBXBuildFile; fileRef = 56B3AC881EF55AC900431CC9 /* proceed.html */; };
+		56B3AC8E1EF55AC900431CC9 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 56B3AC891EF55AC900431CC9 /* js */; };
+		56B3AC8F1EF55AC900431CC9 /* offline.html in Resources */ = {isa = PBXBuildFile; fileRef = 56B3AC8A1EF55AC900431CC9 /* offline.html */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2148AA60AD967556E0F689B1 /* Pods-Magpoke.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magpoke.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Magpoke/Pods-Magpoke.debug.xcconfig"; sourceTree = "<group>"; };
+		5672A31B1E3A57F7002B7500 /* Magpoke.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Magpoke.entitlements; sourceTree = "<group>"; };
+		56B08CE31D2E41310050682D /* Magpoke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Magpoke.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56B08CE71D2E41310050682D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56B08CF31D2E41310050682D /* Magpoke.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Magpoke.xcdatamodel; sourceTree = "<group>"; };
+		56B08CF51D2E41310050682D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56B08CFA1D2E41310050682D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56B08D001D2E474F0050682D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56B08D011D2E474F0050682D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56B08D021D2E474F0050682D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		56B08D031D2E474F0050682D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		56B08D041D2E474F0050682D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		56B08D051D2E474F0050682D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56B08D0A1D2E4EC30050682D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		56B08D0C1D2E4ED90050682D /* OneSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OneSignal.framework; sourceTree = "<group>"; };
+		56B08D0E1D2E5B750050682D /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		56B08D0F1D2E5B750050682D /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		56B08D101D2E5B750050682D /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		56B08D181D2E6CD10050682D /* b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = b.png; sourceTree = "<group>"; };
+		56B3AC861EF55AC900431CC9 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		56B3AC871EF55AC900431CC9 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		56B3AC881EF55AC900431CC9 /* proceed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proceed.html; sourceTree = "<group>"; };
+		56B3AC891EF55AC900431CC9 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		56B3AC8A1EF55AC900431CC9 /* offline.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = offline.html; sourceTree = "<group>"; };
+		67EFBD2202778A1A26362C04 /* libPods-Magpoke.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Magpoke.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A82A2B72138FFEF67C45DF9A /* Pods-Magpoke.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Magpoke.release.xcconfig"; path = "Pods/Target Support Files/Pods-Magpoke/Pods-Magpoke.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56B08CE01D2E41310050682D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B08D0B1D2E4EC30050682D /* SystemConfiguration.framework in Frameworks */,
+				56B08D0D1D2E4ED90050682D /* OneSignal.framework in Frameworks */,
+				274DD7A3E55625049100A94B /* libPods-Magpoke.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56B08CDA1D2E41310050682D = {
+			isa = PBXGroup;
+			children = (
+				56B08D0C1D2E4ED90050682D /* OneSignal.framework */,
+				56B08D0A1D2E4EC30050682D /* SystemConfiguration.framework */,
+				56B08CE51D2E41310050682D /* Magpoke */,
+				56B08CE41D2E41310050682D /* Products */,
+				F6E069BC6DA15A9A6DE7C6CB /* Pods */,
+				8054047C3180058A1426C505 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56B08CE41D2E41310050682D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56B08CE31D2E41310050682D /* Magpoke.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56B08CE51D2E41310050682D /* Magpoke */ = {
+			isa = PBXGroup;
+			children = (
+				56B3AC861EF55AC900431CC9 /* css */,
+				56B3AC871EF55AC900431CC9 /* fonts */,
+				56B3AC881EF55AC900431CC9 /* proceed.html */,
+				56B3AC891EF55AC900431CC9 /* js */,
+				56B3AC8A1EF55AC900431CC9 /* offline.html */,
+				5672A31B1E3A57F7002B7500 /* Magpoke.entitlements */,
+				56B08D181D2E6CD10050682D /* b.png */,
+				56B08D0E1D2E5B750050682D /* assets */,
+				56B08D0F1D2E5B750050682D /* images */,
+				56B08D101D2E5B750050682D /* index.html */,
+				56B08D001D2E474F0050682D /* AppDelegate.h */,
+				56B08D011D2E474F0050682D /* AppDelegate.m */,
+				56B08D021D2E474F0050682D /* ViewController.h */,
+				56B08D031D2E474F0050682D /* ViewController.m */,
+				56B08D041D2E474F0050682D /* Main.storyboard */,
+				56B08D051D2E474F0050682D /* LaunchScreen.storyboard */,
+				56B08CF51D2E41310050682D /* Assets.xcassets */,
+				56B08CFA1D2E41310050682D /* Info.plist */,
+				56B08CF21D2E41310050682D /* Magpoke.xcdatamodeld */,
+				56B08CE61D2E41310050682D /* Supporting Files */,
+			);
+			path = Magpoke;
+			sourceTree = "<group>";
+		};
+		56B08CE61D2E41310050682D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56B08CE71D2E41310050682D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8054047C3180058A1426C505 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67EFBD2202778A1A26362C04 /* libPods-Magpoke.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F6E069BC6DA15A9A6DE7C6CB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2148AA60AD967556E0F689B1 /* Pods-Magpoke.debug.xcconfig */,
+				A82A2B72138FFEF67C45DF9A /* Pods-Magpoke.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56B08CE21D2E41310050682D /* Magpoke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56B08CFD1D2E41310050682D /* Build configuration list for PBXNativeTarget "Magpoke" */;
+			buildPhases = (
+				F2657D171E3B8380E2585570 /* [CP] Check Pods Manifest.lock */,
+				56B08CDF1D2E41310050682D /* Sources */,
+				56B08CE01D2E41310050682D /* Frameworks */,
+				56B08CE11D2E41310050682D /* Resources */,
+				55462997492622D862A25D64 /* [CP] Embed Pods Frameworks */,
+				3A3CFD419BA07BE37B64E2F1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Magpoke;
+			productName = Magpoke;
+			productReference = 56B08CE31D2E41310050682D /* Magpoke.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56B08CDB1D2E41310050682D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Richiesoft Inc";
+				TargetAttributes = {
+					56B08CE21D2E41310050682D = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = UHDBH2TEY2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 56B08CDE1D2E41310050682D /* Build configuration list for PBXProject "Magpoke" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56B08CDA1D2E41310050682D;
+			productRefGroup = 56B08CE41D2E41310050682D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56B08CE21D2E41310050682D /* Magpoke */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56B08CE11D2E41310050682D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B08D121D2E5B750050682D /* images in Resources */,
+				56B08D091D2E474F0050682D /* LaunchScreen.storyboard in Resources */,
+				56B08D111D2E5B750050682D /* assets in Resources */,
+				56B3AC8D1EF55AC900431CC9 /* proceed.html in Resources */,
+				56B08D131D2E5B750050682D /* index.html in Resources */,
+				56B3AC8B1EF55AC900431CC9 /* css in Resources */,
+				56B3AC8F1EF55AC900431CC9 /* offline.html in Resources */,
+				56B3AC8E1EF55AC900431CC9 /* js in Resources */,
+				56B08CF61D2E41310050682D /* Assets.xcassets in Resources */,
+				56B3AC8C1EF55AC900431CC9 /* fonts in Resources */,
+				56B08D081D2E474F0050682D /* Main.storyboard in Resources */,
+				56B08D191D2E6CD10050682D /* b.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A3CFD419BA07BE37B64E2F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Magpoke/Pods-Magpoke-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55462997492622D862A25D64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Magpoke/Pods-Magpoke-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2657D171E3B8380E2585570 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56B08CDF1D2E41310050682D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B08CF41D2E41310050682D /* Magpoke.xcdatamodeld in Sources */,
+				56B08CE81D2E41310050682D /* main.m in Sources */,
+				56B08D071D2E474F0050682D /* ViewController.m in Sources */,
+				56B08D061D2E474F0050682D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		56B08CFB1D2E41310050682D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56B08CFC1D2E41310050682D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56B08CFE1D2E41310050682D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2148AA60AD967556E0F689B1 /* Pods-Magpoke.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Magpoke/Magpoke.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Magpoke/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RichardsLouis.Magpoke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		56B08CFF1D2E41310050682D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A82A2B72138FFEF67C45DF9A /* Pods-Magpoke.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Magpoke/Magpoke.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Magpoke/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RichardsLouis.Magpoke;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56B08CDE1D2E41310050682D /* Build configuration list for PBXProject "Magpoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B08CFB1D2E41310050682D /* Debug */,
+				56B08CFC1D2E41310050682D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56B08CFD1D2E41310050682D /* Build configuration list for PBXNativeTarget "Magpoke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56B08CFE1D2E41310050682D /* Debug */,
+				56B08CFF1D2E41310050682D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		56B08CF21D2E41310050682D /* Magpoke.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				56B08CF31D2E41310050682D /* Magpoke.xcdatamodel */,
+			);
+			currentVersion = 56B08CF31D2E41310050682D /* Magpoke.xcdatamodel */;
+			path = Magpoke.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 56B08CDB1D2E41310050682D /* Project object */;
+}

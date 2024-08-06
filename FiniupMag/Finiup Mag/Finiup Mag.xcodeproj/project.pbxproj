@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		567CA6491CC120960043D74F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 567CA6481CC120960043D74F /* main.m */; };
+		567CA64C1CC120960043D74F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 567CA64B1CC120960043D74F /* AppDelegate.m */; };
+		567CA64F1CC120960043D74F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 567CA64E1CC120960043D74F /* ViewController.m */; };
+		567CA6551CC120960043D74F /* Finiup_Mag.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 567CA6531CC120960043D74F /* Finiup_Mag.xcdatamodeld */; };
+		567CA6571CC120960043D74F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 567CA6561CC120960043D74F /* Assets.xcassets */; };
+		567CA6621CC120AA0043D74F /* OneSignal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567CA6611CC120AA0043D74F /* OneSignal.framework */; };
+		567CA6651CC1257F0043D74F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 567CA6631CC1257F0043D74F /* Main.storyboard */; };
+		567CA6661CC1257F0043D74F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 567CA6641CC1257F0043D74F /* LaunchScreen.storyboard */; };
+		567CA6681CC125F90043D74F /* 256.png in Resources */ = {isa = PBXBuildFile; fileRef = 567CA6671CC125F90043D74F /* 256.png */; };
+		567CA66A1CC1265B0043D74F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 567CA6691CC1265B0043D74F /* SystemConfiguration.framework */; };
+		56B3AC801EF5557400431CC9 /* css in Resources */ = {isa = PBXBuildFile; fileRef = 56B3AC7A1EF5557400431CC9 /* css */; };
+		56B3AC811EF5557400431CC9 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 56B3AC7B1EF5557400431CC9 /* fonts */; };
+		56B3AC821EF5557400431CC9 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 56B3AC7C1EF5557400431CC9 /* images */; };
+		56B3AC831EF5557400431CC9 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 56B3AC7D1EF5557400431CC9 /* index.html */; };
+		56B3AC841EF5557400431CC9 /* js in Resources */ = {isa = PBXBuildFile; fileRef = 56B3AC7E1EF5557400431CC9 /* js */; };
+		56B3AC851EF5557400431CC9 /* offline.html in Resources */ = {isa = PBXBuildFile; fileRef = 56B3AC7F1EF5557400431CC9 /* offline.html */; };
+		6271432D489A81538B859F8F /* libPods-Finiup Mag.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13D53637832EBCB8469D6FC1 /* libPods-Finiup Mag.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13D53637832EBCB8469D6FC1 /* libPods-Finiup Mag.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Finiup Mag.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		567CA6441CC120960043D74F /* Finiup Mag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finiup Mag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		567CA6481CC120960043D74F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		567CA64A1CC120960043D74F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		567CA64B1CC120960043D74F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		567CA64D1CC120960043D74F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		567CA64E1CC120960043D74F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		567CA6541CC120960043D74F /* Finiup_Mag.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Finiup_Mag.xcdatamodel; sourceTree = "<group>"; };
+		567CA6561CC120960043D74F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		567CA65B1CC120960043D74F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		567CA6611CC120AA0043D74F /* OneSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OneSignal.framework; sourceTree = "<group>"; };
+		567CA6631CC1257F0043D74F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		567CA6641CC1257F0043D74F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		567CA6671CC125F90043D74F /* 256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 256.png; sourceTree = "<group>"; };
+		567CA6691CC1265B0043D74F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		568C61601E3A66D5008B8FF5 /* Finiup Mag.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Finiup Mag.entitlements"; sourceTree = "<group>"; };
+		56B3AC7A1EF5557400431CC9 /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		56B3AC7B1EF5557400431CC9 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		56B3AC7C1EF5557400431CC9 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		56B3AC7D1EF5557400431CC9 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		56B3AC7E1EF5557400431CC9 /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		56B3AC7F1EF5557400431CC9 /* offline.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = offline.html; sourceTree = "<group>"; };
+		8D6A6741014723C2537A389C /* Pods-Finiup Mag.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finiup Mag.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Finiup Mag/Pods-Finiup Mag.debug.xcconfig"; sourceTree = "<group>"; };
+		E35F46EB8B3D12EF984865C3 /* Pods-Finiup Mag.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Finiup Mag.release.xcconfig"; path = "Pods/Target Support Files/Pods-Finiup Mag/Pods-Finiup Mag.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		567CA6411CC120960043D74F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567CA66A1CC1265B0043D74F /* SystemConfiguration.framework in Frameworks */,
+				567CA6621CC120AA0043D74F /* OneSignal.framework in Frameworks */,
+				6271432D489A81538B859F8F /* libPods-Finiup Mag.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		567CA63B1CC120960043D74F = {
+			isa = PBXGroup;
+			children = (
+				567CA6691CC1265B0043D74F /* SystemConfiguration.framework */,
+				567CA6611CC120AA0043D74F /* OneSignal.framework */,
+				567CA6461CC120960043D74F /* Finiup Mag */,
+				567CA6451CC120960043D74F /* Products */,
+				83CA9B596DEC100C5ABB861B /* Pods */,
+				EB892515ECAFB02007963A1B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		567CA6451CC120960043D74F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				567CA6441CC120960043D74F /* Finiup Mag.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		567CA6461CC120960043D74F /* Finiup Mag */ = {
+			isa = PBXGroup;
+			children = (
+				56B3AC7A1EF5557400431CC9 /* css */,
+				56B3AC7B1EF5557400431CC9 /* fonts */,
+				56B3AC7C1EF5557400431CC9 /* images */,
+				56B3AC7D1EF5557400431CC9 /* index.html */,
+				56B3AC7E1EF5557400431CC9 /* js */,
+				56B3AC7F1EF5557400431CC9 /* offline.html */,
+				568C61601E3A66D5008B8FF5 /* Finiup Mag.entitlements */,
+				567CA64A1CC120960043D74F /* AppDelegate.h */,
+				567CA64B1CC120960043D74F /* AppDelegate.m */,
+				567CA64D1CC120960043D74F /* ViewController.h */,
+				567CA64E1CC120960043D74F /* ViewController.m */,
+				567CA6671CC125F90043D74F /* 256.png */,
+				567CA6631CC1257F0043D74F /* Main.storyboard */,
+				567CA6641CC1257F0043D74F /* LaunchScreen.storyboard */,
+				567CA6561CC120960043D74F /* Assets.xcassets */,
+				567CA65B1CC120960043D74F /* Info.plist */,
+				567CA6531CC120960043D74F /* Finiup_Mag.xcdatamodeld */,
+				567CA6471CC120960043D74F /* Supporting Files */,
+			);
+			path = "Finiup Mag";
+			sourceTree = "<group>";
+		};
+		567CA6471CC120960043D74F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				567CA6481CC120960043D74F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83CA9B596DEC100C5ABB861B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D6A6741014723C2537A389C /* Pods-Finiup Mag.debug.xcconfig */,
+				E35F46EB8B3D12EF984865C3 /* Pods-Finiup Mag.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB892515ECAFB02007963A1B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13D53637832EBCB8469D6FC1 /* libPods-Finiup Mag.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		567CA6431CC120960043D74F /* Finiup Mag */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 567CA65E1CC120960043D74F /* Build configuration list for PBXNativeTarget "Finiup Mag" */;
+			buildPhases = (
+				ED4DCA98032457258F84C40E /* [CP] Check Pods Manifest.lock */,
+				567CA6401CC120960043D74F /* Sources */,
+				567CA6411CC120960043D74F /* Frameworks */,
+				567CA6421CC120960043D74F /* Resources */,
+				A64EB5E628FA0CB7D4831FBD /* [CP] Embed Pods Frameworks */,
+				9F96C563B4A2139C2A79472F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Finiup Mag";
+			productName = "Finiup Mag";
+			productReference = 567CA6441CC120960043D74F /* Finiup Mag.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		567CA63C1CC120960043D74F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Richiesoft inc";
+				TargetAttributes = {
+					567CA6431CC120960043D74F = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = UHDBH2TEY2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 567CA63F1CC120960043D74F /* Build configuration list for PBXProject "Finiup Mag" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 567CA63B1CC120960043D74F;
+			productRefGroup = 567CA6451CC120960043D74F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				567CA6431CC120960043D74F /* Finiup Mag */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		567CA6421CC120960043D74F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56B3AC801EF5557400431CC9 /* css in Resources */,
+				56B3AC841EF5557400431CC9 /* js in Resources */,
+				567CA6661CC1257F0043D74F /* LaunchScreen.storyboard in Resources */,
+				567CA6571CC120960043D74F /* Assets.xcassets in Resources */,
+				56B3AC811EF5557400431CC9 /* fonts in Resources */,
+				567CA6651CC1257F0043D74F /* Main.storyboard in Resources */,
+				56B3AC831EF5557400431CC9 /* index.html in Resources */,
+				56B3AC821EF5557400431CC9 /* images in Resources */,
+				56B3AC851EF5557400431CC9 /* offline.html in Resources */,
+				567CA6681CC125F90043D74F /* 256.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9F96C563B4A2139C2A79472F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Finiup Mag/Pods-Finiup Mag-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A64EB5E628FA0CB7D4831FBD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Finiup Mag/Pods-Finiup Mag-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED4DCA98032457258F84C40E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		567CA6401CC120960043D74F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567CA64F1CC120960043D74F /* ViewController.m in Sources */,
+				567CA64C1CC120960043D74F /* AppDelegate.m in Sources */,
+				567CA6551CC120960043D74F /* Finiup_Mag.xcdatamodeld in Sources */,
+				567CA6491CC120960043D74F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		567CA65C1CC120960043D74F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		567CA65D1CC120960043D74F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		567CA65F1CC120960043D74F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D6A6741014723C2537A389C /* Pods-Finiup Mag.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Finiup Mag/Finiup Mag.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Finiup Mag/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RichardsLouis.Finiup-Mag";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		567CA6601CC120960043D74F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E35F46EB8B3D12EF984865C3 /* Pods-Finiup Mag.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Finiup Mag/Finiup Mag.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Finiup Mag/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "RichardsLouis.Finiup-Mag";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		567CA63F1CC120960043D74F /* Build configuration list for PBXProject "Finiup Mag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567CA65C1CC120960043D74F /* Debug */,
+				567CA65D1CC120960043D74F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		567CA65E1CC120960043D74F /* Build configuration list for PBXNativeTarget "Finiup Mag" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				567CA65F1CC120960043D74F /* Debug */,
+				567CA6601CC120960043D74F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		567CA6531CC120960043D74F /* Finiup_Mag.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				567CA6541CC120960043D74F /* Finiup_Mag.xcdatamodel */,
+			);
+			currentVersion = 567CA6541CC120960043D74F /* Finiup_Mag.xcdatamodel */;
+			path = Finiup_Mag.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 567CA63C1CC120960043D74F /* Project object */;
+}

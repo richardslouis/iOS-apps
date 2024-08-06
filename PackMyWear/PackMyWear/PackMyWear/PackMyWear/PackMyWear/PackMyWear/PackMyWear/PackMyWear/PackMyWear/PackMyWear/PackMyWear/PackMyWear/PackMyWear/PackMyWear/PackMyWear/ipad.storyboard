@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="5056" systemVersion="13C64" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="cVG-eX-FWJ">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+    </dependencies>
+    <scenes>
+        <!--First View Controller-->
+        <scene sceneID="Hdp-me-hSx">
+            <objects>
+                <viewController id="QeB-z9-IGO" customClass="FirstViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5xI-do-sOy"/>
+                        <viewControllerLayoutGuide type="bottom" id="TUs-H5-pEt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="hsJ-NU-OBn">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pSA-n8-Qxw">
+                                <rect key="frame" x="0.0" y="156" width="768" height="817"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="oie_transparent-2.png" translatesAutoresizingMaskIntoConstraints="NO" id="nmA-BP-suD">
+                                <rect key="frame" x="-119" y="35" width="1033" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" badgeValue="Zovi" systemItem="favorites" id="pRB-tt-5gn"/>
+                    <connections>
+                        <outlet property="myWebView" destination="pSA-n8-Qxw" id="YZo-wK-kv2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eRC-cu-uwa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="436" y="-868"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="FaK-ql-fac">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="cVG-eX-FWJ" sceneMemberID="viewController">
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="9RU-wp-3RS">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="QeB-z9-IGO" kind="relationship" relationship="viewControllers" id="YgK-BO-JdE"/>
+                        <segue destination="A0P-BR-YsY" kind="relationship" relationship="viewControllers" id="0U0-cZ-Tlr"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XtQ-LF-T5b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-584" y="-199"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="LoR-mm-eqD">
+            <objects>
+                <viewController id="A0P-BR-YsY" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rIz-Lt-3SK"/>
+                        <viewControllerLayoutGuide type="bottom" id="fFU-xf-XPR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cgS-s5-VFR">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" systemItem="more" id="i1b-vy-Mzq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="auc-YU-eVu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="398" y="355"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="oie_transparent-2.png" width="1280" height="145"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

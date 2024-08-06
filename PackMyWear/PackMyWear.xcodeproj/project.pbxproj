@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5663FDAB19D7129F002415F6 /* androidapp_pmw1_bb.png in Resources */ = {isa = PBXBuildFile; fileRef = 5663FDAA19D7129F002415F6 /* androidapp_pmw1_bb.png */; };
+		56AB36EC18FE3A40000EF160 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AB36EB18FE3A40000EF160 /* Foundation.framework */; };
+		56AB36EE18FE3A40000EF160 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AB36ED18FE3A40000EF160 /* CoreGraphics.framework */; };
+		56AB36F018FE3A40000EF160 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AB36EF18FE3A40000EF160 /* UIKit.framework */; };
+		56AB36F618FE3A41000EF160 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56AB36F418FE3A41000EF160 /* InfoPlist.strings */; };
+		56AB36F818FE3A42000EF160 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AB36F718FE3A42000EF160 /* main.m */; };
+		56AB36FC18FE3A42000EF160 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AB36FB18FE3A42000EF160 /* AppDelegate.m */; };
+		56AB36FF18FE3A42000EF160 /* Main_iphone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56AB36FD18FE3A42000EF160 /* Main_iphone.storyboard */; };
+		56AB370218FE3A42000EF160 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AB370118FE3A42000EF160 /* FirstViewController.m */; };
+		56AB370518FE3A42000EF160 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AB370418FE3A42000EF160 /* SecondViewController.m */; };
+		56AB370718FE3A42000EF160 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56AB370618FE3A42000EF160 /* Images.xcassets */; };
+		56AB370E18FE3A42000EF160 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AB370D18FE3A42000EF160 /* XCTest.framework */; };
+		56AB370F18FE3A42000EF160 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AB36EB18FE3A40000EF160 /* Foundation.framework */; };
+		56AB371018FE3A42000EF160 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AB36EF18FE3A40000EF160 /* UIKit.framework */; };
+		56AB371818FE3A42000EF160 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56AB371618FE3A42000EF160 /* InfoPlist.strings */; };
+		56AB371A18FE3A42000EF160 /* PackMyWearTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AB371918FE3A42000EF160 /* PackMyWearTests.m */; };
+		56AB372A18FE3C69000EF160 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AB372518FE3C69000EF160 /* FourthViewController.m */; };
+		56AB372B18FE3C69000EF160 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AB372818FE3C69000EF160 /* ThirdViewController.m */; };
+		56AB372D18FE4256000EF160 /* oie_transparent.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AB372C18FE4256000EF160 /* oie_transparent.png */; };
+		56AB372F18FE44B8000EF160 /* packmywear06.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56AB372E18FE44B8000EF160 /* packmywear06.jpg */; };
+		56AB373118FE492F000EF160 /* oie_transparent-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AB373018FE492F000EF160 /* oie_transparent-2.png */; };
+		56AB373518FE5533000EF160 /* pmw58.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AB373218FE5533000EF160 /* pmw58.png */; };
+		56AB373618FE5533000EF160 /* pmw80.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AB373318FE5533000EF160 /* pmw80.png */; };
+		56AB373718FE5533000EF160 /* pmw120.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AB373418FE5533000EF160 /* pmw120.png */; };
+		56AB373A18FE5924000EF160 /* pmw960.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AB373818FE5924000EF160 /* pmw960.png */; };
+		56AB373B18FE5924000EF160 /* pmw1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AB373918FE5924000EF160 /* pmw1136.png */; };
+		56AB374118FE64DF000EF160 /* Main_ipad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56AB374018FE64DF000EF160 /* Main_ipad.storyboard */; };
+		56AB374718FE72FE000EF160 /* pmw29.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AB374318FE72FE000EF160 /* pmw29.png */; };
+		56AB374818FE72FE000EF160 /* pmw40.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AB374418FE72FE000EF160 /* pmw40.png */; };
+		56AB374918FE72FE000EF160 /* pmw76.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AB374518FE72FE000EF160 /* pmw76.png */; };
+		56AB374A18FE72FE000EF160 /* pmw152.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AB374618FE72FE000EF160 /* pmw152.png */; };
+		56AB374E18FE7406000EF160 /* pmwipadhd.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AB374C18FE7406000EF160 /* pmwipadhd.png */; };
+		56AB375018FE7476000EF160 /* pmwipad1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AB374F18FE7476000EF160 /* pmwipad1024.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56AB371118FE3A42000EF160 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56AB36E018FE3A40000EF160 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56AB36E718FE3A40000EF160;
+			remoteInfo = PackMyWear;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5663FDAA19D7129F002415F6 /* androidapp_pmw1_bb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = androidapp_pmw1_bb.png; sourceTree = "<group>"; };
+		56AB36E818FE3A40000EF160 /* PackMyWear.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PackMyWear.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56AB36EB18FE3A40000EF160 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		56AB36ED18FE3A40000EF160 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		56AB36EF18FE3A40000EF160 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		56AB36F318FE3A41000EF160 /* PackMyWear-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PackMyWear-Info.plist"; sourceTree = "<group>"; };
+		56AB36F518FE3A41000EF160 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56AB36F718FE3A42000EF160 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56AB36F918FE3A42000EF160 /* PackMyWear-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PackMyWear-Prefix.pch"; sourceTree = "<group>"; };
+		56AB36FA18FE3A42000EF160 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56AB36FB18FE3A42000EF160 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56AB36FE18FE3A42000EF160 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iphone.storyboard; sourceTree = "<group>"; };
+		56AB370018FE3A42000EF160 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		56AB370118FE3A42000EF160 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		56AB370318FE3A42000EF160 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		56AB370418FE3A42000EF160 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		56AB370618FE3A42000EF160 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		56AB370C18FE3A42000EF160 /* PackMyWearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PackMyWearTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		56AB370D18FE3A42000EF160 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		56AB371518FE3A42000EF160 /* PackMyWearTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PackMyWearTests-Info.plist"; sourceTree = "<group>"; };
+		56AB371718FE3A42000EF160 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56AB371918FE3A42000EF160 /* PackMyWearTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PackMyWearTests.m; sourceTree = "<group>"; };
+		56AB372518FE3C69000EF160 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		56AB372618FE3C69000EF160 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		56AB372718FE3C69000EF160 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		56AB372818FE3C69000EF160 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		56AB372C18FE4256000EF160 /* oie_transparent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oie_transparent.png; sourceTree = "<group>"; };
+		56AB372E18FE44B8000EF160 /* packmywear06.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = packmywear06.jpg; sourceTree = "<group>"; };
+		56AB373018FE492F000EF160 /* oie_transparent-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oie_transparent-2.png"; sourceTree = "<group>"; };
+		56AB373218FE5533000EF160 /* pmw58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pmw58.png; sourceTree = "<group>"; };
+		56AB373318FE5533000EF160 /* pmw80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pmw80.png; sourceTree = "<group>"; };
+		56AB373418FE5533000EF160 /* pmw120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pmw120.png; sourceTree = "<group>"; };
+		56AB373818FE5924000EF160 /* pmw960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pmw960.png; sourceTree = "<group>"; };
+		56AB373918FE5924000EF160 /* pmw1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pmw1136.png; sourceTree = "<group>"; };
+		56AB373C18FE5D88000EF160 /* PackMyWear.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PackMyWear.entitlements; sourceTree = "<group>"; };
+		56AB374018FE64DF000EF160 /* Main_ipad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_ipad.storyboard; sourceTree = "<group>"; };
+		56AB374318FE72FE000EF160 /* pmw29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pmw29.png; sourceTree = "<group>"; };
+		56AB374418FE72FE000EF160 /* pmw40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pmw40.png; sourceTree = "<group>"; };
+		56AB374518FE72FE000EF160 /* pmw76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pmw76.png; sourceTree = "<group>"; };
+		56AB374618FE72FE000EF160 /* pmw152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pmw152.png; sourceTree = "<group>"; };
+		56AB374C18FE7406000EF160 /* pmwipadhd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pmwipadhd.png; sourceTree = "<group>"; };
+		56AB374F18FE7476000EF160 /* pmwipad1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pmwipad1024.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56AB36E518FE3A40000EF160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AB36EE18FE3A40000EF160 /* CoreGraphics.framework in Frameworks */,
+				56AB36F018FE3A40000EF160 /* UIKit.framework in Frameworks */,
+				56AB36EC18FE3A40000EF160 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56AB370918FE3A42000EF160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AB370E18FE3A42000EF160 /* XCTest.framework in Frameworks */,
+				56AB371018FE3A42000EF160 /* UIKit.framework in Frameworks */,
+				56AB370F18FE3A42000EF160 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56AB36DF18FE3A40000EF160 = {
+			isa = PBXGroup;
+			children = (
+				56AB36F118FE3A40000EF160 /* PackMyWear */,
+				56AB371318FE3A42000EF160 /* PackMyWearTests */,
+				56AB36EA18FE3A40000EF160 /* Frameworks */,
+				56AB36E918FE3A40000EF160 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56AB36E918FE3A40000EF160 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56AB36E818FE3A40000EF160 /* PackMyWear.app */,
+				56AB370C18FE3A42000EF160 /* PackMyWearTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56AB36EA18FE3A40000EF160 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56AB36EB18FE3A40000EF160 /* Foundation.framework */,
+				56AB36ED18FE3A40000EF160 /* CoreGraphics.framework */,
+				56AB36EF18FE3A40000EF160 /* UIKit.framework */,
+				56AB370D18FE3A42000EF160 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56AB36F118FE3A40000EF160 /* PackMyWear */ = {
+			isa = PBXGroup;
+			children = (
+				5663FDAA19D7129F002415F6 /* androidapp_pmw1_bb.png */,
+				56AB374F18FE7476000EF160 /* pmwipad1024.png */,
+				56AB374C18FE7406000EF160 /* pmwipadhd.png */,
+				56AB374318FE72FE000EF160 /* pmw29.png */,
+				56AB374418FE72FE000EF160 /* pmw40.png */,
+				56AB374518FE72FE000EF160 /* pmw76.png */,
+				56AB374618FE72FE000EF160 /* pmw152.png */,
+				56AB373F18FE638D000EF160 /* iPad */,
+				56AB373C18FE5D88000EF160 /* PackMyWear.entitlements */,
+				56AB373818FE5924000EF160 /* pmw960.png */,
+				56AB373918FE5924000EF160 /* pmw1136.png */,
+				56AB373218FE5533000EF160 /* pmw58.png */,
+				56AB373318FE5533000EF160 /* pmw80.png */,
+				56AB373418FE5533000EF160 /* pmw120.png */,
+				56AB373018FE492F000EF160 /* oie_transparent-2.png */,
+				56AB372E18FE44B8000EF160 /* packmywear06.jpg */,
+				56AB372C18FE4256000EF160 /* oie_transparent.png */,
+				56AB372518FE3C69000EF160 /* FourthViewController.m */,
+				56AB372618FE3C69000EF160 /* FourthViewController.h */,
+				56AB372718FE3C69000EF160 /* ThirdViewController.h */,
+				56AB372818FE3C69000EF160 /* ThirdViewController.m */,
+				56AB36FA18FE3A42000EF160 /* AppDelegate.h */,
+				56AB36FB18FE3A42000EF160 /* AppDelegate.m */,
+				56AB36FD18FE3A42000EF160 /* Main_iphone.storyboard */,
+				56AB374018FE64DF000EF160 /* Main_ipad.storyboard */,
+				56AB370018FE3A42000EF160 /* FirstViewController.h */,
+				56AB370118FE3A42000EF160 /* FirstViewController.m */,
+				56AB370318FE3A42000EF160 /* SecondViewController.h */,
+				56AB370418FE3A42000EF160 /* SecondViewController.m */,
+				56AB370618FE3A42000EF160 /* Images.xcassets */,
+				56AB36F218FE3A41000EF160 /* Supporting Files */,
+			);
+			path = PackMyWear;
+			sourceTree = "<group>";
+		};
+		56AB36F218FE3A41000EF160 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56AB36F318FE3A41000EF160 /* PackMyWear-Info.plist */,
+				56AB36F418FE3A41000EF160 /* InfoPlist.strings */,
+				56AB36F718FE3A42000EF160 /* main.m */,
+				56AB36F918FE3A42000EF160 /* PackMyWear-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56AB371318FE3A42000EF160 /* PackMyWearTests */ = {
+			isa = PBXGroup;
+			children = (
+				56AB371918FE3A42000EF160 /* PackMyWearTests.m */,
+				56AB371418FE3A42000EF160 /* Supporting Files */,
+			);
+			path = PackMyWearTests;
+			sourceTree = "<group>";
+		};
+		56AB371418FE3A42000EF160 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56AB371518FE3A42000EF160 /* PackMyWearTests-Info.plist */,
+				56AB371618FE3A42000EF160 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56AB373F18FE638D000EF160 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56AB36E718FE3A40000EF160 /* PackMyWear */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56AB371D18FE3A42000EF160 /* Build configuration list for PBXNativeTarget "PackMyWear" */;
+			buildPhases = (
+				56AB36E418FE3A40000EF160 /* Sources */,
+				56AB36E518FE3A40000EF160 /* Frameworks */,
+				56AB36E618FE3A40000EF160 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PackMyWear;
+			productName = PackMyWear;
+			productReference = 56AB36E818FE3A40000EF160 /* PackMyWear.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56AB370B18FE3A42000EF160 /* PackMyWearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56AB372018FE3A42000EF160 /* Build configuration list for PBXNativeTarget "PackMyWearTests" */;
+			buildPhases = (
+				56AB370818FE3A42000EF160 /* Sources */,
+				56AB370918FE3A42000EF160 /* Frameworks */,
+				56AB370A18FE3A42000EF160 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56AB371218FE3A42000EF160 /* PBXTargetDependency */,
+			);
+			name = PackMyWearTests;
+			productName = PackMyWearTests;
+			productReference = 56AB370C18FE3A42000EF160 /* PackMyWearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56AB36E018FE3A40000EF160 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Richards Louis";
+				TargetAttributes = {
+					56AB36E718FE3A40000EF160 = {
+						DevelopmentTeam = UHDBH2TEY2;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
+					};
+					56AB370B18FE3A42000EF160 = {
+						TestTargetID = 56AB36E718FE3A40000EF160;
+					};
+				};
+			};
+			buildConfigurationList = 56AB36E318FE3A40000EF160 /* Build configuration list for PBXProject "PackMyWear" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56AB36DF18FE3A40000EF160;
+			productRefGroup = 56AB36E918FE3A40000EF160 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56AB36E718FE3A40000EF160 /* PackMyWear */,
+				56AB370B18FE3A42000EF160 /* PackMyWearTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56AB36E618FE3A40000EF160 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AB373B18FE5924000EF160 /* pmw1136.png in Resources */,
+				56AB375018FE7476000EF160 /* pmwipad1024.png in Resources */,
+				56AB373618FE5533000EF160 /* pmw80.png in Resources */,
+				56AB372D18FE4256000EF160 /* oie_transparent.png in Resources */,
+				56AB373518FE5533000EF160 /* pmw58.png in Resources */,
+				56AB370718FE3A42000EF160 /* Images.xcassets in Resources */,
+				56AB374118FE64DF000EF160 /* Main_ipad.storyboard in Resources */,
+				56AB372F18FE44B8000EF160 /* packmywear06.jpg in Resources */,
+				56AB374718FE72FE000EF160 /* pmw29.png in Resources */,
+				56AB36F618FE3A41000EF160 /* InfoPlist.strings in Resources */,
+				5663FDAB19D7129F002415F6 /* androidapp_pmw1_bb.png in Resources */,
+				56AB374A18FE72FE000EF160 /* pmw152.png in Resources */,
+				56AB36FF18FE3A42000EF160 /* Main_iphone.storyboard in Resources */,
+				56AB374E18FE7406000EF160 /* pmwipadhd.png in Resources */,
+				56AB374818FE72FE000EF160 /* pmw40.png in Resources */,
+				56AB374918FE72FE000EF160 /* pmw76.png in Resources */,
+				56AB373118FE492F000EF160 /* oie_transparent-2.png in Resources */,
+				56AB373A18FE5924000EF160 /* pmw960.png in Resources */,
+				56AB373718FE5533000EF160 /* pmw120.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56AB370A18FE3A42000EF160 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AB371818FE3A42000EF160 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56AB36E418FE3A40000EF160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AB372A18FE3C69000EF160 /* FourthViewController.m in Sources */,
+				56AB370518FE3A42000EF160 /* SecondViewController.m in Sources */,
+				56AB36FC18FE3A42000EF160 /* AppDelegate.m in Sources */,
+				56AB370218FE3A42000EF160 /* FirstViewController.m in Sources */,
+				56AB36F818FE3A42000EF160 /* main.m in Sources */,
+				56AB372B18FE3C69000EF160 /* ThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56AB370818FE3A42000EF160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AB371A18FE3A42000EF160 /* PackMyWearTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56AB371218FE3A42000EF160 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56AB36E718FE3A40000EF160 /* PackMyWear */;
+			targetProxy = 56AB371118FE3A42000EF160 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56AB36F418FE3A41000EF160 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56AB36F518FE3A41000EF160 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		56AB36FD18FE3A42000EF160 /* Main_iphone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56AB36FE18FE3A42000EF160 /* Base */,
+			);
+			name = Main_iphone.storyboard;
+			sourceTree = "<group>";
+		};
+		56AB371618FE3A42000EF160 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56AB371718FE3A42000EF160 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56AB371B18FE3A42000EF160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		56AB371C18FE3A42000EF160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56AB371E18FE3A42000EF160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-4";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-4";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PackMyWear/PackMyWear-Prefix.pch";
+				INFOPLIST_FILE = "PackMyWear/PackMyWear-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SEPARATE_STRIP = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		56AB371F18FE3A42000EF160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-4";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-4";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PackMyWear/PackMyWear-Prefix.pch";
+				INFOPLIST_FILE = "PackMyWear/PackMyWear-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SEPARATE_STRIP = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		56AB372118FE3A42000EF160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PackMyWear.app/PackMyWear";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PackMyWear/PackMyWear-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PackMyWearTests/PackMyWearTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		56AB372218FE3A42000EF160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PackMyWear.app/PackMyWear";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PackMyWear/PackMyWear-Prefix.pch";
+				INFOPLIST_FILE = "PackMyWearTests/PackMyWearTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56AB36E318FE3A40000EF160 /* Build configuration list for PBXProject "PackMyWear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56AB371B18FE3A42000EF160 /* Debug */,
+				56AB371C18FE3A42000EF160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56AB371D18FE3A42000EF160 /* Build configuration list for PBXNativeTarget "PackMyWear" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56AB371E18FE3A42000EF160 /* Debug */,
+				56AB371F18FE3A42000EF160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56AB372018FE3A42000EF160 /* Build configuration list for PBXNativeTarget "PackMyWearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56AB372118FE3A42000EF160 /* Debug */,
+				56AB372218FE3A42000EF160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56AB36E018FE3A40000EF160 /* Project object */;
+}

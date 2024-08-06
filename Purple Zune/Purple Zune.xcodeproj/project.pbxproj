@@ -1,0 +1,513 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		561EAE8D164B707A00350DCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 561EAE8C164B707A00350DCB /* UIKit.framework */; };
+		561EAE8F164B707A00350DCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 561EAE8E164B707A00350DCB /* Foundation.framework */; };
+		561EAE91164B707A00350DCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 561EAE90164B707A00350DCB /* CoreGraphics.framework */; };
+		561EAE97164B707A00350DCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 561EAE95164B707A00350DCB /* InfoPlist.strings */; };
+		561EAE99164B707A00350DCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 561EAE98164B707A00350DCB /* main.m */; };
+		561EAE9D164B707A00350DCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 561EAE9C164B707A00350DCB /* AppDelegate.m */; };
+		561EAEA6164B707A00350DCB /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 561EAEA4164B707A00350DCB /* MainStoryboard.storyboard */; };
+		561EAEA9164B707A00350DCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 561EAEA8164B707A00350DCB /* ViewController.m */; };
+		561EAEB1164B707A00350DCB /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 561EAEB0164B707A00350DCB /* SenTestingKit.framework */; };
+		561EAEB2164B707A00350DCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 561EAE8C164B707A00350DCB /* UIKit.framework */; };
+		561EAEB3164B707A00350DCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 561EAE8E164B707A00350DCB /* Foundation.framework */; };
+		561EAEBB164B707A00350DCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 561EAEB9164B707A00350DCB /* InfoPlist.strings */; };
+		561EAEBE164B707A00350DCB /* Purple_ZuneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 561EAEBD164B707A00350DCB /* Purple_ZuneTests.m */; };
+		56516B0C1840B68B00E9EAA9 /* header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56516B0B1840B68A00E9EAA9 /* header.jpg */; };
+		56516B0E1840B9C900E9EAA9 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56516B0D1840B9C900E9EAA9 /* iAd.framework */; };
+		56A012101689721300DC2EED /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A0120F1689721300DC2EED /* Default-568h@2x.png */; };
+		56A012121689721600DC2EED /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A012111689721600DC2EED /* Default@2x.png */; };
+		56A012141689721900DC2EED /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A012131689721900DC2EED /* Default.png */; };
+		56AAC0A918A7D21800DBDC4A /* pz120.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC0A818A7D21800DBDC4A /* pz120.png */; };
+		56AAC0AB18A7D22300DBDC4A /* pz80.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC0AA18A7D22300DBDC4A /* pz80.png */; };
+		56AAC0AD18A7D22C00DBDC4A /* pz58.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC0AC18A7D22C00DBDC4A /* pz58.png */; };
+		56AAC0D318A8600B00DBDC4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC0D218A8600B00DBDC4A /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		561EAEB4164B707A00350DCB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 561EAE7F164B707A00350DCB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 561EAE87164B707A00350DCB;
+			remoteInfo = "Purple Zune";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		561EAE88164B707A00350DCB /* Purple Zune.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Purple Zune.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		561EAE8C164B707A00350DCB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		561EAE8E164B707A00350DCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		561EAE90164B707A00350DCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		561EAE94164B707A00350DCB /* Purple Zune-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Purple Zune-Info.plist"; sourceTree = "<group>"; };
+		561EAE96164B707A00350DCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		561EAE98164B707A00350DCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		561EAE9A164B707A00350DCB /* Purple Zune-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Purple Zune-Prefix.pch"; sourceTree = "<group>"; };
+		561EAE9B164B707A00350DCB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		561EAE9C164B707A00350DCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		561EAEA5164B707A00350DCB /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		561EAEA7164B707A00350DCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		561EAEA8164B707A00350DCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		561EAEAF164B707A00350DCB /* Purple ZuneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Purple ZuneTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		561EAEB0164B707A00350DCB /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		561EAEB8164B707A00350DCB /* Purple ZuneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Purple ZuneTests-Info.plist"; sourceTree = "<group>"; };
+		561EAEBA164B707A00350DCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		561EAEBC164B707A00350DCB /* Purple_ZuneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Purple_ZuneTests.h; sourceTree = "<group>"; };
+		561EAEBD164B707A00350DCB /* Purple_ZuneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Purple_ZuneTests.m; sourceTree = "<group>"; };
+		56516B0B1840B68A00E9EAA9 /* header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = header.jpg; sourceTree = "<group>"; };
+		56516B0D1840B9C900E9EAA9 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		56A0120F1689721300DC2EED /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		56A012111689721600DC2EED /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		56A012131689721900DC2EED /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		56AAC0A818A7D21800DBDC4A /* pz120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pz120.png; sourceTree = "<group>"; };
+		56AAC0AA18A7D22300DBDC4A /* pz80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pz80.png; sourceTree = "<group>"; };
+		56AAC0AC18A7D22C00DBDC4A /* pz58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pz58.png; sourceTree = "<group>"; };
+		56AAC0D218A8600B00DBDC4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		561EAE85164B707A00350DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56516B0E1840B9C900E9EAA9 /* iAd.framework in Frameworks */,
+				561EAE8D164B707A00350DCB /* UIKit.framework in Frameworks */,
+				561EAE8F164B707A00350DCB /* Foundation.framework in Frameworks */,
+				561EAE91164B707A00350DCB /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561EAEAB164B707A00350DCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561EAEB1164B707A00350DCB /* SenTestingKit.framework in Frameworks */,
+				561EAEB2164B707A00350DCB /* UIKit.framework in Frameworks */,
+				561EAEB3164B707A00350DCB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		561EAE7D164B707A00350DCB = {
+			isa = PBXGroup;
+			children = (
+				56AAC0AC18A7D22C00DBDC4A /* pz58.png */,
+				56AAC0AA18A7D22300DBDC4A /* pz80.png */,
+				56AAC0A818A7D21800DBDC4A /* pz120.png */,
+				56A012131689721900DC2EED /* Default.png */,
+				56A012111689721600DC2EED /* Default@2x.png */,
+				56A0120F1689721300DC2EED /* Default-568h@2x.png */,
+				56516B0B1840B68A00E9EAA9 /* header.jpg */,
+				561EAE92164B707A00350DCB /* Purple Zune */,
+				561EAEB6164B707A00350DCB /* Purple ZuneTests */,
+				561EAE8B164B707A00350DCB /* Frameworks */,
+				561EAE89164B707A00350DCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		561EAE89164B707A00350DCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				561EAE88164B707A00350DCB /* Purple Zune.app */,
+				561EAEAF164B707A00350DCB /* Purple ZuneTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		561EAE8B164B707A00350DCB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56516B0D1840B9C900E9EAA9 /* iAd.framework */,
+				561EAE8C164B707A00350DCB /* UIKit.framework */,
+				561EAE8E164B707A00350DCB /* Foundation.framework */,
+				561EAE90164B707A00350DCB /* CoreGraphics.framework */,
+				561EAEB0164B707A00350DCB /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		561EAE92164B707A00350DCB /* Purple Zune */ = {
+			isa = PBXGroup;
+			children = (
+				561EAE9B164B707A00350DCB /* AppDelegate.h */,
+				561EAE9C164B707A00350DCB /* AppDelegate.m */,
+				561EAEA4164B707A00350DCB /* MainStoryboard.storyboard */,
+				561EAEA7164B707A00350DCB /* ViewController.h */,
+				561EAEA8164B707A00350DCB /* ViewController.m */,
+				56AAC0D218A8600B00DBDC4A /* Images.xcassets */,
+				561EAE93164B707A00350DCB /* Supporting Files */,
+			);
+			path = "Purple Zune";
+			sourceTree = "<group>";
+		};
+		561EAE93164B707A00350DCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				561EAE94164B707A00350DCB /* Purple Zune-Info.plist */,
+				561EAE95164B707A00350DCB /* InfoPlist.strings */,
+				561EAE98164B707A00350DCB /* main.m */,
+				561EAE9A164B707A00350DCB /* Purple Zune-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		561EAEB6164B707A00350DCB /* Purple ZuneTests */ = {
+			isa = PBXGroup;
+			children = (
+				561EAEBC164B707A00350DCB /* Purple_ZuneTests.h */,
+				561EAEBD164B707A00350DCB /* Purple_ZuneTests.m */,
+				561EAEB7164B707A00350DCB /* Supporting Files */,
+			);
+			path = "Purple ZuneTests";
+			sourceTree = "<group>";
+		};
+		561EAEB7164B707A00350DCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				561EAEB8164B707A00350DCB /* Purple ZuneTests-Info.plist */,
+				561EAEB9164B707A00350DCB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		561EAE87164B707A00350DCB /* Purple Zune */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561EAEC1164B707A00350DCB /* Build configuration list for PBXNativeTarget "Purple Zune" */;
+			buildPhases = (
+				561EAE84164B707A00350DCB /* Sources */,
+				561EAE85164B707A00350DCB /* Frameworks */,
+				561EAE86164B707A00350DCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Purple Zune";
+			productName = "Purple Zune";
+			productReference = 561EAE88164B707A00350DCB /* Purple Zune.app */;
+			productType = "com.apple.product-type.application";
+		};
+		561EAEAE164B707A00350DCB /* Purple ZuneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 561EAEC4164B707A00350DCB /* Build configuration list for PBXNativeTarget "Purple ZuneTests" */;
+			buildPhases = (
+				561EAEAA164B707A00350DCB /* Sources */,
+				561EAEAB164B707A00350DCB /* Frameworks */,
+				561EAEAC164B707A00350DCB /* Resources */,
+				561EAEAD164B707A00350DCB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				561EAEB5164B707A00350DCB /* PBXTargetDependency */,
+			);
+			name = "Purple ZuneTests";
+			productName = "Purple ZuneTests";
+			productReference = 561EAEAF164B707A00350DCB /* Purple ZuneTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		561EAE7F164B707A00350DCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Richards Louis";
+				TargetAttributes = {
+					561EAE87164B707A00350DCB = {
+						DevelopmentTeam = UHDBH2TEY2;
+						SystemCapabilities = {
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 561EAE82164B707A00350DCB /* Build configuration list for PBXProject "Purple Zune" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 561EAE7D164B707A00350DCB;
+			productRefGroup = 561EAE89164B707A00350DCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				561EAE87164B707A00350DCB /* Purple Zune */,
+				561EAEAE164B707A00350DCB /* Purple ZuneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		561EAE86164B707A00350DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561EAE97164B707A00350DCB /* InfoPlist.strings in Resources */,
+				56AAC0D318A8600B00DBDC4A /* Images.xcassets in Resources */,
+				561EAEA6164B707A00350DCB /* MainStoryboard.storyboard in Resources */,
+				56AAC0AD18A7D22C00DBDC4A /* pz58.png in Resources */,
+				56AAC0A918A7D21800DBDC4A /* pz120.png in Resources */,
+				56516B0C1840B68B00E9EAA9 /* header.jpg in Resources */,
+				56A012101689721300DC2EED /* Default-568h@2x.png in Resources */,
+				56AAC0AB18A7D22300DBDC4A /* pz80.png in Resources */,
+				56A012121689721600DC2EED /* Default@2x.png in Resources */,
+				56A012141689721900DC2EED /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561EAEAC164B707A00350DCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561EAEBB164B707A00350DCB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		561EAEAD164B707A00350DCB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		561EAE84164B707A00350DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561EAE99164B707A00350DCB /* main.m in Sources */,
+				561EAE9D164B707A00350DCB /* AppDelegate.m in Sources */,
+				561EAEA9164B707A00350DCB /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		561EAEAA164B707A00350DCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				561EAEBE164B707A00350DCB /* Purple_ZuneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		561EAEB5164B707A00350DCB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 561EAE87164B707A00350DCB /* Purple Zune */;
+			targetProxy = 561EAEB4164B707A00350DCB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		561EAE95164B707A00350DCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561EAE96164B707A00350DCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		561EAEA4164B707A00350DCB /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561EAEA5164B707A00350DCB /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		561EAEB9164B707A00350DCB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				561EAEBA164B707A00350DCB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		561EAEBF164B707A00350DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Infant Louis Richards C (GCGC57VXSF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Infant Louis Richards C (GCGC57VXSF)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		561EAEC0164B707A00350DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Infant Louis Richards C (UHDBH2TEY2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Infant Louis Richards C (UHDBH2TEY2)";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		561EAEC2164B707A00350DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Purple Zune/Purple Zune-Prefix.pch";
+				INFOPLIST_FILE = "Purple Zune/Purple Zune-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		561EAEC3164B707A00350DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Purple Zune/Purple Zune-Prefix.pch";
+				INFOPLIST_FILE = "Purple Zune/Purple Zune-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		561EAEC5164B707A00350DCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Purple Zune.app/Purple Zune";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Purple Zune/Purple Zune-Prefix.pch";
+				INFOPLIST_FILE = "Purple ZuneTests/Purple ZuneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		561EAEC6164B707A00350DCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Purple Zune.app/Purple Zune";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Purple Zune/Purple Zune-Prefix.pch";
+				INFOPLIST_FILE = "Purple ZuneTests/Purple ZuneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		561EAE82164B707A00350DCB /* Build configuration list for PBXProject "Purple Zune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561EAEBF164B707A00350DCB /* Debug */,
+				561EAEC0164B707A00350DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561EAEC1164B707A00350DCB /* Build configuration list for PBXNativeTarget "Purple Zune" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561EAEC2164B707A00350DCB /* Debug */,
+				561EAEC3164B707A00350DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		561EAEC4164B707A00350DCB /* Build configuration list for PBXNativeTarget "Purple ZuneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				561EAEC5164B707A00350DCB /* Debug */,
+				561EAEC6164B707A00350DCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 561EAE7F164B707A00350DCB /* Project object */;
+}

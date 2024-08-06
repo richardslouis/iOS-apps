@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lxH-qn-Aoz"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ibi-d1-5hO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="ViewCon">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iBb-de-gLK">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rxJ-XE-GYk">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem id="UcA-rS-1Oh"/>
+                                </items>
+                            </navigationBar>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f06-Fc-KRa">
+                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                                <color key="barTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem id="b23-ab-LXV">
+                                        <nil key="title"/>
+                                        <barButtonItem key="leftBarButtonItem" style="plain" id="dM4-V1-Uya">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="ufU-8L-Klg">
+                                                <rect key="frame" x="16" y="7" width="64" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="↻ Reload">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="reload" destination="iBb-de-gLK" eventType="touchDown" id="DRq-26-Xqm"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="mzB-4e-Osg">
+                                            <rect key="frame" x="162.5" y="5.5" width="50" height="33"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                            <state key="normal" title="Finiup">
+                                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </state>
+                                            <connections>
+                                                <segue destination="BYZ-38-t0r" kind="presentation" id="ZU8-eD-zRA"/>
+                                            </connections>
+                                        </button>
+                                        <barButtonItem key="rightBarButtonItem" style="plain" id="fi2-VD-vDN">
+                                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="sqK-Gm-lMq">
+                                                <rect key="frame" x="302" y="7" width="57" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <state key="normal" title="&lt;&lt; Back">
+                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="goBack" destination="iBb-de-gLK" eventType="touchDown" id="jy6-zJ-SGQ"/>
+                                                </connections>
+                                            </button>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="jRP-B6-Qfs" userLabel="Activity">
+                                <rect key="frame" x="322" y="610" width="37" height="37"/>
+                                <color key="color" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="rxJ-XE-GYk" firstAttribute="leading" secondItem="f06-Fc-KRa" secondAttribute="leading" id="54z-BG-UhE"/>
+                            <constraint firstItem="f06-Fc-KRa" firstAttribute="trailing" secondItem="iBb-de-gLK" secondAttribute="trailing" id="BI6-bn-ghi"/>
+                            <constraint firstItem="jRP-B6-Qfs" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="D6E-fv-idV"/>
+                            <constraint firstItem="rxJ-XE-GYk" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="G0V-AX-3eb"/>
+                            <constraint firstItem="iBb-de-gLK" firstAttribute="bottom" secondItem="Ibi-d1-5hO" secondAttribute="top" id="J2G-2Z-P49"/>
+                            <constraint firstItem="iBb-de-gLK" firstAttribute="top" secondItem="f06-Fc-KRa" secondAttribute="bottom" id="Lbb-rl-ALR"/>
+                            <constraint firstAttribute="bottom" secondItem="jRP-B6-Qfs" secondAttribute="bottom" constant="20" symbolic="YES" id="TET-xg-x0Y"/>
+                            <constraint firstItem="f06-Fc-KRa" firstAttribute="leading" secondItem="iBb-de-gLK" secondAttribute="leading" id="WC2-UY-QWa"/>
+                            <constraint firstItem="f06-Fc-KRa" firstAttribute="top" secondItem="lxH-qn-Aoz" secondAttribute="bottom" id="cNJ-Fr-b3k"/>
+                            <constraint firstItem="rxJ-XE-GYk" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="cmw-BE-8vl"/>
+                            <constraint firstItem="rxJ-XE-GYk" firstAttribute="trailing" secondItem="f06-Fc-KRa" secondAttribute="trailing" id="lth-JH-oCl"/>
+                            <constraint firstAttribute="trailing" secondItem="rxJ-XE-GYk" secondAttribute="trailing" id="svy-Cn-ILS"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activity" destination="jRP-B6-Qfs" id="J67-K4-c4u"/>
+                        <outlet property="myWebView" destination="iBb-de-gLK" id="7DD-qD-ebI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="303" y="364"/>
+        </scene>
+    </scenes>
+</document>

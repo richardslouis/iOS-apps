@@ -113,8 +113,10 @@
 		5674701716104EB900AD3F21 /* 44.png in Resources */ = {isa = PBXBuildFile; fileRef = 56746FC016104EB900AD3F21 /* 44.png */; };
 		5674701816104EB900AD3F21 /* 45.png in Resources */ = {isa = PBXBuildFile; fileRef = 56746FC116104EB900AD3F21 /* 45.png */; };
 		5674701916104EB900AD3F21 /* 45.png in Resources */ = {isa = PBXBuildFile; fileRef = 56746FC116104EB900AD3F21 /* 45.png */; };
-		56747027161052AB00AD3F21 /* eye57.png in Resources */ = {isa = PBXBuildFile; fileRef = 56747026161052AB00AD3F21 /* eye57.png */; };
-		56747029161052AE00AD3F21 /* eye114.png in Resources */ = {isa = PBXBuildFile; fileRef = 56747028161052AE00AD3F21 /* eye114.png */; };
+		56A2516B183EEC200077E393 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A2516A183EEC200077E393 /* Images.xcassets */; };
+		56AAC0BB18A7D3CC00DBDC4A /* ivchart58.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC0BA18A7D3CC00DBDC4A /* ivchart58.png */; };
+		56AAC0BD18A7D3E400DBDC4A /* ivchart80.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC0BC18A7D3E400DBDC4A /* ivchart80.png */; };
+		56AAC0BF18A7D3EE00DBDC4A /* ivchart120.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC0BE18A7D3EE00DBDC4A /* ivchart120.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -195,8 +197,10 @@
 		56746FBF16104EB900AD3F21 /* 43.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 43.png; sourceTree = "<group>"; };
 		56746FC016104EB900AD3F21 /* 44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 44.png; sourceTree = "<group>"; };
 		56746FC116104EB900AD3F21 /* 45.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 45.png; sourceTree = "<group>"; };
-		56747026161052AB00AD3F21 /* eye57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye57.png; sourceTree = "<group>"; };
-		56747028161052AE00AD3F21 /* eye114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye114.png; sourceTree = "<group>"; };
+		56A2516A183EEC200077E393 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		56AAC0BA18A7D3CC00DBDC4A /* ivchart58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ivchart58.png; sourceTree = "<group>"; };
+		56AAC0BC18A7D3E400DBDC4A /* ivchart80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ivchart80.png; sourceTree = "<group>"; };
+		56AAC0BE18A7D3EE00DBDC4A /* ivchart120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ivchart120.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,8 +230,9 @@
 		56746F491610344100AD3F21 = {
 			isa = PBXGroup;
 			children = (
-				56747028161052AE00AD3F21 /* eye114.png */,
-				56747026161052AB00AD3F21 /* eye57.png */,
+				56AAC0BE18A7D3EE00DBDC4A /* ivchart120.png */,
+				56AAC0BC18A7D3E400DBDC4A /* ivchart80.png */,
+				56AAC0BA18A7D3CC00DBDC4A /* ivchart58.png */,
 				56746F5E1610344100AD3F21 /* iVision Chart */,
 				56746F821610344200AD3F21 /* iVision ChartTests */,
 				56746F571610344100AD3F21 /* Frameworks */,
@@ -308,6 +313,7 @@
 				56746FBF16104EB900AD3F21 /* 43.png */,
 				56746FC016104EB900AD3F21 /* 44.png */,
 				56746FC116104EB900AD3F21 /* 45.png */,
+				56A2516A183EEC200077E393 /* Images.xcassets */,
 				56746F5F1610344100AD3F21 /* Supporting Files */,
 			);
 			path = "iVision Chart";
@@ -393,6 +399,11 @@
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Richards Louis";
+				TargetAttributes = {
+					56746F531610344100AD3F21 = {
+						DevelopmentTeam = UHDBH2TEY2;
+					};
+				};
 			};
 			buildConfigurationList = 56746F4E1610344100AD3F21 /* Build configuration list for PBXProject "iVision Chart" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -423,9 +434,12 @@
 				56746F6F1610344100AD3F21 /* Default-568h@2x.png in Resources */,
 				56746F721610344100AD3F21 /* MainStoryboard.storyboard in Resources */,
 				56746F9416104D2100AD3F21 /* 1.png in Resources */,
+				56AAC0BD18A7D3E400DBDC4A /* ivchart80.png in Resources */,
+				56AAC0BB18A7D3CC00DBDC4A /* ivchart58.png in Resources */,
 				56746FC216104EB900AD3F21 /* 2.png in Resources */,
 				56746FC416104EB900AD3F21 /* 3.png in Resources */,
 				56746FC616104EB900AD3F21 /* 4.png in Resources */,
+				56A2516B183EEC200077E393 /* Images.xcassets in Resources */,
 				56746FC816104EB900AD3F21 /* 5.png in Resources */,
 				56746FCA16104EB900AD3F21 /* 6.png in Resources */,
 				56746FCC16104EB900AD3F21 /* 7.png in Resources */,
@@ -445,6 +459,7 @@
 				56746FE816104EB900AD3F21 /* 21.png in Resources */,
 				56746FEA16104EB900AD3F21 /* 22.png in Resources */,
 				56746FEC16104EB900AD3F21 /* 23.png in Resources */,
+				56AAC0BF18A7D3EE00DBDC4A /* ivchart120.png in Resources */,
 				56746FEE16104EB900AD3F21 /* 24.png in Resources */,
 				56746FF016104EB900AD3F21 /* 25.png in Resources */,
 				56746FF216104EB900AD3F21 /* 26.png in Resources */,
@@ -467,8 +482,6 @@
 				5674701416104EB900AD3F21 /* 43.png in Resources */,
 				5674701616104EB900AD3F21 /* 44.png in Resources */,
 				5674701816104EB900AD3F21 /* 45.png in Resources */,
-				56747027161052AB00AD3F21 /* eye57.png in Resources */,
-				56747029161052AE00AD3F21 /* eye114.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -652,11 +665,13 @@
 		56746F8E1610344200AD3F21 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Infant Louis Richards C (GCGC57VXSF)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iVision Chart/iVision Chart-Prefix.pch";
 				INFOPLIST_FILE = "iVision Chart/iVision Chart-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
@@ -666,15 +681,17 @@
 		56746F8F1610344200AD3F21 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Distribution: Infant Louis Richards C";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Infant Louis Richards C";
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Infant Louis Richards C (UHDBH2TEY2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Infant Louis Richards C (UHDBH2TEY2)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iVision Chart/iVision Chart-Prefix.pch";
 				INFOPLIST_FILE = "iVision Chart/iVision Chart-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "FA499DE8-427C-4B55-9EE2-479F671CAEF4";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "FA499DE8-427C-4B55-9EE2-479F671CAEF4";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -732,6 +749,7 @@
 				56746F8F1610344200AD3F21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		56746F901610344200AD3F21 /* Build configuration list for PBXNativeTarget "iVision ChartTests" */ = {
 			isa = XCConfigurationList;
@@ -740,6 +758,7 @@
 				56746F921610344200AD3F21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
