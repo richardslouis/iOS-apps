@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="13A603" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES" initialViewController="49e-Tb-3d3">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="yl2-sM-qoP">
+            <objects>
+                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" backgroundImage="footerpro.png" id="W28-zg-YXA">
+                        <rect key="frame" x="0.0" y="975" width="768" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="iGa-lD-kGc" kind="relationship" relationship="viewControllers" id="sYy-Kc-1rd"/>
+                        <segue destination="l5S-7X-V7Q" kind="relationship" relationship="viewControllers" id="pG6-Jj-g9L"/>
+                        <segue destination="Gfz-y0-Tb4" kind="relationship" relationship="viewControllers" id="UrP-is-G4U"/>
+                        <segue destination="yB1-rr-scW" kind="relationship" relationship="viewControllers" id="jgn-yU-XeR"/>
+                        <segue destination="Lqs-OO-G9C" kind="relationship" relationship="viewControllers" id="zV1-X1-upg"/>
+                        <segue destination="y44-d2-46G" kind="relationship" relationship="viewControllers" id="657-D9-VHe"/>
+                        <segue destination="eNI-dN-Nsn" kind="relationship" relationship="viewControllers" id="t3j-YD-3ef"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1143" y="862"/>
+        </scene>
+        <!--First View Controller-->
+        <scene sceneID="Gb0-72-Hd1">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" modalTransitionStyle="crossDissolve" id="iGa-lD-kGc" customClass="FirstViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="T4C-eU-4Zh"/>
+                        <viewControllerLayoutGuide type="bottom" id="hWk-wb-2OI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Epf-3N-Ykb">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vGN-2L-lpZ">
+                                <rect key="frame" x="0.0" y="88" width="768" height="887"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" barStyle="blackTranslucent" translatesAutoresizingMaskIntoConstraints="NO" id="kcO-Iw-v4m">
+                                <rect key="frame" x="0.0" y="44" width="768" height="44"/>
+                                <items>
+                                    <barButtonItem style="done" id="mHQ-od-VU3">
+                                        <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" borderStyle="roundedRect" placeholder="Use http:// or https:// before your web url" minimumFontSize="17" clearButtonMode="always" id="Ib0-d6-lAY">
+                                            <rect key="frame" x="16" y="7" width="402" height="30"/>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            <attributedString key="attributedText">
+                                                <fragment content="http://">
+                                                    <attributes>
+                                                        <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" size="14" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="URL" keyboardAppearance="alert" returnKeyType="done"/>
+                                            <connections>
+                                                <action selector="addressEntered:" destination="iGa-lD-kGc" eventType="editingDidEndOnExit" id="5Ex-ST-rj8"/>
+                                                <action selector="addressEntered:" destination="wTq-7X-Jqk" eventType="editingDidEndOnExit" id="w7U-ZN-yGF"/>
+                                            </connections>
+                                        </textField>
+                                        <color key="tintColor" red="0.25760361339999999" green="0.47534503830000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </barButtonItem>
+                                    <barButtonItem width="28" style="plain" systemItem="fixedSpace" id="UYo-S0-sXD"/>
+                                    <barButtonItem title="Back" id="S67-87-wea">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goBack" destination="vGN-2L-lpZ" id="0vK-ax-fdF"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Next" id="GDL-H0-Q6A">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goForward" destination="vGN-2L-lpZ" id="BFr-hX-og5"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Reload" id="1md-FJ-ozW">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="reload" destination="vGN-2L-lpZ" id="PmG-yh-SE2"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Stop" id="cc6-hc-fAz">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="stopLoading" destination="vGN-2L-lpZ" id="OJe-0Y-3yA"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Flip all" id="uMT-no-bIs">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="49e-Tb-3d3" kind="modal" id="7Yr-GJ-8pz"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </toolbar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Purple Pro HD 1.0  A Infant Louis Richards browser (c) 2014" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xcx-2q-cfe">
+                                <rect key="frame" x="226" y="30" width="309" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="al6-VM-GXf">
+                                <rect key="frame" x="366" y="56" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" id="feD-RO-KDu"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="activity" destination="al6-VM-GXf" id="GYp-L7-kjB"/>
+                        <outlet property="address" destination="Ib0-d6-lAY" id="8tq-Mq-6Ml"/>
+                        <outlet property="browser" destination="vGN-2L-lpZ" id="oz2-6K-NMS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wTq-7X-Jqk" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2114" y="-65"/>
+        </scene>
+        <!--Seventh View Controller-->
+        <scene sceneID="6pd-6g-897">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" modalTransitionStyle="crossDissolve" id="eNI-dN-Nsn" customClass="SeventhViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GM5-VS-q0O"/>
+                        <viewControllerLayoutGuide type="bottom" id="LVt-ug-dA6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Cjw-bC-akV">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="vHr-Aw-UHR">
+                                <rect key="frame" x="0.0" y="88" width="768" height="887"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" barStyle="blackTranslucent" translatesAutoresizingMaskIntoConstraints="NO" id="DNC-1t-Jhk">
+                                <rect key="frame" x="0.0" y="44" width="768" height="44"/>
+                                <items>
+                                    <barButtonItem style="done" id="rdx-yu-a6P">
+                                        <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" borderStyle="roundedRect" placeholder="Use http:// or https:// before your web url" minimumFontSize="17" clearButtonMode="always" id="rFA-cU-4gL">
+                                            <rect key="frame" x="16" y="7" width="402" height="30"/>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            <attributedString key="attributedText">
+                                                <fragment content="http://">
+                                                    <attributes>
+                                                        <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" size="14" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="URL" keyboardAppearance="alert" returnKeyType="done"/>
+                                            <connections>
+                                                <action selector="addressEntered:" destination="wTq-7X-Jqk" eventType="editingDidEndOnExit" id="2Ah-yg-dkA"/>
+                                                <action selector="addressEntered:" destination="eNI-dN-Nsn" eventType="editingDidEndOnExit" id="YfZ-If-o0g"/>
+                                                <action selector="addressEntered:" destination="Kxy-KN-rwA" eventType="editingDidEndOnExit" id="dZ4-08-Dgz"/>
+                                            </connections>
+                                        </textField>
+                                        <color key="tintColor" red="0.25760361339999999" green="0.47534503830000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </barButtonItem>
+                                    <barButtonItem width="28" style="plain" systemItem="fixedSpace" id="o9M-r6-VEQ"/>
+                                    <barButtonItem title="Back" id="d9w-aN-Fzf">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goBack" destination="vHr-Aw-UHR" id="IaE-jY-ces"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Next" id="6kE-W6-yV5">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goForward" destination="vHr-Aw-UHR" id="dVu-33-s59"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Reload" id="nJf-NC-L1E">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="reload" destination="vHr-Aw-UHR" id="ueV-dd-1Uj"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Stop" id="Zfl-yk-iRh">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="stopLoading" destination="vHr-Aw-UHR" id="4d9-uw-gIM"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Flip all" id="qro-YC-LrB">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="49e-Tb-3d3" kind="modal" id="ldF-rA-SG2"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </toolbar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Purple Pro HD 1.0  A Infant Louis Richards browser (c) 2014" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FEA-nz-Lkx">
+                                <rect key="frame" x="226" y="30" width="309" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="rDu-KU-HGJ">
+                                <rect key="frame" x="366" y="56" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" id="0Gv-nF-e50"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="activity" destination="rDu-KU-HGJ" id="WqY-MD-k9B"/>
+                        <outlet property="address" destination="rFA-cU-4gL" id="bfn-PW-hBC"/>
+                        <outlet property="browser" destination="vHr-Aw-UHR" id="jOP-wY-0Ft"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kxy-KN-rwA" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2938" y="2199"/>
+        </scene>
+        <!--Sixth View Controller-->
+        <scene sceneID="KhI-GX-cYi">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" modalTransitionStyle="crossDissolve" id="y44-d2-46G" customClass="SixthViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aow-hs-TO3"/>
+                        <viewControllerLayoutGuide type="bottom" id="oTW-Bz-Whe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="blD-2E-4Nz">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y4b-4S-pMo">
+                                <rect key="frame" x="0.0" y="88" width="768" height="887"/>
+                                <color key="backgroundColor" red="0.67213161499999996" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" barStyle="blackTranslucent" translatesAutoresizingMaskIntoConstraints="NO" id="wMg-im-3Jy">
+                                <rect key="frame" x="0.0" y="44" width="768" height="44"/>
+                                <items>
+                                    <barButtonItem style="done" id="r11-fe-v4Q">
+                                        <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" borderStyle="roundedRect" placeholder="Use http:// or https:// before your web url" minimumFontSize="17" clearButtonMode="always" id="e3V-gP-kei">
+                                            <rect key="frame" x="16" y="7" width="402" height="30"/>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            <attributedString key="attributedText">
+                                                <fragment content="http://">
+                                                    <attributes>
+                                                        <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" size="14" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="URL" keyboardAppearance="alert" returnKeyType="done"/>
+                                            <connections>
+                                                <action selector="addressEntered:" destination="y44-d2-46G" eventType="editingDidEndOnExit" id="IDr-7N-gir"/>
+                                                <action selector="addressEntered:" destination="wTq-7X-Jqk" eventType="editingDidEndOnExit" id="oLk-Df-c2i"/>
+                                                <action selector="addressEntered:" destination="tIZ-zf-78E" eventType="editingDidEndOnExit" id="pHr-ry-vwW"/>
+                                            </connections>
+                                        </textField>
+                                        <color key="tintColor" red="0.25760361339999999" green="0.47534503830000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </barButtonItem>
+                                    <barButtonItem width="28" style="plain" systemItem="fixedSpace" id="9Wm-NM-mwI"/>
+                                    <barButtonItem title="Back" id="F9U-pw-yJF">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goBack" destination="y4b-4S-pMo" id="UQU-SV-fi2"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Next" id="t4D-dD-blN">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goForward" destination="y4b-4S-pMo" id="ySB-VR-eJI"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Reload" id="CJN-EG-loi">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="reload" destination="y4b-4S-pMo" id="jC6-JF-CMu"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Stop" id="IKr-Q9-7Ii">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="stopLoading" destination="y4b-4S-pMo" id="Cv4-S8-lyJ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Flip all" id="jox-6s-PuE">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="49e-Tb-3d3" kind="modal" id="5iw-B8-qIo"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" red="0.67213161499999996" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Purple Pro HD 1.0  A Infant Louis Richards browser (c) 2014" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jOn-JI-mQs">
+                                <rect key="frame" x="226" y="30" width="309" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="Fcf-1N-DKh">
+                                <rect key="frame" x="366" y="56" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="color" red="0.67213161499999996" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" id="cr5-mV-Pr5"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="activity" destination="Fcf-1N-DKh" id="mFJ-cF-150"/>
+                        <outlet property="address" destination="e3V-gP-kei" id="vvS-F3-obq"/>
+                        <outlet property="browser" destination="y4b-4S-pMo" id="6JH-VJ-Da8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tIZ-zf-78E" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2106" y="2207"/>
+        </scene>
+        <!--Fifth View Controller-->
+        <scene sceneID="hd3-Vn-WZx">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" modalTransitionStyle="crossDissolve" id="Lqs-OO-G9C" customClass="FifthViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rzM-Oh-nbc"/>
+                        <viewControllerLayoutGuide type="bottom" id="HC1-ay-Q30"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="y4I-HB-QXF">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cGn-Ze-a0Y">
+                                <rect key="frame" x="0.0" y="88" width="768" height="887"/>
+                                <color key="backgroundColor" red="0.98039221759999995" green="0.73333334920000004" blue="0.011764707040000001" alpha="1" colorSpace="deviceRGB"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" barStyle="blackTranslucent" translatesAutoresizingMaskIntoConstraints="NO" id="p4K-GD-Pbv">
+                                <rect key="frame" x="0.0" y="44" width="768" height="44"/>
+                                <items>
+                                    <barButtonItem style="done" id="5Gr-OS-lqz">
+                                        <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" borderStyle="roundedRect" placeholder="Use http:// or https:// before your web url" minimumFontSize="17" clearButtonMode="always" id="Z01-3A-H7e">
+                                            <rect key="frame" x="16" y="7" width="402" height="30"/>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            <attributedString key="attributedText">
+                                                <fragment content="http://">
+                                                    <attributes>
+                                                        <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" size="14" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="URL" keyboardAppearance="alert" returnKeyType="done"/>
+                                            <connections>
+                                                <action selector="addressEntered:" destination="fRO-vJ-7Dw" eventType="editingDidEndOnExit" id="WCn-5k-1R4"/>
+                                                <action selector="addressEntered:" destination="Lqs-OO-G9C" eventType="editingDidEndOnExit" id="YUN-zi-sQr"/>
+                                                <action selector="addressEntered:" destination="wTq-7X-Jqk" eventType="editingDidEndOnExit" id="hN9-Ps-jPs"/>
+                                            </connections>
+                                        </textField>
+                                        <color key="tintColor" red="0.25760361339999999" green="0.47534503830000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </barButtonItem>
+                                    <barButtonItem width="28" style="plain" systemItem="fixedSpace" id="8lj-en-86P"/>
+                                    <barButtonItem title="Back" id="eel-kH-FMu">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goBack" destination="cGn-Ze-a0Y" id="ogb-Em-yLX"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Next" id="mDx-0h-MOx">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goForward" destination="cGn-Ze-a0Y" id="i3Z-mp-jHf"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Reload" id="BNf-gl-Rw7">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="reload" destination="cGn-Ze-a0Y" id="03D-Cz-Z4d"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Stop" id="nkX-yI-DWd">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="stopLoading" destination="cGn-Ze-a0Y" id="xtN-l1-r4d"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Flip all" id="MjM-YP-lcS">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="49e-Tb-3d3" kind="modal" id="hDf-Xl-n0U"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" red="0.98039221759999995" green="0.73333334920000004" blue="0.011764707040000001" alpha="1" colorSpace="deviceRGB"/>
+                            </toolbar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Purple Pro HD 1.0  A Infant Louis Richards browser (c) 2014" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o19-QV-a4q">
+                                <rect key="frame" x="226" y="30" width="309" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="1Zg-5c-Cdz">
+                                <rect key="frame" x="366" y="56" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="color" red="0.98039221759999995" green="0.73333334920000004" blue="0.011764707040000001" alpha="1" colorSpace="deviceRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" id="W8p-UH-yWW"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="activity" destination="1Zg-5c-Cdz" id="GyZ-oE-Jcg"/>
+                        <outlet property="address" destination="Z01-3A-H7e" id="OgP-Pp-uIY"/>
+                        <outlet property="browser" destination="cGn-Ze-a0Y" id="5FM-x3-imn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fRO-vJ-7Dw" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1226" y="2199"/>
+        </scene>
+        <!--Fourth View Controller-->
+        <scene sceneID="T0R-rI-apj">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" modalTransitionStyle="crossDissolve" id="yB1-rr-scW" customClass="FourthViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QBh-XP-fEq"/>
+                        <viewControllerLayoutGuide type="bottom" id="aJR-JB-gKD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PTn-QQ-fiN">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LZy-Di-Ilh">
+                                <rect key="frame" x="0.0" y="88" width="768" height="887"/>
+                                <color key="backgroundColor" red="0.78114775960000005" green="0.26505448199999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" barStyle="blackTranslucent" translatesAutoresizingMaskIntoConstraints="NO" id="ueE-78-tI7">
+                                <rect key="frame" x="0.0" y="44" width="768" height="44"/>
+                                <items>
+                                    <barButtonItem style="done" id="cGC-y2-2Qv">
+                                        <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" borderStyle="roundedRect" placeholder="Use http:// or https:// before your web url" minimumFontSize="17" clearButtonMode="always" id="K06-uX-FGO">
+                                            <rect key="frame" x="16" y="7" width="402" height="30"/>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            <attributedString key="attributedText">
+                                                <fragment content="http://">
+                                                    <attributes>
+                                                        <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" size="14" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="URL" keyboardAppearance="alert" returnKeyType="done"/>
+                                            <connections>
+                                                <action selector="addressEntered:" destination="Opy-XW-kfu" eventType="editingDidEndOnExit" id="27O-ZY-sgN"/>
+                                                <action selector="addressEntered:" destination="wTq-7X-Jqk" eventType="editingDidEndOnExit" id="ChS-BM-Cwr"/>
+                                                <action selector="addressEntered:" destination="yB1-rr-scW" eventType="editingDidEndOnExit" id="o2L-hj-2ya"/>
+                                            </connections>
+                                        </textField>
+                                        <color key="tintColor" red="0.25760361339999999" green="0.47534503830000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </barButtonItem>
+                                    <barButtonItem width="28" style="plain" systemItem="fixedSpace" id="I7p-Hj-CGT"/>
+                                    <barButtonItem title="Back" id="GaZ-E3-xFz">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goBack" destination="LZy-Di-Ilh" id="AZE-pr-lql"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Next" id="66m-Qk-Uov">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goForward" destination="LZy-Di-Ilh" id="WBf-wK-NjP"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Reload" id="cj7-BF-Lrp">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="reload" destination="LZy-Di-Ilh" id="ua3-ej-LAp"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Stop" id="xEh-ad-Et7">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="stopLoading" destination="LZy-Di-Ilh" id="uIQ-a1-f2O"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Flip all" id="cP5-3X-Y4e">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="49e-Tb-3d3" kind="modal" id="atS-Ce-6EX"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" red="0.78114775960000005" green="0.26505448199999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Purple Pro HD 1.0  A Infant Louis Richards browser (c) 2014" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oKO-8Z-tg7">
+                                <rect key="frame" x="226" y="30" width="309" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="pK5-cR-5CR">
+                                <rect key="frame" x="366" y="56" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="color" red="0.78114775960000005" green="0.26505448199999998" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" id="vE6-ws-UEo"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="activity" destination="pK5-cR-5CR" id="0fe-6l-fzg"/>
+                        <outlet property="address" destination="K06-uX-FGO" id="Ph9-2l-Kqu"/>
+                        <outlet property="browser" destination="LZy-Di-Ilh" id="nga-iE-lTt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Opy-XW-kfu" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2922" y="1047"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="a39-kd-HFd">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" modalTransitionStyle="crossDissolve" id="Gfz-y0-Tb4" customClass="ThirdViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QWw-Ey-Nsj"/>
+                        <viewControllerLayoutGuide type="bottom" id="zNi-Qh-icJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="NiE-eb-n7w">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="L92-Ia-JGp">
+                                <rect key="frame" x="0.0" y="88" width="768" height="887"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" barStyle="blackTranslucent" translatesAutoresizingMaskIntoConstraints="NO" id="8GU-1H-wdc">
+                                <rect key="frame" x="0.0" y="44" width="768" height="44"/>
+                                <items>
+                                    <barButtonItem style="done" id="8qv-RU-ttk">
+                                        <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" borderStyle="roundedRect" placeholder="Use http:// or https:// before your web url" minimumFontSize="17" clearButtonMode="always" id="zVl-0q-Wgc">
+                                            <rect key="frame" x="16" y="7" width="402" height="30"/>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            <attributedString key="attributedText">
+                                                <fragment content="http://">
+                                                    <attributes>
+                                                        <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" size="14" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="URL" keyboardAppearance="alert" returnKeyType="done"/>
+                                            <connections>
+                                                <action selector="addressEntered:" destination="lEw-n3-d7X" eventType="editingDidEndOnExit" id="5pU-uc-Mo6"/>
+                                                <action selector="addressEntered:" destination="Gfz-y0-Tb4" eventType="editingDidEndOnExit" id="6Vb-GU-o5G"/>
+                                                <action selector="addressEntered:" destination="wTq-7X-Jqk" eventType="editingDidEndOnExit" id="VyC-1N-BCl"/>
+                                            </connections>
+                                        </textField>
+                                        <color key="tintColor" red="0.25760361339999999" green="0.47534503830000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </barButtonItem>
+                                    <barButtonItem width="28" style="plain" systemItem="fixedSpace" id="KqX-c8-bcP"/>
+                                    <barButtonItem title="Back" id="IVL-lz-hYA">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goBack" destination="L92-Ia-JGp" id="zI3-vG-Thw"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Next" id="04c-we-4fw">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goForward" destination="L92-Ia-JGp" id="tGB-Y9-wQO"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Reload" id="thP-cz-wCq">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="reload" destination="L92-Ia-JGp" id="xGY-z4-8h4"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Stop" id="d0K-P6-hXA">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="stopLoading" destination="L92-Ia-JGp" id="snw-sy-Fcx"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Flip all" id="0im-kK-CIE">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="49e-Tb-3d3" kind="modal" id="gAD-Sw-G8F"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Purple Pro HD 1.0  A Infant Louis Richards browser (c) 2014" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tc9-9E-tEv">
+                                <rect key="frame" x="226" y="30" width="309" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="kNd-Co-V0e">
+                                <rect key="frame" x="366" y="56" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="color" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" id="jqS-tL-bz0"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="activity" destination="kNd-Co-V0e" id="q2J-Wg-UFu"/>
+                        <outlet property="address" destination="zVl-0q-Wgc" id="uXz-74-qvj"/>
+                        <outlet property="browser" destination="L92-Ia-JGp" id="CWR-2y-vaK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lEw-n3-d7X" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2106" y="1047"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="tGV-iB-BBC">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" modalTransitionStyle="crossDissolve" id="l5S-7X-V7Q" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="85G-qj-LfS"/>
+                        <viewControllerLayoutGuide type="bottom" id="lec-Hx-Fb6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VBS-KA-qcX">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rwv-wz-4Nz">
+                                <rect key="frame" x="0.0" y="88" width="768" height="887"/>
+                                <color key="backgroundColor" red="0.40794022759999998" green="0.72920145979999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" fixedFrame="YES" barStyle="blackTranslucent" translatesAutoresizingMaskIntoConstraints="NO" id="HyW-P0-nz0">
+                                <rect key="frame" x="0.0" y="44" width="768" height="44"/>
+                                <items>
+                                    <barButtonItem style="done" id="iuJ-cp-wlx">
+                                        <textField key="customView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" usesAttributedText="YES" allowsEditingTextAttributes="YES" borderStyle="roundedRect" placeholder="Use http:// or https:// before your web url" minimumFontSize="17" clearButtonMode="always" id="aTo-sv-TNc">
+                                            <rect key="frame" x="16" y="7" width="402" height="30"/>
+                                            <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            <attributedString key="attributedText">
+                                                <fragment content="http://">
+                                                    <attributes>
+                                                        <color key="NSColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                                        <font key="NSFont" size="14" name="Helvetica"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="URL" keyboardAppearance="alert" returnKeyType="done"/>
+                                            <connections>
+                                                <action selector="addressEntered:" destination="l5S-7X-V7Q" eventType="editingDidEndOnExit" id="MhP-EM-YAc"/>
+                                                <action selector="addressEntered:" destination="2Vn-ON-f5n" eventType="editingDidEndOnExit" id="fcO-bX-Yqo"/>
+                                                <action selector="addressEntered:" destination="wTq-7X-Jqk" eventType="editingDidEndOnExit" id="ggV-Vn-Ol6"/>
+                                            </connections>
+                                        </textField>
+                                        <color key="tintColor" red="0.25760361339999999" green="0.47534503830000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </barButtonItem>
+                                    <barButtonItem width="28" style="plain" systemItem="fixedSpace" id="dwz-B9-iXE"/>
+                                    <barButtonItem title="Back" id="rQ9-5s-JVd">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goBack" destination="Rwv-wz-4Nz" id="ZbE-bm-2dH"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Next" id="98l-Qy-b7x">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goForward" destination="Rwv-wz-4Nz" id="3dS-hV-qcy"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Reload" id="UGQ-U4-jNi">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="reload" destination="Rwv-wz-4Nz" id="tKT-qK-NZ4"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Stop" id="3Dy-CT-ms7">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="stopLoading" destination="Rwv-wz-4Nz" id="ORZ-HY-PoD"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Flip all" id="cwM-mS-qH2">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="49e-Tb-3d3" kind="modal" id="kzT-tH-30M"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" red="0.40794022759999998" green="0.72920145979999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Purple Pro HD 1.0  A Infant Louis Richards browser (c) 2014" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bvN-tL-0Df">
+                                <rect key="frame" x="226" y="30" width="309" height="14"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="a8r-A7-mZI">
+                                <rect key="frame" x="366" y="56" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="color" red="0.40794022759999998" green="0.72920145979999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" id="Iiz-be-dyw"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <connections>
+                        <outlet property="activity" destination="a8r-A7-mZI" id="6bd-QE-gBz"/>
+                        <outlet property="address" destination="aTo-sv-TNc" id="vDE-Ns-2dK"/>
+                        <outlet property="browser" destination="Rwv-wz-4Nz" id="KRB-s0-51k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2Vn-ON-f5n" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2938" y="-65"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="footerpro.png" width="765" height="58"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackOpaque"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="kzT-tH-30M"/>
+    </inferredMetricsTieBreakers>
+</document>

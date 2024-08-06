@@ -1,0 +1,528 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="gNY-hc-HfC">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="sQr-ja-Qks">
+            <objects>
+                <tabBarController definesPresentationContext="YES" id="gNY-hc-HfC" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="black" backgroundImage="footer.png" id="zRf-Cy-wnO">
+                        <rect key="frame" x="129" y="330" width="163" height="49"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <inset key="insetFor6xAndEarlier" minX="0.0" minY="0.0" maxX="0.0" maxY="-25"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="selectedImageTintColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="TJm-0Z-FlD" kind="relationship" relationship="viewControllers" id="nhh-Ls-FMq"/>
+                        <segue destination="Qmq-rC-wWP" kind="relationship" relationship="viewControllers" id="70f-2a-0zN"/>
+                        <segue destination="k2J-hx-HZJ" kind="relationship" relationship="viewControllers" id="fFg-53-K7O"/>
+                        <segue destination="ND1-8F-p24" kind="relationship" relationship="viewControllers" id="eHw-h4-okJ"/>
+                        <segue destination="SL9-h6-ZaQ" kind="relationship" relationship="viewControllers" id="7RO-RT-Qha"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BRy-fQ-AYi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-225" y="98"/>
+        </scene>
+        <!--First View Controller-->
+        <scene sceneID="FCp-uX-I4y">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" modalTransitionStyle="crossDissolve" id="TJm-0Z-FlD" customClass="FirstViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xkI-Sk-TE3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="1FM-Oy-sDR">
+                                <rect key="frame" x="0.0" y="36" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="1" green="0.40000000596046448" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem id="a3x-tR-KzU">
+                                        <nil key="title"/>
+                                        <textField key="titleView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="http://" borderStyle="roundedRect" placeholder="Use http:// or https:// before your web url" minimumFontSize="17" clearButtonMode="always" id="Y1x-QP-MXk">
+                                            <rect key="frame" x="8" y="7" width="304" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="URL" returnKeyType="done"/>
+                                            <connections>
+                                                <action selector="addressEntered:" destination="TJm-0Z-FlD" eventType="editingDidEndOnExit" id="bO3-Kk-804"/>
+                                            </connections>
+                                        </textField>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <webView multipleTouchEnabled="YES" contentMode="scaleToFill" id="PBi-oN-QOW">
+                                <rect key="frame" x="0.0" y="80" width="320" height="394"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="1" green="0.40000000600000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="GqC-pL-YNr">
+                                <rect key="frame" x="0.0" y="474" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem width="17" style="plain" systemItem="fixedSpace" id="ulB-Xf-sVf"/>
+                                    <barButtonItem title="Back" id="hNw-Yy-fNy">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goBack" destination="PBi-oN-QOW" id="O5a-rc-h7d"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Next" id="oOb-g1-KJm">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goForward" destination="PBi-oN-QOW" id="Bnh-E3-hMt"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Reload" id="La5-fP-FJE">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="reload" destination="PBi-oN-QOW" id="HdD-hl-Dpe"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Stop" id="zYf-YJ-aKM">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="stopLoading" destination="PBi-oN-QOW" id="Anm-Gs-yF3"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Flip all" id="otr-TK-ouY">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="gNY-hc-HfC" kind="modal" id="2J0-gF-2pC"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </toolbar>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" id="V1Q-JB-Wyc">
+                                <rect key="frame" x="263" y="47" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="color" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Purple Pro 1.0  A Infant Louis Richards browser (c) 2014" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zxI-Dn-wg6">
+                                <rect key="frame" x="51" y="20" width="218" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" id="j7h-UN-8vY" colorLabel="IBBuiltInLabel-Green"/>
+                    <connections>
+                        <outlet property="activity" destination="V1Q-JB-Wyc" id="oJO-sO-qqP"/>
+                        <outlet property="browser" destination="PBi-oN-QOW" id="Syc-hb-e5b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mDl-Dm-u8f" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="141" y="98"/>
+        </scene>
+        <!--Fourth View Controller-->
+        <scene sceneID="KOh-nH-2zK">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" modalTransitionStyle="crossDissolve" id="ND1-8F-p24" customClass="FourthViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tc5-Xm-fUv">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="kFQ-9b-ZQ9">
+                                <rect key="frame" x="0.0" y="36" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.90551102800000005" green="0.93931361609999997" blue="0.10407166969999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem id="Zk6-k4-GNI">
+                                        <nil key="title"/>
+                                        <textField key="titleView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="http://" borderStyle="roundedRect" placeholder="Use http:// or https:// before your web url" minimumFontSize="17" clearButtonMode="always" id="sAV-dY-PsF">
+                                            <rect key="frame" x="8" y="7" width="304" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="URL" returnKeyType="done"/>
+                                            <connections>
+                                                <action selector="addressEntered:" destination="ND1-8F-p24" eventType="editingDidEndOnExit" id="FaB-kF-D93"/>
+                                            </connections>
+                                        </textField>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <webView multipleTouchEnabled="YES" contentMode="scaleToFill" id="914-UH-B81">
+                                <rect key="frame" x="0.0" y="80" width="320" height="394"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.90551102800000005" green="0.93931361609999997" blue="0.10407166969999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="OB5-4W-JdD">
+                                <rect key="frame" x="0.0" y="474" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem width="17" style="plain" systemItem="fixedSpace" id="h0I-Yc-TMW"/>
+                                    <barButtonItem title="Back" id="fy5-5A-MgQ">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goBack" destination="914-UH-B81" id="i3p-1D-ugj"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Next" id="aU5-tZ-OvG">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goForward" destination="914-UH-B81" id="2gr-Dp-fEh"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Reload" id="MWk-Ky-CpU">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="reload" destination="914-UH-B81" id="dKU-BM-ARb"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Stop" id="DLz-Zx-9TV">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="stopLoading" destination="914-UH-B81" id="RaD-bE-ftB"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Flip all" id="Pgp-qU-Vfi">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="gNY-hc-HfC" kind="modal" id="JJW-9M-CDC"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </toolbar>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" id="rMo-gb-Wbu">
+                                <rect key="frame" x="261" y="48" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="color" red="0.90551102800000005" green="0.93931361609999997" blue="0.10407166969999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Purple Pro 1.0  A Infant Louis Richards browser (c) 2014" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bgq-1c-nhp">
+                                <rect key="frame" x="51" y="20" width="218" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" id="nZu-Sy-TS0" colorLabel="IBBuiltInLabel-Green"/>
+                    <connections>
+                        <outlet property="activity" destination="rMo-gb-Wbu" id="khC-Gx-XFQ"/>
+                        <outlet property="browser" destination="914-UH-B81" id="2Z5-YF-Dz0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mOu-DA-uQw" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="141" y="839"/>
+        </scene>
+        <!--Fifth View Controller-->
+        <scene sceneID="Nw4-eV-PpV">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" modalTransitionStyle="crossDissolve" id="SL9-h6-ZaQ" customClass="FifthViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qtI-EE-TE3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="FDE-6J-uzv">
+                                <rect key="frame" x="0.0" y="36" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.40794022759999998" green="0.72920145979999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem id="AFx-GG-ItZ">
+                                        <nil key="title"/>
+                                        <textField key="titleView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="http://" borderStyle="roundedRect" placeholder="Use http:// or https:// before your web url" minimumFontSize="17" clearButtonMode="always" id="yXS-r0-9Q7">
+                                            <rect key="frame" x="8" y="7" width="304" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="URL" returnKeyType="done"/>
+                                            <connections>
+                                                <action selector="addressEntered:" destination="SL9-h6-ZaQ" eventType="editingDidEndOnExit" id="77T-Ik-Mrs"/>
+                                            </connections>
+                                        </textField>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <webView multipleTouchEnabled="YES" contentMode="scaleToFill" id="NEo-h0-MWE">
+                                <rect key="frame" x="0.0" y="80" width="320" height="395"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.40794022759999998" green="0.72920145979999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="aza-av-0Rz">
+                                <rect key="frame" x="0.0" y="475" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem width="17" style="plain" systemItem="fixedSpace" id="qPC-Gu-Nnh"/>
+                                    <barButtonItem title="Back" id="Q4L-Dz-gFI">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goBack" destination="NEo-h0-MWE" id="zpW-cz-pfY"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Next" id="TgX-Sa-auf">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goForward" destination="NEo-h0-MWE" id="ohb-Pu-ZHW"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Reload" id="NS2-ic-NIL">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="reload" destination="NEo-h0-MWE" id="yyj-jz-BFc"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Stop" id="DNG-xC-pZ1">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="stopLoading" destination="NEo-h0-MWE" id="S9Z-Rj-ugA"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Flip all" id="LTz-OL-Cli">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="gNY-hc-HfC" kind="modal" id="esY-Lq-6NY"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </toolbar>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" id="odm-nC-I9y">
+                                <rect key="frame" x="263" y="48" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="color" red="0.40794022759999998" green="0.72920145979999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Purple Pro 1.0  A Infant Louis Richards browser (c) 2014" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dHs-it-xJB">
+                                <rect key="frame" x="51" y="20" width="218" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" id="hy7-Lo-5RK" colorLabel="IBBuiltInLabel-Green"/>
+                    <connections>
+                        <outlet property="activity" destination="odm-nC-I9y" id="EYN-pi-hCl"/>
+                        <outlet property="browser" destination="NEo-h0-MWE" id="bJD-sH-2LL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0FN-ZN-6ws" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="495" y="825"/>
+        </scene>
+        <!--Third View Controller-->
+        <scene sceneID="9Cr-ee-BRB">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="k2J-hx-HZJ" customClass="ThirdViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="27a-2J-DcJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="AhB-fr-UJh">
+                                <rect key="frame" x="0.0" y="36" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem id="Uk2-Pe-csf">
+                                        <nil key="title"/>
+                                        <textField key="titleView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="http://" borderStyle="roundedRect" placeholder="Use http:// or https:// before your web url" minimumFontSize="17" clearButtonMode="always" id="FHj-Zl-qtl">
+                                            <rect key="frame" x="8" y="7" width="304" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="URL" returnKeyType="done"/>
+                                            <connections>
+                                                <action selector="addressEntered:" destination="k2J-hx-HZJ" eventType="editingDidEndOnExit" id="qcJ-vG-HMh"/>
+                                            </connections>
+                                        </textField>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <webView multipleTouchEnabled="YES" contentMode="scaleToFill" id="kpv-mu-WrO">
+                                <rect key="frame" x="0.0" y="80" width="320" height="394"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" id="hr6-FY-3BN">
+                                <rect key="frame" x="261" y="48" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="color" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            </activityIndicatorView>
+                            <toolbar opaque="NO" clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="JTC-Jn-uP0">
+                                <rect key="frame" x="0.0" y="474" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem width="17" style="plain" systemItem="fixedSpace" id="xP4-sO-a0P"/>
+                                    <barButtonItem title="Back" id="8OW-WZ-SGb">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goBack" destination="kpv-mu-WrO" id="Uq2-vM-sA8"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Next" id="jep-LU-l1H">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goForward" destination="kpv-mu-WrO" id="VQy-fI-8LM"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Reload" id="Iyu-hd-I9o">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="reload" destination="kpv-mu-WrO" id="t9a-rc-0N0"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Stop" id="mT6-5a-87j">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="stopLoading" destination="kpv-mu-WrO" id="Vdn-kl-jZu"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Flip all" id="uaY-cD-IO5">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="gNY-hc-HfC" kind="modal" id="n7j-ga-WST"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Purple Pro 1.0  A Infant Louis Richards browser (c) 2014" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="00J-tR-1tR">
+                                <rect key="frame" x="51" y="20" width="218" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" id="ymp-XY-0Da" colorLabel="IBBuiltInLabel-Green"/>
+                    <connections>
+                        <outlet property="activity" destination="hr6-FY-3BN" id="DJA-af-8Jx"/>
+                        <outlet property="browser" destination="kpv-mu-WrO" id="aHn-Ta-6ld"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rpO-N5-DaL" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-225" y="839"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="Gxp-cu-iJe">
+            <objects>
+                <viewController wantsFullScreenLayout="YES" modalTransitionStyle="crossDissolve" id="Qmq-rC-wWP" customClass="SecondViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="IBY-PI-jHb">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" id="YLQ-It-GPD">
+                                <rect key="frame" x="0.0" y="36" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem id="iF9-B1-vBW">
+                                        <nil key="title"/>
+                                        <textField key="titleView" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="http://" borderStyle="roundedRect" placeholder="Use http:// or https:// before your web url" minimumFontSize="17" clearButtonMode="always" id="j7t-Ns-ZPv">
+                                            <rect key="frame" x="8" y="7" width="304" height="30"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="URL" returnKeyType="done"/>
+                                            <connections>
+                                                <action selector="addressEntered:" destination="Qmq-rC-wWP" eventType="editingDidEndOnExit" id="Kuc-q2-OXx"/>
+                                            </connections>
+                                        </textField>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <webView multipleTouchEnabled="YES" contentMode="scaleToFill" id="YD3-iK-KFE">
+                                <rect key="frame" x="0.0" y="80" width="320" height="394"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </webView>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="aaR-WP-O3h">
+                                <rect key="frame" x="0.0" y="474" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem width="17" style="plain" systemItem="fixedSpace" id="i2u-la-f2M"/>
+                                    <barButtonItem title="Back" id="Fn7-fX-XgT">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goBack" destination="YD3-iK-KFE" id="3RR-nc-Ro9"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Next" id="UQK-ws-vU3">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="goForward" destination="YD3-iK-KFE" id="2gE-m7-d0D"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Reload" id="eZg-se-bj1">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="reload" destination="YD3-iK-KFE" id="stS-yJ-cpL"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Stop" id="CX9-aA-GMl">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <action selector="stopLoading" destination="YD3-iK-KFE" id="HP1-3N-V1h"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="Flip all" id="5iE-0c-ylD">
+                                        <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="gNY-hc-HfC" kind="modal" id="PSw-Dv-fI0"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </toolbar>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" id="rGL-hh-VWp">
+                                <rect key="frame" x="261" y="54" width="20" height="20"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="color" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Purple Pro 1.0  A Infant Louis Richards browser (c) 2014" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="6Dx-CF-Fk6">
+                                <rect key="frame" x="51" y="20" width="218" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="" id="NfP-49-IJY" colorLabel="IBBuiltInLabel-Green"/>
+                    <connections>
+                        <outlet property="activity" destination="rGL-hh-VWp" id="Nop-6N-ph5"/>
+                        <outlet property="browser" destination="YD3-iK-KFE" id="xMG-6Z-wxw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZgO-sz-BUI" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="525" y="98"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="footer.png" width="272" height="59"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="2J0-gF-2pC"/>
+    </inferredMetricsTieBreakers>
+</document>

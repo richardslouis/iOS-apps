@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lxH-qn-Aoz"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ibi-d1-5hO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="ViewCon">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iBb-de-gLK">
+                                <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                                <color key="backgroundColor" red="0.43137254901960786" green="0.32941176470588235" blue="0.61960784313725492" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </webView>
+                            <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kU2-6q-PPO">
+                                <rect key="frame" x="0.0" y="-24" width="375" height="44"/>
+                                <color key="barTintColor" red="0.39607843139999999" green="0.2784313725" blue="0.58823529409999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <items>
+                                    <navigationItem id="AVv-dK-ghH"/>
+                                </items>
+                            </navigationBar>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="jRP-B6-Qfs" userLabel="Activity">
+                                <rect key="frame" x="169" y="315" width="37" height="37"/>
+                                <color key="color" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="kU2-6q-PPO" firstAttribute="trailing" secondItem="iBb-de-gLK" secondAttribute="trailing" id="3qv-DU-B1a"/>
+                            <constraint firstItem="iBb-de-gLK" firstAttribute="bottom" secondItem="Ibi-d1-5hO" secondAttribute="top" id="3sh-Rl-P3E"/>
+                            <constraint firstItem="jRP-B6-Qfs" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="7JD-US-3hB"/>
+                            <constraint firstItem="iBb-de-gLK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Ly1-Cg-Y93"/>
+                            <constraint firstItem="kU2-6q-PPO" firstAttribute="leading" secondItem="iBb-de-gLK" secondAttribute="leading" id="TPJ-UY-YqN"/>
+                            <constraint firstItem="iBb-de-gLK" firstAttribute="top" secondItem="kU2-6q-PPO" secondAttribute="bottom" id="VDH-Ug-Aen"/>
+                            <constraint firstAttribute="trailing" secondItem="iBb-de-gLK" secondAttribute="trailing" id="WBc-mN-uGZ"/>
+                            <constraint firstItem="iBb-de-gLK" firstAttribute="top" secondItem="lxH-qn-Aoz" secondAttribute="bottom" id="ZOY-rK-Jwy"/>
+                            <constraint firstItem="kU2-6q-PPO" firstAttribute="centerX" secondItem="jRP-B6-Qfs" secondAttribute="centerX" id="pVO-zW-mu6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="activity" destination="jRP-B6-Qfs" id="J67-K4-c4u"/>
+                        <outlet property="myWebView" destination="iBb-de-gLK" id="7DD-qD-ebI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="301.60000000000002" y="363.86806596701655"/>
+        </scene>
+    </scenes>
+</document>

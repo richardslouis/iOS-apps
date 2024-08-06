@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		564CFC96184C1CDB00EB8AE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564CFC95184C1CDB00EB8AE6 /* Foundation.framework */; };
+		564CFC98184C1CDB00EB8AE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564CFC97184C1CDB00EB8AE6 /* CoreGraphics.framework */; };
+		564CFC9A184C1CDB00EB8AE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564CFC99184C1CDB00EB8AE6 /* UIKit.framework */; };
+		564CFCA0184C1CDB00EB8AE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 564CFC9E184C1CDB00EB8AE6 /* InfoPlist.strings */; };
+		564CFCA2184C1CDB00EB8AE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 564CFCA1184C1CDB00EB8AE6 /* main.m */; };
+		564CFCA6184C1CDB00EB8AE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 564CFCA5184C1CDB00EB8AE6 /* AppDelegate.m */; };
+		564CFCA9184C1CDB00EB8AE6 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564CFCA7184C1CDB00EB8AE6 /* Main_iPhone.storyboard */; };
+		564CFCAC184C1CDB00EB8AE6 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 564CFCAA184C1CDB00EB8AE6 /* Main_iPad.storyboard */; };
+		564CFCAF184C1CDB00EB8AE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 564CFCAE184C1CDB00EB8AE6 /* ViewController.m */; };
+		564CFCB1184C1CDB00EB8AE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 564CFCB0184C1CDB00EB8AE6 /* Images.xcassets */; };
+		564CFCB8184C1CDB00EB8AE6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564CFCB7184C1CDB00EB8AE6 /* XCTest.framework */; };
+		564CFCB9184C1CDB00EB8AE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564CFC95184C1CDB00EB8AE6 /* Foundation.framework */; };
+		564CFCBA184C1CDB00EB8AE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 564CFC99184C1CDB00EB8AE6 /* UIKit.framework */; };
+		564CFCC2184C1CDB00EB8AE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 564CFCC0184C1CDB00EB8AE6 /* InfoPlist.strings */; };
+		564CFCC4184C1CDB00EB8AE6 /* iSantaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 564CFCC3184C1CDB00EB8AE6 /* iSantaTests.m */; };
+		564CFCD7184C1D2400EB8AE6 /* 3942_Small-snowman-and-three-big-snowballs-HD-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 564CFCCD184C1D2300EB8AE6 /* 3942_Small-snowman-and-three-big-snowballs-HD-wallpaper.jpg */; };
+		564CFCD8184C1D2400EB8AE6 /* 3947_Santa-Claus-sexy-feminine-version.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 564CFCCE184C1D2300EB8AE6 /* 3947_Santa-Claus-sexy-feminine-version.jpg */; };
+		564CFCD9184C1D2400EB8AE6 /* 3948_Christmas-tree-made-of-wire-and-other-ornaments.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 564CFCCF184C1D2300EB8AE6 /* 3948_Christmas-tree-made-of-wire-and-other-ornaments.jpg */; };
+		564CFCDA184C1D2400EB8AE6 /* 3949_Beauty-woman-dressed-in-Santa-Claus-HD-wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 564CFCD0184C1D2300EB8AE6 /* 3949_Beauty-woman-dressed-in-Santa-Claus-HD-wallpaper.jpg */; };
+		564CFCDB184C1D2400EB8AE6 /* 5328287-333677-santa-claus-and-rudolph-mascot-the-event-activity-christmas-character-design-series.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 564CFCD1184C1D2300EB8AE6 /* 5328287-333677-santa-claus-and-rudolph-mascot-the-event-activity-christmas-character-design-series.jpg */; };
+		564CFCDC184C1D2400EB8AE6 /* j0439773.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFCD2184C1D2300EB8AE6 /* j0439773.png */; };
+		564CFCDD184C1D2400EB8AE6 /* mr-santa-claus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 564CFCD3184C1D2300EB8AE6 /* mr-santa-claus.jpg */; };
+		564CFCDE184C1D2400EB8AE6 /* Santa_Claus_04.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 564CFCD4184C1D2300EB8AE6 /* Santa_Claus_04.jpg */; };
+		564CFCDF184C1D2400EB8AE6 /* santa-sign-2-15877387.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 564CFCD5184C1D2300EB8AE6 /* santa-sign-2-15877387.jpg */; };
+		564CFCE0184C1D2400EB8AE6 /* santa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 564CFCD6184C1D2400EB8AE6 /* santa.jpg */; };
+		564CFCE8184C25A400EB8AE6 /* itunes_gifts_uk.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFCE1184C25A400EB8AE6 /* itunes_gifts_uk.png */; };
+		564CFCE9184C25A400EB8AE6 /* itunes_gifts_australia.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFCE2184C25A400EB8AE6 /* itunes_gifts_australia.png */; };
+		564CFCEA184C25A400EB8AE6 /* itunes_gifts_India.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFCE3184C25A400EB8AE6 /* itunes_gifts_India.png */; };
+		564CFCEB184C25A400EB8AE6 /* itunes_gifts_US.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFCE4184C25A400EB8AE6 /* itunes_gifts_US.png */; };
+		564CFCEC184C25A400EB8AE6 /* itunes_gifts_France.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFCE5184C25A400EB8AE6 /* itunes_gifts_France.png */; };
+		564CFCED184C25A400EB8AE6 /* itunes_gifts_canada.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFCE6184C25A400EB8AE6 /* itunes_gifts_canada.png */; };
+		564CFCEE184C25A400EB8AE6 /* itunes_gifts_germany.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFCE7184C25A400EB8AE6 /* itunes_gifts_germany.png */; };
+		564CFD05184C32E300EB8AE6 /* Default~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFD01184C32E300EB8AE6 /* Default~iphone.png */; };
+		564CFD06184C32E300EB8AE6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFD02184C32E300EB8AE6 /* Default.png */; };
+		564CFD08184C32E300EB8AE6 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFD04184C32E300EB8AE6 /* Default-Portrait@2x~ipad.png */; };
+		564CFD0A184C335100EB8AE6 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFD09184C335100EB8AE6 /* Default~ipad.png */; };
+		564CFD0C184C4B8E00EB8AE6 /* mail.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 564CFD0B184C4B8E00EB8AE6 /* mail.jpg */; };
+		564CFD15184C593500EB8AE6 /* isanta29.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFD0D184C593500EB8AE6 /* isanta29.png */; };
+		564CFD16184C593500EB8AE6 /* isanta40.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFD0E184C593500EB8AE6 /* isanta40.png */; };
+		564CFD17184C593500EB8AE6 /* isanta58.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFD0F184C593500EB8AE6 /* isanta58.png */; };
+		564CFD18184C593500EB8AE6 /* isanta76.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFD10184C593500EB8AE6 /* isanta76.png */; };
+		564CFD19184C593500EB8AE6 /* isanta80.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFD11184C593500EB8AE6 /* isanta80.png */; };
+		564CFD1A184C593500EB8AE6 /* isanta120.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFD12184C593500EB8AE6 /* isanta120.png */; };
+		564CFD1B184C593500EB8AE6 /* isanta152.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFD13184C593500EB8AE6 /* isanta152.png */; };
+		564CFD1C184C593500EB8AE6 /* isanta1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFD14184C593500EB8AE6 /* isanta1024.png */; };
+		564CFD1F184C5A0A00EB8AE6 /* isanta57.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFD1D184C5A0A00EB8AE6 /* isanta57.png */; };
+		564CFD20184C5A0A00EB8AE6 /* isanta72.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFD1E184C5A0A00EB8AE6 /* isanta72.png */; };
+		564CFD23184C5A8300EB8AE6 /* isanta114.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFD21184C5A8300EB8AE6 /* isanta114.png */; };
+		564CFD24184C5A8300EB8AE6 /* isanta144.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFD22184C5A8300EB8AE6 /* isanta144.png */; };
+		564CFD27184C5AF600EB8AE6 /* isanta50.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFD25184C5AF600EB8AE6 /* isanta50.png */; };
+		564CFD28184C5AF600EB8AE6 /* isanta100.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFD26184C5AF600EB8AE6 /* isanta100.png */; };
+		564CFD2A184C5D7100EB8AE6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 564CFD29184C5D7100EB8AE6 /* Default.png */; };
+		56715D35184C695000D176D5 /* Default~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 56715D34184C695000D176D5 /* Default~ipad.png */; };
+		56715D3C184C69D900D176D5 /* isanta3.png in Resources */ = {isa = PBXBuildFile; fileRef = 56715D38184C69D900D176D5 /* isanta3.png */; };
+		56715D3D184C69D900D176D5 /* isanta4.png in Resources */ = {isa = PBXBuildFile; fileRef = 56715D39184C69D900D176D5 /* isanta4.png */; };
+		56715D42184C6B0C00D176D5 /* isanta1.png in Resources */ = {isa = PBXBuildFile; fileRef = 56715D40184C6B0C00D176D5 /* isanta1.png */; };
+		56715D43184C6B0C00D176D5 /* isanta2.png in Resources */ = {isa = PBXBuildFile; fileRef = 56715D41184C6B0C00D176D5 /* isanta2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		564CFCBB184C1CDB00EB8AE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 564CFC8A184C1CDB00EB8AE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 564CFC91184C1CDB00EB8AE6;
+			remoteInfo = iSanta;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		564CFC92184C1CDB00EB8AE6 /* iSanta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iSanta.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		564CFC95184C1CDB00EB8AE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		564CFC97184C1CDB00EB8AE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		564CFC99184C1CDB00EB8AE6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		564CFC9D184C1CDB00EB8AE6 /* iSanta-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iSanta-Info.plist"; sourceTree = "<group>"; };
+		564CFC9F184C1CDB00EB8AE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		564CFCA1184C1CDB00EB8AE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		564CFCA3184C1CDB00EB8AE6 /* iSanta-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iSanta-Prefix.pch"; sourceTree = "<group>"; };
+		564CFCA4184C1CDB00EB8AE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		564CFCA5184C1CDB00EB8AE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		564CFCA8184C1CDB00EB8AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		564CFCAB184C1CDB00EB8AE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		564CFCAD184C1CDB00EB8AE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		564CFCAE184C1CDB00EB8AE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		564CFCB0184C1CDB00EB8AE6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		564CFCB6184C1CDB00EB8AE6 /* iSantaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iSantaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		564CFCB7184C1CDB00EB8AE6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		564CFCBF184C1CDB00EB8AE6 /* iSantaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iSantaTests-Info.plist"; sourceTree = "<group>"; };
+		564CFCC1184C1CDB00EB8AE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		564CFCC3184C1CDB00EB8AE6 /* iSantaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iSantaTests.m; sourceTree = "<group>"; };
+		564CFCCD184C1D2300EB8AE6 /* 3942_Small-snowman-and-three-big-snowballs-HD-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3942_Small-snowman-and-three-big-snowballs-HD-wallpaper.jpg"; sourceTree = "<group>"; };
+		564CFCCE184C1D2300EB8AE6 /* 3947_Santa-Claus-sexy-feminine-version.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3947_Santa-Claus-sexy-feminine-version.jpg"; sourceTree = "<group>"; };
+		564CFCCF184C1D2300EB8AE6 /* 3948_Christmas-tree-made-of-wire-and-other-ornaments.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3948_Christmas-tree-made-of-wire-and-other-ornaments.jpg"; sourceTree = "<group>"; };
+		564CFCD0184C1D2300EB8AE6 /* 3949_Beauty-woman-dressed-in-Santa-Claus-HD-wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "3949_Beauty-woman-dressed-in-Santa-Claus-HD-wallpaper.jpg"; sourceTree = "<group>"; };
+		564CFCD1184C1D2300EB8AE6 /* 5328287-333677-santa-claus-and-rudolph-mascot-the-event-activity-christmas-character-design-series.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5328287-333677-santa-claus-and-rudolph-mascot-the-event-activity-christmas-character-design-series.jpg"; sourceTree = "<group>"; };
+		564CFCD2184C1D2300EB8AE6 /* j0439773.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = j0439773.png; sourceTree = "<group>"; };
+		564CFCD3184C1D2300EB8AE6 /* mr-santa-claus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mr-santa-claus.jpg"; sourceTree = "<group>"; };
+		564CFCD4184C1D2300EB8AE6 /* Santa_Claus_04.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Santa_Claus_04.jpg; sourceTree = "<group>"; };
+		564CFCD5184C1D2300EB8AE6 /* santa-sign-2-15877387.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "santa-sign-2-15877387.jpg"; sourceTree = "<group>"; };
+		564CFCD6184C1D2400EB8AE6 /* santa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = santa.jpg; sourceTree = "<group>"; };
+		564CFCE1184C25A400EB8AE6 /* itunes_gifts_uk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itunes_gifts_uk.png; sourceTree = "<group>"; };
+		564CFCE2184C25A400EB8AE6 /* itunes_gifts_australia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itunes_gifts_australia.png; sourceTree = "<group>"; };
+		564CFCE3184C25A400EB8AE6 /* itunes_gifts_India.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itunes_gifts_India.png; sourceTree = "<group>"; };
+		564CFCE4184C25A400EB8AE6 /* itunes_gifts_US.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itunes_gifts_US.png; sourceTree = "<group>"; };
+		564CFCE5184C25A400EB8AE6 /* itunes_gifts_France.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itunes_gifts_France.png; sourceTree = "<group>"; };
+		564CFCE6184C25A400EB8AE6 /* itunes_gifts_canada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itunes_gifts_canada.png; sourceTree = "<group>"; };
+		564CFCE7184C25A400EB8AE6 /* itunes_gifts_germany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = itunes_gifts_germany.png; sourceTree = "<group>"; };
+		564CFD01184C32E300EB8AE6 /* Default~iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~iphone.png"; sourceTree = "<group>"; };
+		564CFD02184C32E300EB8AE6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		564CFD04184C32E300EB8AE6 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		564CFD09184C335100EB8AE6 /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default~ipad.png"; sourceTree = "<group>"; };
+		564CFD0B184C4B8E00EB8AE6 /* mail.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mail.jpg; sourceTree = "<group>"; };
+		564CFD0D184C593500EB8AE6 /* isanta29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = isanta29.png; path = "../../isanta files/isanta29.png"; sourceTree = "<group>"; };
+		564CFD0E184C593500EB8AE6 /* isanta40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = isanta40.png; path = "../../isanta files/isanta40.png"; sourceTree = "<group>"; };
+		564CFD0F184C593500EB8AE6 /* isanta58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = isanta58.png; path = "../../isanta files/isanta58.png"; sourceTree = "<group>"; };
+		564CFD10184C593500EB8AE6 /* isanta76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = isanta76.png; path = "../../isanta files/isanta76.png"; sourceTree = "<group>"; };
+		564CFD11184C593500EB8AE6 /* isanta80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = isanta80.png; path = "../../isanta files/isanta80.png"; sourceTree = "<group>"; };
+		564CFD12184C593500EB8AE6 /* isanta120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = isanta120.png; path = "../../isanta files/isanta120.png"; sourceTree = "<group>"; };
+		564CFD13184C593500EB8AE6 /* isanta152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = isanta152.png; path = "../../isanta files/isanta152.png"; sourceTree = "<group>"; };
+		564CFD14184C593500EB8AE6 /* isanta1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = isanta1024.png; path = "../../isanta files/isanta1024.png"; sourceTree = "<group>"; };
+		564CFD1D184C5A0A00EB8AE6 /* isanta57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = isanta57.png; path = "../../isanta files/isanta57.png"; sourceTree = "<group>"; };
+		564CFD1E184C5A0A00EB8AE6 /* isanta72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = isanta72.png; path = "../../isanta files/isanta72.png"; sourceTree = "<group>"; };
+		564CFD21184C5A8300EB8AE6 /* isanta114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = isanta114.png; path = "../../isanta files/isanta114.png"; sourceTree = "<group>"; };
+		564CFD22184C5A8300EB8AE6 /* isanta144.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = isanta144.png; path = "../../isanta files/isanta144.png"; sourceTree = "<group>"; };
+		564CFD25184C5AF600EB8AE6 /* isanta50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = isanta50.png; path = "../../isanta files/isanta50.png"; sourceTree = "<group>"; };
+		564CFD26184C5AF600EB8AE6 /* isanta100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = isanta100.png; path = "../../isanta files/isanta100.png"; sourceTree = "<group>"; };
+		564CFD29184C5D7100EB8AE6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = "../../isanta files/Default.png"; sourceTree = "<group>"; };
+		56715D34184C695000D176D5 /* Default~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default~ipad.png"; path = "../../isanta files/Default~ipad.png"; sourceTree = "<group>"; };
+		56715D38184C69D900D176D5 /* isanta3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = isanta3.png; path = "../../isanta files/isanta3.png"; sourceTree = "<group>"; };
+		56715D39184C69D900D176D5 /* isanta4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = isanta4.png; path = "../../isanta files/isanta4.png"; sourceTree = "<group>"; };
+		56715D40184C6B0C00D176D5 /* isanta1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = isanta1.png; path = "../../isanta files/isanta1.png"; sourceTree = "<group>"; };
+		56715D41184C6B0C00D176D5 /* isanta2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = isanta2.png; path = "../../isanta files/isanta2.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		564CFC8F184C1CDB00EB8AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564CFC98184C1CDB00EB8AE6 /* CoreGraphics.framework in Frameworks */,
+				564CFC9A184C1CDB00EB8AE6 /* UIKit.framework in Frameworks */,
+				564CFC96184C1CDB00EB8AE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564CFCB3184C1CDB00EB8AE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564CFCB8184C1CDB00EB8AE6 /* XCTest.framework in Frameworks */,
+				564CFCBA184C1CDB00EB8AE6 /* UIKit.framework in Frameworks */,
+				564CFCB9184C1CDB00EB8AE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		564CFC89184C1CDB00EB8AE6 = {
+			isa = PBXGroup;
+			children = (
+				564CFC9B184C1CDB00EB8AE6 /* iSanta */,
+				564CFCBD184C1CDB00EB8AE6 /* iSantaTests */,
+				564CFC94184C1CDB00EB8AE6 /* Frameworks */,
+				564CFC93184C1CDB00EB8AE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		564CFC93184C1CDB00EB8AE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				564CFC92184C1CDB00EB8AE6 /* iSanta.app */,
+				564CFCB6184C1CDB00EB8AE6 /* iSantaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		564CFC94184C1CDB00EB8AE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				564CFC95184C1CDB00EB8AE6 /* Foundation.framework */,
+				564CFC97184C1CDB00EB8AE6 /* CoreGraphics.framework */,
+				564CFC99184C1CDB00EB8AE6 /* UIKit.framework */,
+				564CFCB7184C1CDB00EB8AE6 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		564CFC9B184C1CDB00EB8AE6 /* iSanta */ = {
+			isa = PBXGroup;
+			children = (
+				56715D40184C6B0C00D176D5 /* isanta1.png */,
+				56715D41184C6B0C00D176D5 /* isanta2.png */,
+				56715D38184C69D900D176D5 /* isanta3.png */,
+				56715D39184C69D900D176D5 /* isanta4.png */,
+				56715D34184C695000D176D5 /* Default~ipad.png */,
+				564CFD29184C5D7100EB8AE6 /* Default.png */,
+				564CFD25184C5AF600EB8AE6 /* isanta50.png */,
+				564CFD26184C5AF600EB8AE6 /* isanta100.png */,
+				564CFD21184C5A8300EB8AE6 /* isanta114.png */,
+				564CFD22184C5A8300EB8AE6 /* isanta144.png */,
+				564CFD1D184C5A0A00EB8AE6 /* isanta57.png */,
+				564CFD1E184C5A0A00EB8AE6 /* isanta72.png */,
+				564CFD0D184C593500EB8AE6 /* isanta29.png */,
+				564CFD0E184C593500EB8AE6 /* isanta40.png */,
+				564CFD0F184C593500EB8AE6 /* isanta58.png */,
+				564CFD10184C593500EB8AE6 /* isanta76.png */,
+				564CFD11184C593500EB8AE6 /* isanta80.png */,
+				564CFD12184C593500EB8AE6 /* isanta120.png */,
+				564CFD13184C593500EB8AE6 /* isanta152.png */,
+				564CFD14184C593500EB8AE6 /* isanta1024.png */,
+				564CFD0B184C4B8E00EB8AE6 /* mail.jpg */,
+				564CFD09184C335100EB8AE6 /* Default~ipad.png */,
+				564CFD01184C32E300EB8AE6 /* Default~iphone.png */,
+				564CFD02184C32E300EB8AE6 /* Default.png */,
+				564CFD04184C32E300EB8AE6 /* Default-Portrait@2x~ipad.png */,
+				564CFCE1184C25A400EB8AE6 /* itunes_gifts_uk.png */,
+				564CFCE2184C25A400EB8AE6 /* itunes_gifts_australia.png */,
+				564CFCE3184C25A400EB8AE6 /* itunes_gifts_India.png */,
+				564CFCE4184C25A400EB8AE6 /* itunes_gifts_US.png */,
+				564CFCE5184C25A400EB8AE6 /* itunes_gifts_France.png */,
+				564CFCE6184C25A400EB8AE6 /* itunes_gifts_canada.png */,
+				564CFCE7184C25A400EB8AE6 /* itunes_gifts_germany.png */,
+				564CFCCD184C1D2300EB8AE6 /* 3942_Small-snowman-and-three-big-snowballs-HD-wallpaper.jpg */,
+				564CFCCE184C1D2300EB8AE6 /* 3947_Santa-Claus-sexy-feminine-version.jpg */,
+				564CFCCF184C1D2300EB8AE6 /* 3948_Christmas-tree-made-of-wire-and-other-ornaments.jpg */,
+				564CFCD0184C1D2300EB8AE6 /* 3949_Beauty-woman-dressed-in-Santa-Claus-HD-wallpaper.jpg */,
+				564CFCD1184C1D2300EB8AE6 /* 5328287-333677-santa-claus-and-rudolph-mascot-the-event-activity-christmas-character-design-series.jpg */,
+				564CFCD2184C1D2300EB8AE6 /* j0439773.png */,
+				564CFCD3184C1D2300EB8AE6 /* mr-santa-claus.jpg */,
+				564CFCD4184C1D2300EB8AE6 /* Santa_Claus_04.jpg */,
+				564CFCD5184C1D2300EB8AE6 /* santa-sign-2-15877387.jpg */,
+				564CFCD6184C1D2400EB8AE6 /* santa.jpg */,
+				564CFCA4184C1CDB00EB8AE6 /* AppDelegate.h */,
+				564CFCA5184C1CDB00EB8AE6 /* AppDelegate.m */,
+				564CFCA7184C1CDB00EB8AE6 /* Main_iPhone.storyboard */,
+				564CFCAA184C1CDB00EB8AE6 /* Main_iPad.storyboard */,
+				564CFCAD184C1CDB00EB8AE6 /* ViewController.h */,
+				564CFCAE184C1CDB00EB8AE6 /* ViewController.m */,
+				564CFCB0184C1CDB00EB8AE6 /* Images.xcassets */,
+				564CFC9C184C1CDB00EB8AE6 /* Supporting Files */,
+			);
+			path = iSanta;
+			sourceTree = "<group>";
+		};
+		564CFC9C184C1CDB00EB8AE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				564CFC9D184C1CDB00EB8AE6 /* iSanta-Info.plist */,
+				564CFC9E184C1CDB00EB8AE6 /* InfoPlist.strings */,
+				564CFCA1184C1CDB00EB8AE6 /* main.m */,
+				564CFCA3184C1CDB00EB8AE6 /* iSanta-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		564CFCBD184C1CDB00EB8AE6 /* iSantaTests */ = {
+			isa = PBXGroup;
+			children = (
+				564CFCC3184C1CDB00EB8AE6 /* iSantaTests.m */,
+				564CFCBE184C1CDB00EB8AE6 /* Supporting Files */,
+			);
+			path = iSantaTests;
+			sourceTree = "<group>";
+		};
+		564CFCBE184C1CDB00EB8AE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				564CFCBF184C1CDB00EB8AE6 /* iSantaTests-Info.plist */,
+				564CFCC0184C1CDB00EB8AE6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		564CFC91184C1CDB00EB8AE6 /* iSanta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564CFCC7184C1CDB00EB8AE6 /* Build configuration list for PBXNativeTarget "iSanta" */;
+			buildPhases = (
+				564CFC8E184C1CDB00EB8AE6 /* Sources */,
+				564CFC8F184C1CDB00EB8AE6 /* Frameworks */,
+				564CFC90184C1CDB00EB8AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iSanta;
+			productName = iSanta;
+			productReference = 564CFC92184C1CDB00EB8AE6 /* iSanta.app */;
+			productType = "com.apple.product-type.application";
+		};
+		564CFCB5184C1CDB00EB8AE6 /* iSantaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 564CFCCA184C1CDB00EB8AE6 /* Build configuration list for PBXNativeTarget "iSantaTests" */;
+			buildPhases = (
+				564CFCB2184C1CDB00EB8AE6 /* Sources */,
+				564CFCB3184C1CDB00EB8AE6 /* Frameworks */,
+				564CFCB4184C1CDB00EB8AE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				564CFCBC184C1CDB00EB8AE6 /* PBXTargetDependency */,
+			);
+			name = iSantaTests;
+			productName = iSantaTests;
+			productReference = 564CFCB6184C1CDB00EB8AE6 /* iSantaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		564CFC8A184C1CDB00EB8AE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Richards Louis";
+				TargetAttributes = {
+					564CFC91184C1CDB00EB8AE6 = {
+						DevelopmentTeam = UHDBH2TEY2;
+					};
+					564CFCB5184C1CDB00EB8AE6 = {
+						TestTargetID = 564CFC91184C1CDB00EB8AE6;
+					};
+				};
+			};
+			buildConfigurationList = 564CFC8D184C1CDB00EB8AE6 /* Build configuration list for PBXProject "iSanta" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 564CFC89184C1CDB00EB8AE6;
+			productRefGroup = 564CFC93184C1CDB00EB8AE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				564CFC91184C1CDB00EB8AE6 /* iSanta */,
+				564CFCB5184C1CDB00EB8AE6 /* iSantaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		564CFC90184C1CDB00EB8AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564CFD0C184C4B8E00EB8AE6 /* mail.jpg in Resources */,
+				56715D42184C6B0C00D176D5 /* isanta1.png in Resources */,
+				564CFCAC184C1CDB00EB8AE6 /* Main_iPad.storyboard in Resources */,
+				564CFD05184C32E300EB8AE6 /* Default~iphone.png in Resources */,
+				564CFD15184C593500EB8AE6 /* isanta29.png in Resources */,
+				56715D3C184C69D900D176D5 /* isanta3.png in Resources */,
+				564CFD06184C32E300EB8AE6 /* Default.png in Resources */,
+				564CFCD9184C1D2400EB8AE6 /* 3948_Christmas-tree-made-of-wire-and-other-ornaments.jpg in Resources */,
+				564CFCB1184C1CDB00EB8AE6 /* Images.xcassets in Resources */,
+				564CFD0A184C335100EB8AE6 /* Default~ipad.png in Resources */,
+				564CFD2A184C5D7100EB8AE6 /* Default.png in Resources */,
+				564CFCDA184C1D2400EB8AE6 /* 3949_Beauty-woman-dressed-in-Santa-Claus-HD-wallpaper.jpg in Resources */,
+				564CFD27184C5AF600EB8AE6 /* isanta50.png in Resources */,
+				564CFCDC184C1D2400EB8AE6 /* j0439773.png in Resources */,
+				564CFCDF184C1D2400EB8AE6 /* santa-sign-2-15877387.jpg in Resources */,
+				564CFD24184C5A8300EB8AE6 /* isanta144.png in Resources */,
+				564CFCE9184C25A400EB8AE6 /* itunes_gifts_australia.png in Resources */,
+				564CFD20184C5A0A00EB8AE6 /* isanta72.png in Resources */,
+				564CFD1C184C593500EB8AE6 /* isanta1024.png in Resources */,
+				564CFD19184C593500EB8AE6 /* isanta80.png in Resources */,
+				564CFD28184C5AF600EB8AE6 /* isanta100.png in Resources */,
+				564CFCE8184C25A400EB8AE6 /* itunes_gifts_uk.png in Resources */,
+				564CFCDD184C1D2400EB8AE6 /* mr-santa-claus.jpg in Resources */,
+				564CFCE0184C1D2400EB8AE6 /* santa.jpg in Resources */,
+				56715D43184C6B0C00D176D5 /* isanta2.png in Resources */,
+				564CFD08184C32E300EB8AE6 /* Default-Portrait@2x~ipad.png in Resources */,
+				564CFCDE184C1D2400EB8AE6 /* Santa_Claus_04.jpg in Resources */,
+				564CFCD8184C1D2400EB8AE6 /* 3947_Santa-Claus-sexy-feminine-version.jpg in Resources */,
+				564CFD1A184C593500EB8AE6 /* isanta120.png in Resources */,
+				564CFD17184C593500EB8AE6 /* isanta58.png in Resources */,
+				564CFCD7184C1D2400EB8AE6 /* 3942_Small-snowman-and-three-big-snowballs-HD-wallpaper.jpg in Resources */,
+				564CFD16184C593500EB8AE6 /* isanta40.png in Resources */,
+				564CFCEB184C25A400EB8AE6 /* itunes_gifts_US.png in Resources */,
+				564CFCEC184C25A400EB8AE6 /* itunes_gifts_France.png in Resources */,
+				564CFD1B184C593500EB8AE6 /* isanta152.png in Resources */,
+				564CFD23184C5A8300EB8AE6 /* isanta114.png in Resources */,
+				56715D3D184C69D900D176D5 /* isanta4.png in Resources */,
+				564CFCA9184C1CDB00EB8AE6 /* Main_iPhone.storyboard in Resources */,
+				564CFD18184C593500EB8AE6 /* isanta76.png in Resources */,
+				56715D35184C695000D176D5 /* Default~ipad.png in Resources */,
+				564CFCEA184C25A400EB8AE6 /* itunes_gifts_India.png in Resources */,
+				564CFCED184C25A400EB8AE6 /* itunes_gifts_canada.png in Resources */,
+				564CFCEE184C25A400EB8AE6 /* itunes_gifts_germany.png in Resources */,
+				564CFCDB184C1D2400EB8AE6 /* 5328287-333677-santa-claus-and-rudolph-mascot-the-event-activity-christmas-character-design-series.jpg in Resources */,
+				564CFCA0184C1CDB00EB8AE6 /* InfoPlist.strings in Resources */,
+				564CFD1F184C5A0A00EB8AE6 /* isanta57.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564CFCB4184C1CDB00EB8AE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564CFCC2184C1CDB00EB8AE6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		564CFC8E184C1CDB00EB8AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564CFCAF184C1CDB00EB8AE6 /* ViewController.m in Sources */,
+				564CFCA6184C1CDB00EB8AE6 /* AppDelegate.m in Sources */,
+				564CFCA2184C1CDB00EB8AE6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		564CFCB2184C1CDB00EB8AE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564CFCC4184C1CDB00EB8AE6 /* iSantaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		564CFCBC184C1CDB00EB8AE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 564CFC91184C1CDB00EB8AE6 /* iSanta */;
+			targetProxy = 564CFCBB184C1CDB00EB8AE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		564CFC9E184C1CDB00EB8AE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564CFC9F184C1CDB00EB8AE6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		564CFCA7184C1CDB00EB8AE6 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564CFCA8184C1CDB00EB8AE6 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		564CFCAA184C1CDB00EB8AE6 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564CFCAB184C1CDB00EB8AE6 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		564CFCC0184C1CDB00EB8AE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				564CFCC1184C1CDB00EB8AE6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		564CFCC5184C1CDB00EB8AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		564CFCC6184C1CDB00EB8AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		564CFCC8184C1CDB00EB8AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-3";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Infant Louis Richards C (GCGC57VXSF)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSanta/iSanta-Prefix.pch";
+				INFOPLIST_FILE = "iSanta/iSanta-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		564CFCC9184C1CDB00EB8AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-3";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Infant Louis Richards C (UHDBH2TEY2)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSanta/iSanta-Prefix.pch";
+				INFOPLIST_FILE = "iSanta/iSanta-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		564CFCCB184C1CDB00EB8AE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSanta.app/iSanta";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSanta/iSanta-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iSantaTests/iSantaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		564CFCCC184C1CDB00EB8AE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iSanta.app/iSanta";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iSanta/iSanta-Prefix.pch";
+				INFOPLIST_FILE = "iSantaTests/iSantaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		564CFC8D184C1CDB00EB8AE6 /* Build configuration list for PBXProject "iSanta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564CFCC5184C1CDB00EB8AE6 /* Debug */,
+				564CFCC6184C1CDB00EB8AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564CFCC7184C1CDB00EB8AE6 /* Build configuration list for PBXNativeTarget "iSanta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564CFCC8184C1CDB00EB8AE6 /* Debug */,
+				564CFCC9184C1CDB00EB8AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		564CFCCA184C1CDB00EB8AE6 /* Build configuration list for PBXNativeTarget "iSantaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				564CFCCB184C1CDB00EB8AE6 /* Debug */,
+				564CFCCC184C1CDB00EB8AE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 564CFC8A184C1CDB00EB8AE6 /* Project object */;
+}

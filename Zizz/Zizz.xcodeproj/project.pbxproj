@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49C8BAAF58511A7B6BB80724 /* libPods-Zizz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EF17B4EE5B6F7ADCC10B6A /* libPods-Zizz.a */; };
+		560EA5CD1CBEE7FC0018BB71 /* OneSignal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 560EA5CC1CBEE7FC0018BB71 /* OneSignal.framework */; };
+		560EA5CF1CBEE8380018BB71 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 560EA5CE1CBEE8380018BB71 /* SystemConfiguration.framework */; };
+		5622772820F0B96E005C1749 /* splash2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5622772720F0B96E005C1749 /* splash2.png */; };
+		5622772A20F0D7C6005C1749 /* Zizz_Original_appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5622772920F0D7C5005C1749 /* Zizz_Original_appicon.png */; };
+		56324EF01C64EE2D004264E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56324EEF1C64EE2D004264E2 /* LaunchScreen.storyboard */; };
+		56324EF21C64F201004264E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56324EF11C64F201004264E2 /* Main.storyboard */; };
+		56324EF51C64F263004264E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56324EF41C64F263004264E2 /* ViewController.m */; };
+		564EF4AD21C92C3E006E6587 /* Zizz_256.png in Resources */ = {isa = PBXBuildFile; fileRef = 564EF4AC21C92C3E006E6587 /* Zizz_256.png */; };
+		56DC74C81A90D624008E040A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC74C71A90D624008E040A /* main.m */; };
+		56DC74CB1A90D624008E040A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56DC74CA1A90D624008E040A /* AppDelegate.m */; };
+		56DC74D61A90D624008E040A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56DC74D51A90D624008E040A /* Images.xcassets */; };
+		56E5FA0F206219C200E9B1AF /* NotificationService.m in Sources */ = {isa = PBXBuildFile; fileRef = 56E5FA0E206219C200E9B1AF /* NotificationService.m */; };
+		56E5FA2120621C2A00E9B1AF /* css in Resources */ = {isa = PBXBuildFile; fileRef = 56E5FA1820621C2800E9B1AF /* css */; };
+		56E5FA2220621C2A00E9B1AF /* ok.html in Resources */ = {isa = PBXBuildFile; fileRef = 56E5FA1920621C2800E9B1AF /* ok.html */; };
+		56E5FA2320621C2A00E9B1AF /* js in Resources */ = {isa = PBXBuildFile; fileRef = 56E5FA1A20621C2800E9B1AF /* js */; };
+		56E5FA2420621C2A00E9B1AF /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 56E5FA1B20621C2800E9B1AF /* fonts */; };
+		56E5FA2520621C2A00E9B1AF /* assets in Resources */ = {isa = PBXBuildFile; fileRef = 56E5FA1C20621C2900E9B1AF /* assets */; };
+		56E5FA2620621C2A00E9B1AF /* noproceed.html in Resources */ = {isa = PBXBuildFile; fileRef = 56E5FA1D20621C2900E9B1AF /* noproceed.html */; };
+		56E5FA2720621C2A00E9B1AF /* images in Resources */ = {isa = PBXBuildFile; fileRef = 56E5FA1E20621C2A00E9B1AF /* images */; };
+		56E5FA2820621C2A00E9B1AF /* proceed.html in Resources */ = {isa = PBXBuildFile; fileRef = 56E5FA1F20621C2A00E9B1AF /* proceed.html */; };
+		56E5FA2920621C2A00E9B1AF /* favicon.ico in Resources */ = {isa = PBXBuildFile; fileRef = 56E5FA2020621C2A00E9B1AF /* favicon.ico */; };
+		56EB374C20953F8700D3E940 /* WebController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56EB374A20953F8700D3E940 /* WebController.m */; };
+		56F9D42A206EB2B00049D75D /* zizzsplash.png in Resources */ = {isa = PBXBuildFile; fileRef = 56F9D429206EB2B00049D75D /* zizzsplash.png */; };
+		5A4CB931168DC46E92C77B9F /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DFB0BB97B942A239A7EEF273 /* libPods-OneSignalNotificationServiceExtension.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56E5FA11206219C200E9B1AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56DC74BA1A90D624008E040A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56E5FA0A206219C100E9B1AF;
+			remoteInfo = OneSignalNotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		56E5FA17206219C200E9B1AF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		560EA5CC1CBEE7FC0018BB71 /* OneSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OneSignal.framework; sourceTree = "<group>"; };
+		560EA5CE1CBEE8380018BB71 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		5622772720F0B96E005C1749 /* splash2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash2.png; sourceTree = "<group>"; };
+		5622772920F0D7C5005C1749 /* Zizz_Original_appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zizz_Original_appicon.png; sourceTree = "<group>"; };
+		56324EEF1C64EE2D004264E2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56324EF11C64F201004264E2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		56324EF31C64F263004264E2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		56324EF41C64F263004264E2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5637587620622655004AF156 /* Zizz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zizz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		564EF4AC21C92C3E006E6587 /* Zizz_256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Zizz_256.png; sourceTree = "<group>"; };
+		5672A31A1E3A1DE6002B7500 /* Paperbooklet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Paperbooklet.entitlements; sourceTree = "<group>"; };
+		56DC74C61A90D624008E040A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56DC74C71A90D624008E040A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56DC74C91A90D624008E040A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56DC74CA1A90D624008E040A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56DC74D51A90D624008E040A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		56E5FA0D206219C200E9B1AF /* NotificationService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationService.h; sourceTree = "<group>"; };
+		56E5FA0E206219C200E9B1AF /* NotificationService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationService.m; sourceTree = "<group>"; };
+		56E5FA10206219C200E9B1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56E5FA1820621C2800E9B1AF /* css */ = {isa = PBXFileReference; lastKnownFileType = folder; path = css; sourceTree = "<group>"; };
+		56E5FA1920621C2800E9B1AF /* ok.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ok.html; sourceTree = "<group>"; };
+		56E5FA1A20621C2800E9B1AF /* js */ = {isa = PBXFileReference; lastKnownFileType = folder; path = js; sourceTree = "<group>"; };
+		56E5FA1B20621C2800E9B1AF /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		56E5FA1C20621C2900E9B1AF /* assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = assets; sourceTree = "<group>"; };
+		56E5FA1D20621C2900E9B1AF /* noproceed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = noproceed.html; sourceTree = "<group>"; };
+		56E5FA1E20621C2A00E9B1AF /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		56E5FA1F20621C2A00E9B1AF /* proceed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = proceed.html; sourceTree = "<group>"; };
+		56E5FA2020621C2A00E9B1AF /* favicon.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = favicon.ico; sourceTree = "<group>"; };
+		56E5FA2D2062218800E9B1AF /* OneSignalNotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = OneSignalNotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		56EB374A20953F8700D3E940 /* WebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebController.m; sourceTree = "<group>"; };
+		56EB374B20953F8700D3E940 /* WebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebController.h; sourceTree = "<group>"; };
+		56F9D429206EB2B00049D75D /* zizzsplash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zizzsplash.png; sourceTree = "<group>"; };
+		5AEA1F5FB3CAF66DE56A8AFD /* Pods-Zizz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zizz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zizz/Pods-Zizz.debug.xcconfig"; sourceTree = "<group>"; };
+		5B3F5CE8EAE9C2D57593AB22 /* Pods-Zizz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zizz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zizz/Pods-Zizz.release.xcconfig"; sourceTree = "<group>"; };
+		9695FF5275B16B72D368C4BB /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		DFB0BB97B942A239A7EEF273 /* libPods-OneSignalNotificationServiceExtension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OneSignalNotificationServiceExtension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8EF17B4EE5B6F7ADCC10B6A /* libPods-Zizz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Zizz.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0A896D4F43A8F1D8752B43 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OneSignalNotificationServiceExtension.release.xcconfig"; path = "Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56DC74BF1A90D624008E040A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				560EA5CF1CBEE8380018BB71 /* SystemConfiguration.framework in Frameworks */,
+				560EA5CD1CBEE7FC0018BB71 /* OneSignal.framework in Frameworks */,
+				49C8BAAF58511A7B6BB80724 /* libPods-Zizz.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E5FA08206219C100E9B1AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A4CB931168DC46E92C77B9F /* libPods-OneSignalNotificationServiceExtension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A38791329F2D31E998758A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFB0BB97B942A239A7EEF273 /* libPods-OneSignalNotificationServiceExtension.a */,
+				E8EF17B4EE5B6F7ADCC10B6A /* libPods-Zizz.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56DC74B91A90D624008E040A = {
+			isa = PBXGroup;
+			children = (
+				560EA5CE1CBEE8380018BB71 /* SystemConfiguration.framework */,
+				560EA5CC1CBEE7FC0018BB71 /* OneSignal.framework */,
+				56DC74C41A90D624008E040A /* Paperbooklet */,
+				56E5FA0C206219C200E9B1AF /* OneSignalNotificationServiceExtension */,
+				698850C8EBCCDCD5FEC92D04 /* Pods */,
+				2A38791329F2D31E998758A8 /* Frameworks */,
+				56E5FA2D2062218800E9B1AF /* OneSignalNotificationServiceExtension.appex */,
+				5637587620622655004AF156 /* Zizz.app */,
+			);
+			sourceTree = "<group>";
+		};
+		56DC74C41A90D624008E040A /* Paperbooklet */ = {
+			isa = PBXGroup;
+			children = (
+				56E5FA1C20621C2900E9B1AF /* assets */,
+				56E5FA1820621C2800E9B1AF /* css */,
+				56E5FA2020621C2A00E9B1AF /* favicon.ico */,
+				56E5FA1B20621C2800E9B1AF /* fonts */,
+				56E5FA1E20621C2A00E9B1AF /* images */,
+				56E5FA1A20621C2800E9B1AF /* js */,
+				56E5FA1D20621C2900E9B1AF /* noproceed.html */,
+				56E5FA1920621C2800E9B1AF /* ok.html */,
+				56E5FA1F20621C2A00E9B1AF /* proceed.html */,
+				5622772920F0D7C5005C1749 /* Zizz_Original_appicon.png */,
+				564EF4AC21C92C3E006E6587 /* Zizz_256.png */,
+				56F9D429206EB2B00049D75D /* zizzsplash.png */,
+				5622772720F0B96E005C1749 /* splash2.png */,
+				5672A31A1E3A1DE6002B7500 /* Paperbooklet.entitlements */,
+				56324EF11C64F201004264E2 /* Main.storyboard */,
+				56324EEF1C64EE2D004264E2 /* LaunchScreen.storyboard */,
+				56DC74C91A90D624008E040A /* AppDelegate.h */,
+				56DC74CA1A90D624008E040A /* AppDelegate.m */,
+				56324EF31C64F263004264E2 /* ViewController.h */,
+				56324EF41C64F263004264E2 /* ViewController.m */,
+				56EB374B20953F8700D3E940 /* WebController.h */,
+				56EB374A20953F8700D3E940 /* WebController.m */,
+				56DC74D51A90D624008E040A /* Images.xcassets */,
+				56DC74C51A90D624008E040A /* Supporting Files */,
+			);
+			path = Paperbooklet;
+			sourceTree = "<group>";
+		};
+		56DC74C51A90D624008E040A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56DC74C61A90D624008E040A /* Info.plist */,
+				56DC74C71A90D624008E040A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56E5FA0C206219C200E9B1AF /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				56E5FA0D206219C200E9B1AF /* NotificationService.h */,
+				56E5FA0E206219C200E9B1AF /* NotificationService.m */,
+				56E5FA10206219C200E9B1AF /* Info.plist */,
+			);
+			path = OneSignalNotificationServiceExtension;
+			sourceTree = "<group>";
+		};
+		698850C8EBCCDCD5FEC92D04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9695FF5275B16B72D368C4BB /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */,
+				EF0A896D4F43A8F1D8752B43 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */,
+				5AEA1F5FB3CAF66DE56A8AFD /* Pods-Zizz.debug.xcconfig */,
+				5B3F5CE8EAE9C2D57593AB22 /* Pods-Zizz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56DC74C11A90D624008E040A /* Zizz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56DC74E81A90D624008E040A /* Build configuration list for PBXNativeTarget "Zizz" */;
+			buildPhases = (
+				BC379C480AC53BE557A71DFC /* [CP] Check Pods Manifest.lock */,
+				56DC74BE1A90D624008E040A /* Sources */,
+				56DC74BF1A90D624008E040A /* Frameworks */,
+				56DC74C01A90D624008E040A /* Resources */,
+				56E5FA17206219C200E9B1AF /* Embed App Extensions */,
+				BD25963680A39393DB0BD85E /* [CP] Embed Pods Frameworks */,
+				6ACABB5139627EA689DAD94C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56E5FA12206219C200E9B1AF /* PBXTargetDependency */,
+			);
+			name = Zizz;
+			productName = Paperbooklet;
+			productReference = 5637587620622655004AF156 /* Zizz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56E5FA0A206219C100E9B1AF /* OneSignalNotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56E5FA14206219C200E9B1AF /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */;
+			buildPhases = (
+				6A3D1480419801F7129B82AD /* [CP] Check Pods Manifest.lock */,
+				56E5FA07206219C100E9B1AF /* Sources */,
+				56E5FA08206219C100E9B1AF /* Frameworks */,
+				56E5FA09206219C100E9B1AF /* Resources */,
+				AC79D7A76915B3F6B0CEEAAD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalNotificationServiceExtension;
+			productName = OneSignalNotificationServiceExtension;
+			productReference = 56E5FA2D2062218800E9B1AF /* OneSignalNotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56DC74BA1A90D624008E040A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Richiesoft inc";
+				TargetAttributes = {
+					56DC74C11A90D624008E040A = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = A47U5UXRRE;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					56E5FA0A206219C100E9B1AF = {
+						CreatedOnToolsVersion = 9.2;
+						DevelopmentTeam = A47U5UXRRE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 56DC74BD1A90D624008E040A /* Build configuration list for PBXProject "Zizz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56DC74B91A90D624008E040A;
+			productRefGroup = 56DC74B91A90D624008E040A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56DC74C11A90D624008E040A /* Zizz */,
+				56E5FA0A206219C100E9B1AF /* OneSignalNotificationServiceExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56DC74C01A90D624008E040A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E5FA2720621C2A00E9B1AF /* images in Resources */,
+				56E5FA2120621C2A00E9B1AF /* css in Resources */,
+				564EF4AD21C92C3E006E6587 /* Zizz_256.png in Resources */,
+				56E5FA2920621C2A00E9B1AF /* favicon.ico in Resources */,
+				56E5FA2520621C2A00E9B1AF /* assets in Resources */,
+				56E5FA2320621C2A00E9B1AF /* js in Resources */,
+				5622772820F0B96E005C1749 /* splash2.png in Resources */,
+				56E5FA2620621C2A00E9B1AF /* noproceed.html in Resources */,
+				56324EF01C64EE2D004264E2 /* LaunchScreen.storyboard in Resources */,
+				56E5FA2820621C2A00E9B1AF /* proceed.html in Resources */,
+				56E5FA2420621C2A00E9B1AF /* fonts in Resources */,
+				56324EF21C64F201004264E2 /* Main.storyboard in Resources */,
+				56F9D42A206EB2B00049D75D /* zizzsplash.png in Resources */,
+				5622772A20F0D7C6005C1749 /* Zizz_Original_appicon.png in Resources */,
+				56DC74D61A90D624008E040A /* Images.xcassets in Resources */,
+				56E5FA2220621C2A00E9B1AF /* ok.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E5FA09206219C100E9B1AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6A3D1480419801F7129B82AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OneSignalNotificationServiceExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6ACABB5139627EA689DAD94C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zizz/Pods-Zizz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC79D7A76915B3F6B0CEEAAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OneSignalNotificationServiceExtension/Pods-OneSignalNotificationServiceExtension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC379C480AC53BE557A71DFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zizz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD25963680A39393DB0BD85E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zizz/Pods-Zizz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56DC74BE1A90D624008E040A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56EB374C20953F8700D3E940 /* WebController.m in Sources */,
+				56324EF51C64F263004264E2 /* ViewController.m in Sources */,
+				56DC74CB1A90D624008E040A /* AppDelegate.m in Sources */,
+				56DC74C81A90D624008E040A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56E5FA07206219C100E9B1AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E5FA0F206219C200E9B1AF /* NotificationService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56E5FA12206219C200E9B1AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56E5FA0A206219C100E9B1AF /* OneSignalNotificationServiceExtension */;
+			targetProxy = 56E5FA11206219C200E9B1AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		56DC74E61A90D624008E040A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Infant Louis Charles (GCGC57VXSF)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Infant Louis Charles (GCGC57VXSF)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PROVISIONING_PROFILE = "5ab10e85-4b78-4145-9cac-9a5a01d327df";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56DC74E71A90D624008E040A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: RICHIE SOFT PRIVATE LIMITED (UHDBH2TEY2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: RICHIE SOFT PRIVATE LIMITED (UHDBH2TEY2)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PROVISIONING_PROFILE = "5ab10e85-4b78-4145-9cac-9a5a01d327df";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56DC74E91A90D624008E040A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AEA1F5FB3CAF66DE56A8AFD /* Pods-Zizz.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Paperbooklet/Paperbooklet.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = A47U5UXRRE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Paperbooklet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RichardsLouis.Zizz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56DC74EA1A90D624008E040A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B3F5CE8EAE9C2D57593AB22 /* Pods-Zizz.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Paperbooklet/Paperbooklet.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = A47U5UXRRE;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = Paperbooklet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RichardsLouis.Zizz;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		56E5FA15206219C200E9B1AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9695FF5275B16B72D368C4BB /* Pods-OneSignalNotificationServiceExtension.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Richards Louis (M7FS488S56)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A47U5UXRRE;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RichardsLouis.Paperbooklet.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56E5FA16206219C200E9B1AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF0A896D4F43A8F1D8752B43 /* Pods-OneSignalNotificationServiceExtension.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Richards Louis (A47U5UXRRE)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A47U5UXRRE;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = OneSignalNotificationServiceExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = RichardsLouis.Paperbooklet.OneSignalNotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56DC74BD1A90D624008E040A /* Build configuration list for PBXProject "Zizz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DC74E61A90D624008E040A /* Debug */,
+				56DC74E71A90D624008E040A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56DC74E81A90D624008E040A /* Build configuration list for PBXNativeTarget "Zizz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56DC74E91A90D624008E040A /* Debug */,
+				56DC74EA1A90D624008E040A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56E5FA14206219C200E9B1AF /* Build configuration list for PBXNativeTarget "OneSignalNotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56E5FA15206219C200E9B1AF /* Debug */,
+				56E5FA16206219C200E9B1AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56DC74BA1A90D624008E040A /* Project object */;
+}

@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56516ADB183F2A0000E9EAA9 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56516AD2183F2A0000E9EAA9 /* FifthViewController.m */; };
+		56516ADC183F2A0000E9EAA9 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56516AD3183F2A0000E9EAA9 /* FourthViewController.m */; };
+		56516ADD183F2A0000E9EAA9 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56516AD6183F2A0000E9EAA9 /* ThirdViewController.m */; };
+		56516ADE183F2A0000E9EAA9 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56516AD8183F2A0000E9EAA9 /* FirstViewController.m */; };
+		56516ADF183F2A0000E9EAA9 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56516ADA183F2A0000E9EAA9 /* SecondViewController.m */; };
+		56516AE1183F6F5F00E9EAA9 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56516AE0183F6F5F00E9EAA9 /* iAd.framework */; };
+		56516AE4183F714500E9EAA9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56516AE3183F714500E9EAA9 /* AudioToolbox.framework */; };
+		56516B031840679100E9EAA9 /* pprologo80.png in Resources */ = {isa = PBXBuildFile; fileRef = 56516B001840679100E9EAA9 /* pprologo80.png */; };
+		56516B041840679100E9EAA9 /* pprologo120.png in Resources */ = {isa = PBXBuildFile; fileRef = 56516B011840679100E9EAA9 /* pprologo120.png */; };
+		56516B051840679100E9EAA9 /* pprologo58.png in Resources */ = {isa = PBXBuildFile; fileRef = 56516B021840679100E9EAA9 /* pprologo58.png */; };
+		56516B0818406DB400E9EAA9 /* purpleprophoneb.png in Resources */ = {isa = PBXBuildFile; fileRef = 56516B0618406DB400E9EAA9 /* purpleprophoneb.png */; };
+		56516B0918406DB400E9EAA9 /* purpleprophones.png in Resources */ = {isa = PBXBuildFile; fileRef = 56516B0718406DB400E9EAA9 /* purpleprophones.png */; };
+		5654A39417E31D1200685A92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5654A39317E31D1200685A92 /* Foundation.framework */; };
+		5654A39617E31D1200685A92 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5654A39517E31D1200685A92 /* CoreGraphics.framework */; };
+		5654A39817E31D1200685A92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5654A39717E31D1200685A92 /* UIKit.framework */; };
+		5654A39E17E31D1200685A92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5654A39C17E31D1200685A92 /* InfoPlist.strings */; };
+		5654A3A017E31D1200685A92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5654A39F17E31D1200685A92 /* main.m */; };
+		5654A3A417E31D1200685A92 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5654A3A317E31D1200685A92 /* AppDelegate.m */; };
+		5654A3A717E31D1200685A92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5654A3A517E31D1200685A92 /* Main.storyboard */; };
+		5654A3AA17E31D1200685A92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5654A3A917E31D1200685A92 /* ViewController.m */; };
+		5654A3AC17E31D1200685A92 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5654A3AB17E31D1200685A92 /* Images.xcassets */; };
+		5654A3B317E31D1200685A92 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5654A3B217E31D1200685A92 /* XCTest.framework */; };
+		5654A3B417E31D1200685A92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5654A39317E31D1200685A92 /* Foundation.framework */; };
+		5654A3B517E31D1200685A92 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5654A39717E31D1200685A92 /* UIKit.framework */; };
+		5654A3BD17E31D1200685A92 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5654A3BB17E31D1200685A92 /* InfoPlist.strings */; };
+		5654A3BF17E31D1200685A92 /* Purple_ProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5654A3BE17E31D1200685A92 /* Purple_ProTests.m */; };
+		56D0ABF61843DA9E0073F13C /* footer.png in Resources */ = {isa = PBXBuildFile; fileRef = 56D0ABF51843DA9E0073F13C /* footer.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5654A3B617E31D1200685A92 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5654A38817E31D1200685A92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5654A38F17E31D1200685A92;
+			remoteInfo = "Purple Pro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56516AD1183F2A0000E9EAA9 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		56516AD2183F2A0000E9EAA9 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		56516AD3183F2A0000E9EAA9 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		56516AD4183F2A0000E9EAA9 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		56516AD5183F2A0000E9EAA9 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		56516AD6183F2A0000E9EAA9 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		56516AD7183F2A0000E9EAA9 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		56516AD8183F2A0000E9EAA9 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		56516AD9183F2A0000E9EAA9 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		56516ADA183F2A0000E9EAA9 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		56516AE0183F6F5F00E9EAA9 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		56516AE3183F714500E9EAA9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		56516B001840679100E9EAA9 /* pprologo80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pprologo80.png; sourceTree = "<group>"; };
+		56516B011840679100E9EAA9 /* pprologo120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pprologo120.png; sourceTree = "<group>"; };
+		56516B021840679100E9EAA9 /* pprologo58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pprologo58.png; sourceTree = "<group>"; };
+		56516B0618406DB400E9EAA9 /* purpleprophoneb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purpleprophoneb.png; sourceTree = "<group>"; };
+		56516B0718406DB400E9EAA9 /* purpleprophones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = purpleprophones.png; sourceTree = "<group>"; };
+		5654A39017E31D1200685A92 /* Purple Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Purple Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5654A39317E31D1200685A92 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5654A39517E31D1200685A92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5654A39717E31D1200685A92 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5654A39B17E31D1200685A92 /* Purple Pro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Purple Pro-Info.plist"; sourceTree = "<group>"; };
+		5654A39D17E31D1200685A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5654A39F17E31D1200685A92 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5654A3A117E31D1200685A92 /* Purple Pro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Purple Pro-Prefix.pch"; sourceTree = "<group>"; };
+		5654A3A217E31D1200685A92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5654A3A317E31D1200685A92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5654A3A617E31D1200685A92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5654A3A817E31D1200685A92 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5654A3A917E31D1200685A92 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5654A3AB17E31D1200685A92 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5654A3B117E31D1200685A92 /* Purple ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Purple ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5654A3B217E31D1200685A92 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5654A3BA17E31D1200685A92 /* Purple ProTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Purple ProTests-Info.plist"; sourceTree = "<group>"; };
+		5654A3BC17E31D1200685A92 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5654A3BE17E31D1200685A92 /* Purple_ProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Purple_ProTests.m; sourceTree = "<group>"; };
+		56D0ABF51843DA9E0073F13C /* footer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = footer.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5654A38D17E31D1200685A92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56516AE1183F6F5F00E9EAA9 /* iAd.framework in Frameworks */,
+				5654A39617E31D1200685A92 /* CoreGraphics.framework in Frameworks */,
+				56516AE4183F714500E9EAA9 /* AudioToolbox.framework in Frameworks */,
+				5654A39817E31D1200685A92 /* UIKit.framework in Frameworks */,
+				5654A39417E31D1200685A92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5654A3AE17E31D1200685A92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5654A3B317E31D1200685A92 /* XCTest.framework in Frameworks */,
+				5654A3B517E31D1200685A92 /* UIKit.framework in Frameworks */,
+				5654A3B417E31D1200685A92 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5654A38717E31D1200685A92 = {
+			isa = PBXGroup;
+			children = (
+				5654A39917E31D1200685A92 /* Purple Pro */,
+				5654A3B817E31D1200685A92 /* Purple ProTests */,
+				5654A39217E31D1200685A92 /* Frameworks */,
+				5654A39117E31D1200685A92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5654A39117E31D1200685A92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5654A39017E31D1200685A92 /* Purple Pro.app */,
+				5654A3B117E31D1200685A92 /* Purple ProTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5654A39217E31D1200685A92 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56516AE3183F714500E9EAA9 /* AudioToolbox.framework */,
+				56516AE0183F6F5F00E9EAA9 /* iAd.framework */,
+				5654A39317E31D1200685A92 /* Foundation.framework */,
+				5654A39517E31D1200685A92 /* CoreGraphics.framework */,
+				5654A39717E31D1200685A92 /* UIKit.framework */,
+				5654A3B217E31D1200685A92 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5654A39917E31D1200685A92 /* Purple Pro */ = {
+			isa = PBXGroup;
+			children = (
+				56D0ABF51843DA9E0073F13C /* footer.png */,
+				56516B0618406DB400E9EAA9 /* purpleprophoneb.png */,
+				56516B0718406DB400E9EAA9 /* purpleprophones.png */,
+				56516B001840679100E9EAA9 /* pprologo80.png */,
+				56516B011840679100E9EAA9 /* pprologo120.png */,
+				56516B021840679100E9EAA9 /* pprologo58.png */,
+				56516AD1183F2A0000E9EAA9 /* FifthViewController.h */,
+				56516AD2183F2A0000E9EAA9 /* FifthViewController.m */,
+				56516AD3183F2A0000E9EAA9 /* FourthViewController.m */,
+				56516AD4183F2A0000E9EAA9 /* FourthViewController.h */,
+				56516AD5183F2A0000E9EAA9 /* ThirdViewController.h */,
+				56516AD6183F2A0000E9EAA9 /* ThirdViewController.m */,
+				56516AD7183F2A0000E9EAA9 /* FirstViewController.h */,
+				56516AD8183F2A0000E9EAA9 /* FirstViewController.m */,
+				56516AD9183F2A0000E9EAA9 /* SecondViewController.h */,
+				56516ADA183F2A0000E9EAA9 /* SecondViewController.m */,
+				5654A3A217E31D1200685A92 /* AppDelegate.h */,
+				5654A3A317E31D1200685A92 /* AppDelegate.m */,
+				5654A3A517E31D1200685A92 /* Main.storyboard */,
+				5654A3A817E31D1200685A92 /* ViewController.h */,
+				5654A3A917E31D1200685A92 /* ViewController.m */,
+				5654A3AB17E31D1200685A92 /* Images.xcassets */,
+				5654A39A17E31D1200685A92 /* Supporting Files */,
+			);
+			path = "Purple Pro";
+			sourceTree = "<group>";
+		};
+		5654A39A17E31D1200685A92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5654A39B17E31D1200685A92 /* Purple Pro-Info.plist */,
+				5654A39C17E31D1200685A92 /* InfoPlist.strings */,
+				5654A39F17E31D1200685A92 /* main.m */,
+				5654A3A117E31D1200685A92 /* Purple Pro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5654A3B817E31D1200685A92 /* Purple ProTests */ = {
+			isa = PBXGroup;
+			children = (
+				5654A3BE17E31D1200685A92 /* Purple_ProTests.m */,
+				5654A3B917E31D1200685A92 /* Supporting Files */,
+			);
+			path = "Purple ProTests";
+			sourceTree = "<group>";
+		};
+		5654A3B917E31D1200685A92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5654A3BA17E31D1200685A92 /* Purple ProTests-Info.plist */,
+				5654A3BB17E31D1200685A92 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5654A38F17E31D1200685A92 /* Purple Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5654A3C217E31D1200685A92 /* Build configuration list for PBXNativeTarget "Purple Pro" */;
+			buildPhases = (
+				5654A38C17E31D1200685A92 /* Sources */,
+				5654A38D17E31D1200685A92 /* Frameworks */,
+				5654A38E17E31D1200685A92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Purple Pro";
+			productName = "Purple Pro";
+			productReference = 5654A39017E31D1200685A92 /* Purple Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5654A3B017E31D1200685A92 /* Purple ProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5654A3C517E31D1200685A92 /* Build configuration list for PBXNativeTarget "Purple ProTests" */;
+			buildPhases = (
+				5654A3AD17E31D1200685A92 /* Sources */,
+				5654A3AE17E31D1200685A92 /* Frameworks */,
+				5654A3AF17E31D1200685A92 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5654A3B717E31D1200685A92 /* PBXTargetDependency */,
+			);
+			name = "Purple ProTests";
+			productName = "Purple ProTests";
+			productReference = 5654A3B117E31D1200685A92 /* Purple ProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5654A38817E31D1200685A92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Richards Louis";
+				TargetAttributes = {
+					5654A38F17E31D1200685A92 = {
+						DevelopmentTeam = UHDBH2TEY2;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Passbook = {
+								enabled = 0;
+							};
+						};
+					};
+					5654A3B017E31D1200685A92 = {
+						TestTargetID = 5654A38F17E31D1200685A92;
+					};
+				};
+			};
+			buildConfigurationList = 5654A38B17E31D1200685A92 /* Build configuration list for PBXProject "Purple Pro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5654A38717E31D1200685A92;
+			productRefGroup = 5654A39117E31D1200685A92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5654A38F17E31D1200685A92 /* Purple Pro */,
+				5654A3B017E31D1200685A92 /* Purple ProTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5654A38E17E31D1200685A92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5654A3AC17E31D1200685A92 /* Images.xcassets in Resources */,
+				56516B0818406DB400E9EAA9 /* purpleprophoneb.png in Resources */,
+				56516B031840679100E9EAA9 /* pprologo80.png in Resources */,
+				5654A39E17E31D1200685A92 /* InfoPlist.strings in Resources */,
+				5654A3A717E31D1200685A92 /* Main.storyboard in Resources */,
+				56D0ABF61843DA9E0073F13C /* footer.png in Resources */,
+				56516B041840679100E9EAA9 /* pprologo120.png in Resources */,
+				56516B0918406DB400E9EAA9 /* purpleprophones.png in Resources */,
+				56516B051840679100E9EAA9 /* pprologo58.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5654A3AF17E31D1200685A92 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5654A3BD17E31D1200685A92 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5654A38C17E31D1200685A92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56516ADB183F2A0000E9EAA9 /* FifthViewController.m in Sources */,
+				56516ADC183F2A0000E9EAA9 /* FourthViewController.m in Sources */,
+				56516ADE183F2A0000E9EAA9 /* FirstViewController.m in Sources */,
+				56516ADD183F2A0000E9EAA9 /* ThirdViewController.m in Sources */,
+				56516ADF183F2A0000E9EAA9 /* SecondViewController.m in Sources */,
+				5654A3AA17E31D1200685A92 /* ViewController.m in Sources */,
+				5654A3A417E31D1200685A92 /* AppDelegate.m in Sources */,
+				5654A3A017E31D1200685A92 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5654A3AD17E31D1200685A92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5654A3BF17E31D1200685A92 /* Purple_ProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5654A3B717E31D1200685A92 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5654A38F17E31D1200685A92 /* Purple Pro */;
+			targetProxy = 5654A3B617E31D1200685A92 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5654A39C17E31D1200685A92 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5654A39D17E31D1200685A92 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5654A3A517E31D1200685A92 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5654A3A617E31D1200685A92 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5654A3BB17E31D1200685A92 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5654A3BC17E31D1200685A92 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5654A3C017E31D1200685A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5654A3C117E31D1200685A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5654A3C317E31D1200685A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Purple Pro/Purple Pro-Prefix.pch";
+				INFOPLIST_FILE = "Purple Pro/Purple Pro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5654A3C417E31D1200685A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-3";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Purple Pro/Purple Pro-Prefix.pch";
+				INFOPLIST_FILE = "Purple Pro/Purple Pro-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5654A3C617E31D1200685A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Purple Pro.app/Purple Pro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Purple Pro/Purple Pro-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Purple ProTests/Purple ProTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5654A3C717E31D1200685A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Purple Pro.app/Purple Pro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Purple Pro/Purple Pro-Prefix.pch";
+				INFOPLIST_FILE = "Purple ProTests/Purple ProTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5654A38B17E31D1200685A92 /* Build configuration list for PBXProject "Purple Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5654A3C017E31D1200685A92 /* Debug */,
+				5654A3C117E31D1200685A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5654A3C217E31D1200685A92 /* Build configuration list for PBXNativeTarget "Purple Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5654A3C317E31D1200685A92 /* Debug */,
+				5654A3C417E31D1200685A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5654A3C517E31D1200685A92 /* Build configuration list for PBXNativeTarget "Purple ProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5654A3C617E31D1200685A92 /* Debug */,
+				5654A3C717E31D1200685A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5654A38817E31D1200685A92 /* Project object */;
+}

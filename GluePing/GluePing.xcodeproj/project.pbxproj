@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5609BD6418265EFC00AA4260 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5609BD6318265EFC00AA4260 /* Foundation.framework */; };
+		5609BD6618265EFC00AA4260 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5609BD6518265EFC00AA4260 /* CoreGraphics.framework */; };
+		5609BD6818265EFC00AA4260 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5609BD6718265EFC00AA4260 /* UIKit.framework */; };
+		5609BD6E18265EFC00AA4260 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5609BD6C18265EFC00AA4260 /* InfoPlist.strings */; };
+		5609BD7018265EFC00AA4260 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5609BD6F18265EFC00AA4260 /* main.m */; };
+		5609BD7418265EFC00AA4260 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5609BD7318265EFC00AA4260 /* AppDelegate.m */; };
+		5609BD7718265EFC00AA4260 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5609BD7518265EFC00AA4260 /* Main.storyboard */; };
+		5609BD7A18265EFC00AA4260 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5609BD7918265EFC00AA4260 /* FirstViewController.m */; };
+		5609BD7D18265EFC00AA4260 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5609BD7C18265EFC00AA4260 /* SecondViewController.m */; };
+		5609BD7F18265EFD00AA4260 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5609BD7E18265EFD00AA4260 /* Images.xcassets */; };
+		5609BD8618265EFD00AA4260 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5609BD8518265EFD00AA4260 /* XCTest.framework */; };
+		5609BD8718265EFD00AA4260 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5609BD6318265EFC00AA4260 /* Foundation.framework */; };
+		5609BD8818265EFD00AA4260 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5609BD6718265EFC00AA4260 /* UIKit.framework */; };
+		5609BD9018265EFD00AA4260 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5609BD8E18265EFD00AA4260 /* InfoPlist.strings */; };
+		5609BD9218265EFD00AA4260 /* GluePingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5609BD9118265EFD00AA4260 /* GluePingTests.m */; };
+		5609BDAF1826639E00AA4260 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5609BDAA1826639E00AA4260 /* FifthViewController.m */; };
+		5609BDB01826639E00AA4260 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5609BDAB1826639E00AA4260 /* FourthViewController.m */; };
+		5609BDB11826639E00AA4260 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5609BDAE1826639E00AA4260 /* ThirdViewController.m */; };
+		5609BDBD18268A2600AA4260 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 5609BDBC18268A2600AA4260 /* bg.png */; };
+		5609BDBF18268E1800AA4260 /* gp120.png in Resources */ = {isa = PBXBuildFile; fileRef = 5609BDBE18268E1800AA4260 /* gp120.png */; };
+		5609BDC11826904000AA4260 /* gp80.png in Resources */ = {isa = PBXBuildFile; fileRef = 5609BDC01826904000AA4260 /* gp80.png */; };
+		5609BDC3182690B900AA4260 /* gp58.png in Resources */ = {isa = PBXBuildFile; fileRef = 5609BDC2182690B900AA4260 /* gp58.png */; };
+		5609BDC91826950300AA4260 /* flbiggp.png in Resources */ = {isa = PBXBuildFile; fileRef = 5609BDC81826950300AA4260 /* flbiggp.png */; };
+		5609BDCB1826950800AA4260 /* flsmallgp.png in Resources */ = {isa = PBXBuildFile; fileRef = 5609BDCA1826950800AA4260 /* flsmallgp.png */; };
+		5609BDCF18269A5400AA4260 /* fb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5609BDCE18269A5400AA4260 /* fb.jpg */; };
+		5609BDD118269AD700AA4260 /* twitter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5609BDD018269AD700AA4260 /* twitter.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5609BD8918265EFD00AA4260 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5609BD5818265EFC00AA4260 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5609BD5F18265EFC00AA4260;
+			remoteInfo = GluePing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5609BD6018265EFC00AA4260 /* GluePing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GluePing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5609BD6318265EFC00AA4260 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5609BD6518265EFC00AA4260 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5609BD6718265EFC00AA4260 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5609BD6B18265EFC00AA4260 /* GluePing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GluePing-Info.plist"; sourceTree = "<group>"; };
+		5609BD6D18265EFC00AA4260 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5609BD6F18265EFC00AA4260 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5609BD7118265EFC00AA4260 /* GluePing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GluePing-Prefix.pch"; sourceTree = "<group>"; };
+		5609BD7218265EFC00AA4260 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5609BD7318265EFC00AA4260 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5609BD7618265EFC00AA4260 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5609BD7818265EFC00AA4260 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		5609BD7918265EFC00AA4260 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		5609BD7B18265EFC00AA4260 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5609BD7C18265EFC00AA4260 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5609BD7E18265EFD00AA4260 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5609BD8418265EFD00AA4260 /* GluePingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GluePingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5609BD8518265EFD00AA4260 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5609BD8D18265EFD00AA4260 /* GluePingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GluePingTests-Info.plist"; sourceTree = "<group>"; };
+		5609BD8F18265EFD00AA4260 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5609BD9118265EFD00AA4260 /* GluePingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GluePingTests.m; sourceTree = "<group>"; };
+		5609BDA91826639E00AA4260 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		5609BDAA1826639E00AA4260 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		5609BDAB1826639E00AA4260 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		5609BDAC1826639E00AA4260 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		5609BDAD1826639E00AA4260 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		5609BDAE1826639E00AA4260 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		5609BDBC18268A2600AA4260 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		5609BDBE18268E1800AA4260 /* gp120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gp120.png; sourceTree = "<group>"; };
+		5609BDC01826904000AA4260 /* gp80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gp80.png; sourceTree = "<group>"; };
+		5609BDC2182690B900AA4260 /* gp58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gp58.png; sourceTree = "<group>"; };
+		5609BDC81826950300AA4260 /* flbiggp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flbiggp.png; sourceTree = "<group>"; };
+		5609BDCA1826950800AA4260 /* flsmallgp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flsmallgp.png; sourceTree = "<group>"; };
+		5609BDCE18269A5400AA4260 /* fb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fb.jpg; sourceTree = "<group>"; };
+		5609BDD018269AD700AA4260 /* twitter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = twitter.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5609BD5D18265EFC00AA4260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5609BD6618265EFC00AA4260 /* CoreGraphics.framework in Frameworks */,
+				5609BD6818265EFC00AA4260 /* UIKit.framework in Frameworks */,
+				5609BD6418265EFC00AA4260 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5609BD8118265EFD00AA4260 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5609BD8618265EFD00AA4260 /* XCTest.framework in Frameworks */,
+				5609BD8818265EFD00AA4260 /* UIKit.framework in Frameworks */,
+				5609BD8718265EFD00AA4260 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5609BD5718265EFC00AA4260 = {
+			isa = PBXGroup;
+			children = (
+				5609BD6918265EFC00AA4260 /* GluePing */,
+				5609BD8B18265EFD00AA4260 /* GluePingTests */,
+				5609BD6218265EFC00AA4260 /* Frameworks */,
+				5609BD6118265EFC00AA4260 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5609BD6118265EFC00AA4260 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5609BD6018265EFC00AA4260 /* GluePing.app */,
+				5609BD8418265EFD00AA4260 /* GluePingTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5609BD6218265EFC00AA4260 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5609BD6318265EFC00AA4260 /* Foundation.framework */,
+				5609BD6518265EFC00AA4260 /* CoreGraphics.framework */,
+				5609BD6718265EFC00AA4260 /* UIKit.framework */,
+				5609BD8518265EFD00AA4260 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5609BD6918265EFC00AA4260 /* GluePing */ = {
+			isa = PBXGroup;
+			children = (
+				5609BDD018269AD700AA4260 /* twitter.jpg */,
+				5609BDCE18269A5400AA4260 /* fb.jpg */,
+				5609BDCA1826950800AA4260 /* flsmallgp.png */,
+				5609BDC81826950300AA4260 /* flbiggp.png */,
+				5609BDC2182690B900AA4260 /* gp58.png */,
+				5609BDC01826904000AA4260 /* gp80.png */,
+				5609BDBE18268E1800AA4260 /* gp120.png */,
+				5609BDBC18268A2600AA4260 /* bg.png */,
+				5609BD7218265EFC00AA4260 /* AppDelegate.h */,
+				5609BDA91826639E00AA4260 /* FifthViewController.h */,
+				5609BDAA1826639E00AA4260 /* FifthViewController.m */,
+				5609BDAB1826639E00AA4260 /* FourthViewController.m */,
+				5609BDAC1826639E00AA4260 /* FourthViewController.h */,
+				5609BDAD1826639E00AA4260 /* ThirdViewController.h */,
+				5609BDAE1826639E00AA4260 /* ThirdViewController.m */,
+				5609BD7318265EFC00AA4260 /* AppDelegate.m */,
+				5609BD7518265EFC00AA4260 /* Main.storyboard */,
+				5609BD7818265EFC00AA4260 /* FirstViewController.h */,
+				5609BD7918265EFC00AA4260 /* FirstViewController.m */,
+				5609BD7B18265EFC00AA4260 /* SecondViewController.h */,
+				5609BD7C18265EFC00AA4260 /* SecondViewController.m */,
+				5609BD7E18265EFD00AA4260 /* Images.xcassets */,
+				5609BD6A18265EFC00AA4260 /* Supporting Files */,
+			);
+			path = GluePing;
+			sourceTree = "<group>";
+		};
+		5609BD6A18265EFC00AA4260 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5609BD6B18265EFC00AA4260 /* GluePing-Info.plist */,
+				5609BD6C18265EFC00AA4260 /* InfoPlist.strings */,
+				5609BD6F18265EFC00AA4260 /* main.m */,
+				5609BD7118265EFC00AA4260 /* GluePing-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5609BD8B18265EFD00AA4260 /* GluePingTests */ = {
+			isa = PBXGroup;
+			children = (
+				5609BD9118265EFD00AA4260 /* GluePingTests.m */,
+				5609BD8C18265EFD00AA4260 /* Supporting Files */,
+			);
+			path = GluePingTests;
+			sourceTree = "<group>";
+		};
+		5609BD8C18265EFD00AA4260 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5609BD8D18265EFD00AA4260 /* GluePingTests-Info.plist */,
+				5609BD8E18265EFD00AA4260 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5609BD5F18265EFC00AA4260 /* GluePing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5609BD9518265EFD00AA4260 /* Build configuration list for PBXNativeTarget "GluePing" */;
+			buildPhases = (
+				5609BD5C18265EFC00AA4260 /* Sources */,
+				5609BD5D18265EFC00AA4260 /* Frameworks */,
+				5609BD5E18265EFC00AA4260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GluePing;
+			productName = GluePing;
+			productReference = 5609BD6018265EFC00AA4260 /* GluePing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5609BD8318265EFD00AA4260 /* GluePingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5609BD9818265EFD00AA4260 /* Build configuration list for PBXNativeTarget "GluePingTests" */;
+			buildPhases = (
+				5609BD8018265EFD00AA4260 /* Sources */,
+				5609BD8118265EFD00AA4260 /* Frameworks */,
+				5609BD8218265EFD00AA4260 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5609BD8A18265EFD00AA4260 /* PBXTargetDependency */,
+			);
+			name = GluePingTests;
+			productName = GluePingTests;
+			productReference = 5609BD8418265EFD00AA4260 /* GluePingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5609BD5818265EFC00AA4260 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Richards Louis";
+				TargetAttributes = {
+					5609BD8318265EFD00AA4260 = {
+						TestTargetID = 5609BD5F18265EFC00AA4260;
+					};
+				};
+			};
+			buildConfigurationList = 5609BD5B18265EFC00AA4260 /* Build configuration list for PBXProject "GluePing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5609BD5718265EFC00AA4260;
+			productRefGroup = 5609BD6118265EFC00AA4260 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5609BD5F18265EFC00AA4260 /* GluePing */,
+				5609BD8318265EFD00AA4260 /* GluePingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5609BD5E18265EFC00AA4260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5609BD7F18265EFD00AA4260 /* Images.xcassets in Resources */,
+				5609BDC91826950300AA4260 /* flbiggp.png in Resources */,
+				5609BDBD18268A2600AA4260 /* bg.png in Resources */,
+				5609BDC11826904000AA4260 /* gp80.png in Resources */,
+				5609BDC3182690B900AA4260 /* gp58.png in Resources */,
+				5609BDCF18269A5400AA4260 /* fb.jpg in Resources */,
+				5609BDD118269AD700AA4260 /* twitter.jpg in Resources */,
+				5609BDBF18268E1800AA4260 /* gp120.png in Resources */,
+				5609BD6E18265EFC00AA4260 /* InfoPlist.strings in Resources */,
+				5609BD7718265EFC00AA4260 /* Main.storyboard in Resources */,
+				5609BDCB1826950800AA4260 /* flsmallgp.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5609BD8218265EFD00AA4260 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5609BD9018265EFD00AA4260 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5609BD5C18265EFC00AA4260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5609BDB01826639E00AA4260 /* FourthViewController.m in Sources */,
+				5609BD7D18265EFC00AA4260 /* SecondViewController.m in Sources */,
+				5609BD7418265EFC00AA4260 /* AppDelegate.m in Sources */,
+				5609BD7A18265EFC00AA4260 /* FirstViewController.m in Sources */,
+				5609BDAF1826639E00AA4260 /* FifthViewController.m in Sources */,
+				5609BD7018265EFC00AA4260 /* main.m in Sources */,
+				5609BDB11826639E00AA4260 /* ThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5609BD8018265EFD00AA4260 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5609BD9218265EFD00AA4260 /* GluePingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5609BD8A18265EFD00AA4260 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5609BD5F18265EFC00AA4260 /* GluePing */;
+			targetProxy = 5609BD8918265EFD00AA4260 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5609BD6C18265EFC00AA4260 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5609BD6D18265EFC00AA4260 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5609BD7518265EFC00AA4260 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5609BD7618265EFC00AA4260 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5609BD8E18265EFD00AA4260 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5609BD8F18265EFD00AA4260 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5609BD9318265EFD00AA4260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5609BD9418265EFD00AA4260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5609BD9618265EFD00AA4260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Infant Louis Richards C (GCGC57VXSF)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GluePing/GluePing-Prefix.pch";
+				INFOPLIST_FILE = "GluePing/GluePing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5609BD9718265EFD00AA4260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Infant Louis Richards C (UHDBH2TEY2)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GluePing/GluePing-Prefix.pch";
+				INFOPLIST_FILE = "GluePing/GluePing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5609BD9918265EFD00AA4260 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GluePing.app/GluePing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GluePing/GluePing-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "GluePingTests/GluePingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5609BD9A18265EFD00AA4260 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GluePing.app/GluePing";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GluePing/GluePing-Prefix.pch";
+				INFOPLIST_FILE = "GluePingTests/GluePingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5609BD5B18265EFC00AA4260 /* Build configuration list for PBXProject "GluePing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5609BD9318265EFD00AA4260 /* Debug */,
+				5609BD9418265EFD00AA4260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5609BD9518265EFD00AA4260 /* Build configuration list for PBXNativeTarget "GluePing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5609BD9618265EFD00AA4260 /* Debug */,
+				5609BD9718265EFD00AA4260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5609BD9818265EFD00AA4260 /* Build configuration list for PBXNativeTarget "GluePingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5609BD9918265EFD00AA4260 /* Debug */,
+				5609BD9A18265EFD00AA4260 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5609BD5818265EFC00AA4260 /* Project object */;
+}

@@ -1,0 +1,2610 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="13B42" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="2">
+    <dependencies>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="4">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="2" customClass="MainViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="green.jpg" id="civ-uU-tsr">
+                                <rect key="frame" x="-2354" y="-54" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="hd.png" id="iK8-di-dB4">
+                                <rect key="frame" x="-2354" y="-54" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackTranslucent" id="zZ6-6h-xHf">
+                                <rect key="frame" x="0.0" y="25" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="FOSTER ENGLISH" id="128-yu-b8V">
+                                        <barButtonItem key="leftBarButtonItem" title="Welcome" id="y6H-fg-O1W">
+                                            <connections>
+                                                <segue destination="jdi-wc-2UW" kind="modal" id="gFF-hS-Fdr"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="About" id="r9Y-jZ-Gw0">
+                                            <connections>
+                                                <segue destination="oki-nq-sbZ" kind="modal" id="8Ci-sr-PF0"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="blackTranslucent" id="LVD-Kd-7h6">
+                                <rect key="frame" x="1" y="979" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="                Tough words               " id="AwD-lx-HOl">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="aS9-rO-B0A" kind="modal" id="Jum-we-uho"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="bC8-k1-SOA"/>
+                                    <barButtonItem title="               Fun words           " id="mXc-Of-ctb">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="iGN-2z-9kp" kind="modal" id="IVQ-dG-qgJ"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="UMf-jv-tSY"/>
+                                    <barButtonItem title="          Beautiful words        " id="5wJ-dL-XZw">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="FJK-h8-Zxj" kind="modal" id="API-rj-4K4"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </toolbar>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="hd.png" id="UyX-OH-ZzY">
+                                <rect key="frame" x="-2354" y="-54" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="center" id="Deb-Ts-sdL">
+                                <rect key="frame" x="134" y="190" width="501" height="354"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <string key="text">FOSTER ENGLISH 
+HD VERSION
+V 3.1</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="61"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="wrJ-Zd-S67">
+                                <rect key="frame" x="266" y="615" width="237" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                <state key="normal" title="Tough">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="aS9-rO-B0A" kind="modal" id="nEU-bq-XY7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uOO-Is-QrS">
+                                <rect key="frame" x="266" y="721" width="237" height="59"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                <state key="normal" title="Fun">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="iGN-2z-9kp" kind="modal" id="jfF-Sp-7x7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KTP-tf-ywd">
+                                <rect key="frame" x="266" y="806" width="237" height="62"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="51"/>
+                                <state key="normal" title="Beautiful">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="FJK-h8-Zxj" kind="modal" id="TC0-4s-lke"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ppT-9h-TRp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1708" y="-211"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="CRm-rI-14a">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="aS9-rO-B0A" customClass="MainViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ujc-qa-pWE">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="green.jpg" id="Feg-yG-0mh">
+                                <rect key="frame" x="-1162" y="-1542" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackTranslucent" id="TOT-9n-zCa">
+                                <rect key="frame" x="0.0" y="21" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Tough words" id="9yY-2V-dLU">
+                                        <barButtonItem key="leftBarButtonItem" title="Welcome" id="GnF-sD-1M9">
+                                            <connections>
+                                                <segue destination="jdi-wc-2UW" kind="modal" id="sxH-3t-ufF"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="About" id="fLt-TL-geK">
+                                            <connections>
+                                                <segue destination="oki-nq-sbZ" kind="modal" id="wkE-0w-uEe"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="CrM-9b-Kiu">
+                                <rect key="frame" x="1" y="979" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="                 HOME                 " id="7T2-jg-m0x">
+                                        <connections>
+                                            <segue destination="2" kind="modal" id="1PV-lI-PRj"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="eru-wX-LrN"/>
+                                    <barButtonItem title="               Fun words           " id="RO6-8D-Ryj">
+                                        <connections>
+                                            <segue destination="iGN-2z-9kp" kind="modal" id="LoS-d8-ZyB"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="n90-qn-94l"/>
+                                    <barButtonItem title="          Beautiful words        " id="78D-qG-pTv">
+                                        <connections>
+                                            <segue destination="FJK-h8-Zxj" kind="modal" id="aOv-g9-9sL"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" red="0.40794022759999998" green="0.72920145979999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" id="hkP-Ev-7KZ">
+                                <rect key="frame" x="142" y="78" width="484" height="867"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <string key="text">
+Abibliophobia
+
+The fear of running out of reading material.
+
+
+
+Absquatulate
+
+To leave or abscond with something.
+
+
+
+Allegator
+
+Some who alleges.
+
+
+
+Anencephalous
+
+Lacking a brain.
+
+
+
+Argle-bargle
+
+A loud row or quarrel.
+
+
+
+Batrachomyomachy
+
+Making a mountain out of a molehill.
+
+
+
+Billingsgate
+
+Loud, raucous profanity.
+
+
+
+Bloviate
+
+To speak pompously or brag.
+
+
+
+Blunderbuss
+
+A gun with a flared muzzle or disorganized activity.
+
+
+
+Borborygm
+
+A rumbling of the stomach.
+
+
+
+Boustrophedon
+
+A back and forth pattern.
+
+
+
+Bowyang
+
+A strap that holds the pants legs in place.
+
+
+
+Brouhaha
+
+An uproar.
+
+
+
+Bumbershoot
+
+An umbrella.
+
+
+
+Callipygian
+
+Having an attractive rear end or nice buns.
+
+
+
+Canoodle
+
+To hug and kiss.
+
+
+
+Cantankerous
+
+Testy, grumpy.
+
+
+
+Catercornered
+
+Diagonal(ly).
+
+
+
+Cockalorum
+
+A small, haughty man.
+
+
+
+Cockamamie
+
+Absurd, outlandish.
+
+
+
+Codswallop
+
+Nonsense, balderdash.
+
+
+
+Collop
+
+A slice of meat or fold of flab.
+
+
+
+Collywobbles
+
+Butterflies in the stomach.
+
+
+
+Comeuppance
+
+Just reward, just deserts.
+
+
+
+Crapulence
+
+Discomfort from eating or drinking too much.
+
+
+
+Crudivore
+
+An eater of raw food.
+
+
+Discombobulate
+
+To confuse.
+
+
+
+Donnybrook
+
+An melee, a riot.
+
+
+
+Doozy
+
+Something really great.
+
+
+
+Dudgeon
+
+A bad mood, a huff.
+
+
+
+Ecdysiast
+
+An exotic dancer, a stripper.
+
+
+
+Eructation
+
+A burp, belch.
+
+
+
+Fard
+
+Face-paint, makeup.
+
+
+
+Fartlek
+
+An athletic training regime.
+
+
+
+Fatuous
+
+Unconsciously foolish.
+
+
+
+Filibuster
+
+Refusal to give up the floor in a debate to prevent a vote.
+
+
+
+Firkin
+
+A quarter barrel or small cask.
+
+
+
+Flibbertigibbet
+
+Nonsense, balderdash.
+
+
+
+Flummox
+
+To exasperate.
+
+
+
+Folderol
+
+Nonsense.
+
+
+
+Formication
+
+The sense of ants crawling on your skin.
+
+
+
+Fuddy-duddy
+
+An old-fashioned, mild-mannered person.
+
+
+
+Furbelow
+
+A fringe or ruffle.
+
+
+
+Furphy
+
+A portable water-container.
+
+
+
+Gaberlunzie
+
+A wandering beggar.
+
+
+
+Gardyloo!
+
+A warning shouted before throwing water from above.
+
+
+
+Gastromancy
+
+Telling fortune from the rumblings of the stomach.
+
+
+
+Gazump
+
+To buy something already promised to someone else.
+
+
+
+Gobbledygook
+
+Nonsense, balderdash.
+
+
+
+Gobemouche
+
+A highly gullible person.
+
+
+
+Godwottery
+
+Nonsense, balderdash.
+
+
+
+Gongoozle
+
+To stare at, kibitz.
+
+
+
+Gonzo
+
+Far-out journalism.
+
+
+
+Goombah
+
+An older friend who protects you.
+
+
+
+Hemidemisemiquaver
+
+A musical timing of 1/64.
+
+
+
+Hobbledehoy
+
+An awkward or ill-mannered young boy.
+
+
+
+Hocus-pocus
+
+Deceitful sleight of hand.
+
+
+
+Hoosegow
+
+A jail or prison.
+
+
+
+Hootenanny
+
+A country or folk music get-together.
+
+
+
+Jackanapes
+
+A rapscallion, hooligan.
+
+
+
+Kerfuffle
+
+An uproar, mild scandal.
+
+
+
+Klutz
+
+An awkward, stupid person.
+
+
+
+La-di-da
+
+An interjection indicating that something is pretentious.
+
+
+
+Lagopodous
+
+Like a rabbit's foot.
+
+
+Discombobulate
+
+To confuse.
+
+
+
+Donnybrook
+
+An melee, a riot.
+
+
+
+Doozy
+
+Something really great.
+
+
+
+Dudgeon
+
+A bad mood, a huff.
+
+
+
+Ecdysiast
+
+An exotic dancer, a stripper.
+
+
+
+Eructation
+
+A burp, belch.
+
+
+
+Fard
+
+Face-paint, makeup.
+
+
+
+Fartlek
+
+An athletic training regime.
+
+
+
+Fatuous
+
+Unconsciously foolish.
+
+
+
+Filibuster
+
+Refusal to give up the floor in a debate to prevent a vote.
+
+
+
+Firkin
+
+A quarter barrel or small cask.
+
+
+
+Flibbertigibbet
+
+Nonsense, balderdash.
+
+
+
+Flummox
+
+To exasperate.
+
+
+
+Folderol
+
+Nonsense.
+
+
+
+Formication
+
+The sense of ants crawling on your skin.
+
+
+
+Fuddy-duddy
+
+An old-fashioned, mild-mannered person.
+
+
+
+Furbelow
+
+A fringe or ruffle.
+
+
+
+Furphy
+
+A portable water-container.
+
+
+
+Gaberlunzie
+
+A wandering beggar.
+
+
+
+Gardyloo!
+
+A warning shouted before throwing water from above.
+
+
+
+Gastromancy
+
+Telling fortune from the rumblings of the stomach.
+
+
+
+Gazump
+
+To buy something already promised to someone else.
+
+
+
+Gobbledygook
+
+Nonsense, balderdash.
+
+
+
+Gobemouche
+
+A highly gullible person.
+
+
+
+Godwottery
+
+Nonsense, balderdash.
+
+
+
+Gongoozle
+
+To stare at, kibitz.
+
+
+
+Gonzo
+
+Far-out journalism.
+
+
+
+Goombah
+
+An older friend who protects you.
+
+
+
+Hemidemisemiquaver
+
+A musical timing of 1/64.
+
+
+
+Hobbledehoy
+
+An awkward or ill-mannered young boy.
+
+
+
+Hocus-pocus
+
+Deceitful sleight of hand.
+
+
+
+Hoosegow
+
+A jail or prison.
+
+
+
+Hootenanny
+
+A country or folk music get-together.
+
+
+
+Jackanapes
+
+A rapscallion, hooligan.
+
+
+
+Kerfuffle
+
+An uproar, mild scandal.
+
+
+
+Klutz
+
+An awkward, stupid person.
+
+
+
+La-di-da
+
+An interjection indicating that something is pretentious.
+
+
+
+Lagopodous
+
+Like a rabbit's foot.
+
+
+Lickety-split
+
+As fast as possible.
+
+
+
+Lickspittle
+
+A servile person, a toady.
+
+
+
+Logorrhea
+
+Loquaciousness, talkativeness.
+
+
+
+Lollygag
+
+To move slowly, fall behind.
+
+
+
+Malarkey
+
+Nonsense, balderdash.
+
+
+
+Maverick
+
+A loner, someone outside the box.
+
+
+
+Mollycoddle
+
+To treat too leniently.
+
+
+
+Mugwump
+
+An independent politician who does not follow any party.
+
+
+
+Mumpsimus
+
+An outdated and unreasonable position on an issue.
+
+
+
+Namby-pamby
+
+Weak, with no backbone.
+
+
+
+Nincompoop
+
+A foolish person.
+
+
+
+Oocephalus
+
+An egghead.
+
+
+
+Ornery
+
+Mean, nasty, grumpy.
+
+
+
+Pandiculation
+
+A full body stretch.
+
+
+
+Panjandrum
+
+Someone who thinks himself high and mighty.
+
+
+
+Pettifogger
+
+A person who tries to befuddle others with his speech.
+
+
+
+Pratfall
+
+A fall on one's rear.
+
+
+
+Quean
+
+A disreputable woman.
+
+
+
+Rambunctious
+
+Aggressive, hard to control.
+
+
+
+Ranivorous
+
+Frog-eating
+
+
+
+Rigmarole
+
+Nonsense, unnecessary complexity.
+
+
+
+Shenanigan
+
+A prank, mischief.
+
+
+
+Sialoquent
+
+Spitting while speaking.
+
+
+
+Skedaddle
+
+To hurry somewhere.
+
+
+
+Skullduggery
+
+No good, underhanded dealing.
+
+
+
+Slangwhanger
+
+A loud abusive speaker or obnoxious writer.
+
+
+
+Smellfungus
+
+A perpetual pessimist.
+
+
+
+Snickersnee
+
+A long knife.
+
+
+
+Snollygoster
+
+A person who can't be trusted.
+
+
+
+Snool
+
+A servile person.
+
+
+
+Tatterdemalion
+
+A child in rags.
+
+
+
+Troglodyte
+
+Someone or something that lives in a cave.
+
+
+
+Turdiform
+
+Having the form of a lark.
+
+
+
+Unremacadamized
+
+Having not been repaved with macadam.
+
+
+
+Vomitory
+
+An exit or outlet.
+
+
+Wabbit
+
+Exhausted, tired, worn out.
+
+
+
+Widdershins
+
+In a contrary or counterclockwise direction.
+
+
+
+Yahoo
+
+A rube, a country bumpkin.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="hd.png" id="0iv-VK-eYM">
+                                <rect key="frame" x="-1162" y="-1542" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dA1-qT-RgS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nt9-HR-8mc" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2900" y="1277"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="HaJ-FG-IoI">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="jdi-wc-2UW" customClass="MainViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EOh-rN-mfi">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="green.jpg" id="dxj-cf-i9C">
+                                <rect key="frame" x="-1306" y="1194" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackTranslucent" id="nT0-bn-n2T">
+                                <rect key="frame" x="0.0" y="25" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="FOSTER ENGLISH" id="CsM-yj-6V7">
+                                        <barButtonItem key="leftBarButtonItem" title="Home" id="7ZY-Xg-RaP">
+                                            <connections>
+                                                <segue destination="2" kind="modal" id="x03-sY-oak"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="About" id="v8T-JP-KwE">
+                                            <connections>
+                                                <segue destination="oki-nq-sbZ" kind="modal" id="eDO-vD-bi7"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="3y2-20-hdI">
+                                <rect key="frame" x="1" y="979" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="                Tough words               " id="zkv-ZQ-LXi">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="aS9-rO-B0A" kind="modal" id="NAl-Yg-9sd"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="yyt-Gf-KQM"/>
+                                    <barButtonItem title="               Fun words           " id="5sD-eq-Anm">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="iGN-2z-9kp" kind="modal" id="1rl-8k-p0E"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="pEi-On-lPF"/>
+                                    <barButtonItem title="          Beautiful words        " id="z4I-LJ-HOY">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <segue destination="FJK-h8-Zxj" kind="modal" id="Faw-le-dN1"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" red="0.7743353435" green="0.80125956629999995" blue="0.18051943109999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="hd.png" id="lJS-nk-iH2">
+                                <rect key="frame" x="-1306" y="1194" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" id="35W-ah-dZN">
+                                <rect key="frame" x="186" y="314" width="399" height="396"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <string key="text">Welcome!!!
+
+CLICK THE ABOVE
+AND THE
+BELOW TAB
+TO
+EXPLORE
+
+This is an iPad Version of Foster English HD
+
+Enjoy the words by scrolling down on respective pages.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40794022759999998" green="0.72920145979999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="l3K-mJ-ilC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FHI-Yq-hxD" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2756" y="-1459"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="q5G-dt-kjv">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="oki-nq-sbZ" customClass="MainViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="sSh-Er-zlV">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="green.jpg" id="0jP-av-dCN">
+                                <rect key="frame" x="-3422" y="1122" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackTranslucent" id="fuR-0v-A4N">
+                                <rect key="frame" x="0.0" y="28" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="FOSTER ENGLISH" id="mJy-dG-P0y">
+                                        <barButtonItem key="leftBarButtonItem" title="Welcome" id="XHc-Dz-6tn">
+                                            <connections>
+                                                <segue destination="jdi-wc-2UW" kind="modal" id="cc8-cq-SMP"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="Home" id="IX9-ET-eN9">
+                                            <connections>
+                                                <segue destination="2" kind="modal" id="Qf6-MU-2eJ"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="TKp-nU-02F">
+                                <rect key="frame" x="1" y="979" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="                Tough words               " id="UXx-8c-BAC">
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="aS9-rO-B0A" kind="modal" id="sLX-3A-dk1"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="VnU-A8-JqX"/>
+                                    <barButtonItem title="               Fun words           " id="Bey-MO-CAp">
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="iGN-2z-9kp" kind="modal" id="xLN-1a-YUk"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="VLs-hy-jfJ"/>
+                                    <barButtonItem title="          Beautiful words        " id="tMt-ws-CIB">
+                                        <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <connections>
+                                            <segue destination="FJK-h8-Zxj" kind="modal" id="4Qj-Ba-yxX"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" red="0.77046246439999999" green="0.64627862120000001" blue="0.97777822069999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="hd.png" id="1fR-Cu-RYV">
+                                <rect key="frame" x="-3422" y="1122" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" id="Vli-uD-Gah">
+                                <rect key="frame" x="211" y="294" width="346" height="436"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <string key="text">FOSTER ENGLISH HD
+V3.1
+
+A
+PRODUCT
+OF
+RICHIESOFT
+
+RICHARDS LOUIS
+
+© 2014
+
+WWW.RICHIESOFT.COM</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40794022759999998" green="0.72920145979999995" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SRs-qV-Xy0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7VO-Cp-wMA" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-640" y="-1387"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="alo-3I-q2B">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="FJK-h8-Zxj" customClass="MainViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qNz-lk-SJn">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="green.jpg" id="NoT-7b-iVA">
+                                <rect key="frame" x="-3394" y="-1542" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackTranslucent" id="RGf-Fh-xrK">
+                                <rect key="frame" x="0.0" y="20" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Beautiful words" id="BRa-Bi-apC">
+                                        <barButtonItem key="leftBarButtonItem" title="Welcome" id="TXd-2z-k2g">
+                                            <connections>
+                                                <segue destination="jdi-wc-2UW" kind="modal" id="3Hl-Xv-oWc"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="About" id="o6E-nM-bea">
+                                            <connections>
+                                                <segue destination="oki-nq-sbZ" kind="modal" id="ZVW-IP-ohA"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="mp1-ZV-UmJ">
+                                <rect key="frame" x="1" y="979" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="              Tough Words             " id="8Oj-iF-XlT">
+                                        <connections>
+                                            <segue destination="aS9-rO-B0A" kind="modal" id="UXD-BI-CEo"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Fck-Bh-hHq"/>
+                                    <barButtonItem title="               Fun words           " id="7Xv-tS-d3Y">
+                                        <connections>
+                                            <segue destination="iGN-2z-9kp" kind="modal" id="aNP-qo-Qwc"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="cUX-Pj-zIA"/>
+                                    <barButtonItem title="                 HOME                 " id="ydS-C0-ZxX">
+                                        <connections>
+                                            <segue destination="2" kind="modal" id="AGW-AR-u5n"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" red="0.99925839900000002" green="0.5631594218" blue="0.31481686939999998" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" id="P4z-Pm-6WL">
+                                <rect key="frame" x="124" y="80" width="523" height="863"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <string key="text">
+Ailurophile
+
+A cat-lover.
+
+
+
+Assemblage
+
+A gathering.
+
+
+
+Becoming
+
+Attractive.
+
+
+
+Beleaguer
+
+To exhaust with attacks.
+
+
+
+Brood
+
+To think alone.
+
+
+
+Bucolic
+
+In a lovely rural setting.
+
+
+
+Bungalow
+
+A small, cozy cottage.
+
+
+
+Chatoyant
+
+Like a cat's eye.
+
+
+
+Comely
+
+Attractive.
+
+
+
+Conflate
+
+To blend together.
+
+
+
+Cynosure
+
+A focal point of admiration.
+
+
+
+Dalliance
+
+A brief love affair.
+
+
+
+Demesne
+
+Dominion, territory.
+
+
+
+Demure
+
+Shy and reserved.
+
+
+
+Denouement
+
+The resolution of a mystery.
+
+
+
+Desuetude
+
+Disuse.
+
+
+
+Desultory
+
+Slow, sluggish.
+
+
+
+Diaphanous
+
+Filmy.
+
+
+
+Dissemble
+
+Deceive.
+
+
+
+Dulcet
+
+Sweet, sugary.
+
+
+
+Ebullience
+
+Bubbling enthusiasm.
+
+
+
+Effervescent
+
+Bubbly.
+
+
+
+Efflorescence
+
+Flowering, blooming.
+
+
+
+Elision
+
+Dropping a sound or syllable in a word.
+
+
+
+Elixir
+
+A good potion.
+
+
+Eloquence
+
+Beauty and persuasion in speech.
+
+
+
+Embrocation
+
+Rubbing on a lotion.
+
+
+
+Emollient
+
+A softener.
+
+
+
+Ephemeral
+
+Short-lived.
+
+
+
+Epiphany
+
+A sudden revelation.
+
+
+
+Erstwhile
+
+At one time, for a time.
+
+
+
+Ethereal
+
+Gaseous, invisible but detectable.
+
+
+
+Evanescent
+
+Vanishing quickly, lasting a very short time.
+
+
+
+Evocative
+
+Suggestive.
+
+
+
+Fetching
+
+Pretty.
+
+
+
+Felicity
+
+Pleasantness.
+
+
+
+Forbearance
+
+Withholding response to provocation.
+
+
+
+Fugacious
+
+Fleeting.
+
+
+
+Furtive
+
+Shifty, sneaky.
+
+
+
+Gambol
+
+To skip or leap about joyfully.
+
+
+
+Glamour
+
+Beauty.
+
+
+
+Gossamer
+
+The finest piece of thread, a spider's silk
+
+
+
+Halcyon
+
+Happy, sunny, care-free.
+
+
+
+Harbinger
+
+Messenger with news of the future.
+
+
+
+Imbrication
+
+Overlapping and forming a regular pattern.
+
+
+
+Imbroglio
+
+An altercation or complicated situation.
+
+
+
+Imbue
+
+To infuse, instill.
+
+
+
+Incipient
+
+Beginning, in an early stage.
+
+
+
+Ineffable
+
+Unutterable, inexpressible.
+
+
+
+IngÈnue
+
+A naÔve young woman.
+
+
+
+Inglenook
+
+A cozy nook by the hearth.
+
+
+
+Insouciance
+
+Blithe nonchalance.
+
+
+
+Inure
+
+To become jaded.
+
+
+
+Labyrinthine
+
+Twisting and turning.
+
+
+
+Lagniappe
+
+A special kind of gift.
+
+
+
+Lagoon
+
+A small gulf or inlet.
+
+
+
+Languor
+
+Listlessness, inactivity.
+
+
+
+Lassitude
+
+Weariness, listlessness.
+
+
+
+Leisure
+
+Free time.
+
+
+
+Lilt
+
+To move musically or lively.
+
+
+
+Lissome
+
+Slender and graceful.
+
+
+
+Lithe
+
+Slender and flexible.
+
+
+
+Love
+
+Deep affection.
+
+
+
+Mellifluous
+
+Sweet sounding.
+
+
+
+Moiety
+
+One of two equal parts.
+
+
+
+Mondegreen
+
+A slip of the ear.
+
+
+
+Murmurous
+
+Murmuring.
+
+
+Nemesis
+
+An unconquerable archenemy.
+
+
+
+Offing
+
+The sea between the horizon and the offshore.
+
+
+
+Onomatopoeia
+
+A word that sounds like its meaning.
+
+
+
+Opulent
+
+Lush, luxuriant.
+
+
+
+Palimpsest
+
+A manuscript written over earlier ones.
+
+
+
+Panacea
+
+A solution for all problems
+
+
+
+Panoply
+
+A complete set.
+
+
+
+Pastiche
+
+An art work combining materials from various sources.
+
+
+
+Penumbra
+
+A half-shadow.
+
+
+
+Petrichor
+
+The smell of earth after rain.
+
+
+
+Plethora
+
+A large quantity.
+
+
+
+Propinquity
+
+An inclination.
+
+
+
+Pyrrhic
+
+Successful with heavy losses.
+
+
+
+Quintessential
+
+Most essential.
+
+
+
+Ratatouille
+
+A spicy French stew.
+
+
+
+Ravel
+
+To knit or unknit.
+
+
+
+Redolent
+
+Fragrant.
+
+
+
+Riparian
+
+By the bank of a stream.
+
+
+
+Ripple
+
+A very small wave.
+
+
+
+Scintilla
+
+A spark or very small thing.
+
+
+
+Sempiternal
+
+Eternal.
+
+
+
+Seraglio
+
+Rich, luxurious oriental palace or harem.
+
+
+
+Serendipity
+
+Finding something nice while looking for something else.
+
+
+
+Summery
+
+Light, delicate or warm and sunny.
+
+
+
+Sumptuous
+
+Lush, luxurious.
+
+
+
+Surreptitious
+
+Secretive, sneaky.
+
+
+
+Susquehanna
+
+A river in Pennsylvania.
+
+
+
+Susurrous
+
+Whispering, hissing.
+
+
+
+Talisman
+
+A good luck charm.
+
+
+
+Tintinnabulation
+
+Tinkling.
+
+
+
+Umbrella
+
+Protection from sun or rain.
+
+
+
+Untoward
+
+Unseemly, inappropriate.
+
+
+
+Vestigial
+
+In trace amounts.
+
+
+
+Wafture
+
+Waving.
+
+
+
+Wherewithal
+
+The means.
+
+
+
+Woebegone
+
+Sorrowful, downcast.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="hd.png" id="DOZ-x8-0dn">
+                                <rect key="frame" x="-3394" y="-1542" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7XG-Qe-Vle"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JdJ-3x-FoG" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-668" y="1277"/>
+        </scene>
+        <!--Main View Controller-->
+        <scene sceneID="7U5-Xu-PPC">
+            <objects>
+                <viewController modalTransitionStyle="crossDissolve" id="iGN-2z-9kp" customClass="MainViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qZp-Tw-RSl">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="green.jpg" id="XKi-5w-7dm">
+                                <rect key="frame" x="-2302" y="-1532" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" barStyle="blackTranslucent" id="rIn-Q6-vgD">
+                                <rect key="frame" x="1" y="24" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <textAttributes key="titleTextAttributes">
+                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </textAttributes>
+                                <items>
+                                    <navigationItem title="Fun words" id="fdf-st-70N">
+                                        <barButtonItem key="leftBarButtonItem" title="Welcome" id="0KD-QK-kea">
+                                            <connections>
+                                                <segue destination="jdi-wc-2UW" kind="modal" id="BMx-P3-8yW"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="About" id="Hzs-UZ-wND">
+                                            <connections>
+                                                <segue destination="oki-nq-sbZ" kind="modal" id="aaV-S5-v97"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="iTo-Po-ogZ">
+                                <rect key="frame" x="1" y="979" width="768" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                                <items>
+                                    <barButtonItem title="              Tough Words             " id="kfr-cR-edU">
+                                        <connections>
+                                            <segue destination="aS9-rO-B0A" kind="modal" id="WJe-rA-AO4"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="MPy-3C-pJH"/>
+                                    <barButtonItem title="                 HOME                 " id="MpA-jr-PtE">
+                                        <connections>
+                                            <segue destination="2" kind="modal" id="xc5-RG-AKz"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="dsd-gS-m39"/>
+                                    <barButtonItem title="          Beautiful words        " id="1iN-NG-XmH">
+                                        <connections>
+                                            <segue destination="FJK-h8-Zxj" kind="modal" id="HC7-RG-e18"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" red="1" green="0.33603419899999998" blue="0.92290037830000005" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" id="dKc-D2-eol">
+                                <rect key="frame" x="129" y="88" width="510" height="847"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+                                <string key="text">
+Abibliophobia
+
+The fear of running out of reading material.
+
+
+Argle-bargle
+
+A loud row or quarrel.
+
+
+
+Batrachomyomachy
+
+Making a mountain out of a molehill.
+
+
+
+Billingsgate
+
+Loud, raucous profanity.
+
+
+
+Bloviate
+
+To speak pompously or brag.
+
+
+
+Blunderbuss
+
+A gun with a flared muzzle or disorganized activity.
+
+
+
+Borborygm
+
+A rumbling of the stomach.
+
+
+
+Boustrophedon
+
+A back and forth pattern.
+
+
+
+Bowyang
+
+A strap that holds the pants legs in place.
+
+
+
+Brouhaha
+
+An uproar.
+
+
+
+Bumbershoot
+
+An umbrella.
+
+
+
+Callipygian
+
+Having an attractive rear end or nice buns.
+
+
+
+Canoodle
+
+To hug and kiss.
+
+
+
+Cantankerous
+
+Testy, grumpy.
+
+
+
+Catercornered
+
+Diagonal(ly).
+
+
+
+Cockalorum
+
+A small, haughty man.
+
+
+
+Cockamamie
+
+Absurd, outlandish.
+
+
+
+Codswallop
+
+Nonsense, balderdash.
+
+
+
+Collop
+
+A slice of meat or fold of flab.
+
+
+
+Collywobbles
+
+Butterflies in the stomach.
+
+
+
+Comeuppance
+
+Just reward, just deserts.
+
+
+
+Crapulence
+
+Discomfort from eating or drinking too much.
+
+
+
+Crudivore
+
+An eater of raw food.
+
+
+
+Discombobulate
+
+To confuse.
+
+
+
+Donnybrook
+
+An melee, a riot.
+
+
+
+Doozy
+
+Something really great.
+
+
+
+Dudgeon
+
+A bad mood, a huff.
+
+
+
+Ecdysiast
+
+An exotic dancer, a stripper.
+
+
+
+Eructation
+
+A burp, belch.
+
+
+
+Fard
+
+Face-paint, makeup.
+
+
+
+Fartlek
+
+An athletic training regime.
+
+
+
+Fatuous
+
+Unconsciously foolish.
+
+
+
+Filibuster
+
+Refusal to give up the floor in a debate to prevent a vote.
+
+
+
+Firkin
+
+A quarter barrel or small cask.
+
+
+
+Flibbertigibbet
+
+Nonsense, balderdash.
+
+
+Flummox
+
+To exasperate.
+
+
+
+Folderol
+
+Nonsense.
+
+
+
+Formication
+
+The sense of ants crawling on your skin.
+
+
+
+Fuddy-duddy
+
+An old-fashioned, mild-mannered person.
+
+
+
+Furbelow
+
+A fringe or ruffle.
+
+
+
+Furphy
+
+A portable water-container.
+
+
+
+Gaberlunzie
+
+A wandering beggar.
+
+
+
+Gardyloo!
+
+A warning shouted before throwing water from above.
+
+
+
+Gastromancy
+
+Telling fortune from the rumblings of the stomach.
+
+
+
+Gazump
+
+To buy something already promised to someone else.
+
+
+
+Gobbledygook
+
+Nonsense, balderdash.
+
+
+
+Gobemouche
+
+A highly gullible person.
+
+
+
+Godwottery
+
+Nonsense, balderdash.
+
+
+
+Gongoozle
+
+To stare at, kibitz.
+
+
+
+Gonzo
+
+Far-out journalism.
+
+
+
+Goombah
+
+An older friend who protects you.
+
+
+
+Hemidemisemiquaver
+
+A musical timing of 1/64.
+
+
+
+Hobbledehoy
+
+An awkward or ill-mannered young boy.
+
+
+
+Hocus-pocus
+
+Deceitful sleight of hand.
+
+
+
+Hoosegow
+
+A jail or prison.
+
+
+
+Hootenanny
+
+A country or folk music get-together.
+
+
+
+Jackanapes
+
+A rapscallion, hooligan.
+
+
+
+Kerfuffle
+
+An uproar, mild scandal.
+
+
+
+Klutz
+
+An awkward, stupid person.
+
+
+
+La-di-da
+
+An interjection indicating that something is pretentious.
+
+
+
+Lagopodous
+
+Like a rabbit's foot.
+
+
+
+Lickety-split
+
+As fast as possible.
+
+
+
+Lickspittle
+
+A servile person, a toady.
+
+
+
+Logorrhea
+
+Loquaciousness, talkativeness.
+
+
+
+Lollygag
+
+To move slowly, fall behind.
+
+
+
+Malarkey
+
+Nonsense, balderdash.
+
+
+
+Maverick
+
+A loner, someone outside the box.
+
+
+
+Mollycoddle
+
+To treat too leniently.
+
+
+
+Mugwump
+
+An independent politician who does not follow any party.
+
+
+
+Mumpsimus
+
+An outdated and unreasonable position on an issue.
+
+
+
+Namby-pamby
+
+Weak, with no backbone.
+
+
+
+Nincompoop
+
+A foolish person.
+
+
+
+Oocephalus
+
+An egghead.
+
+
+Ornery
+
+Mean, nasty, grumpy.
+
+
+
+Pandiculation
+
+A full body stretch.
+
+
+
+Panjandrum
+
+Someone who thinks himself high and mighty.
+
+
+
+Pettifogger
+
+A person who tries to befuddle others with his speech.
+
+
+
+Pratfall
+
+A fall on one's rear.
+
+
+
+Quean
+
+A disreputable woman.
+
+
+
+Rambunctious
+
+Aggressive, hard to control.
+
+
+
+Ranivorous
+
+Frog-eating
+
+
+
+Rigmarole
+
+Nonsense, unnecessary complexity.
+
+
+
+Shenanigan
+
+A prank, mischief.
+
+
+
+Sialoquent
+
+Spitting while speaking.
+
+
+
+Skedaddle
+
+To hurry somewhere.
+
+
+
+Skullduggery
+
+No good, underhanded dealing.
+
+
+
+Slangwhanger
+
+A loud abusive speaker or obnoxious writer.
+
+
+
+Smellfungus
+
+A perpetual pessimist.
+
+
+
+Snickersnee
+
+A long knife.
+
+
+
+Snollygoster
+
+A person who can't be trusted.
+
+
+
+Snool
+
+A servile person.
+
+
+
+Tatterdemalion
+
+A child in rags.
+
+
+
+Troglodyte
+
+Someone or something that lives in a cave.
+
+
+
+Turdiform
+
+Having the form of a lark.
+
+
+
+Unremacadamized
+
+Having not been repaved with macadam.
+
+
+
+Vomitory
+
+An exit or outlet.
+
+
+
+Wabbit
+
+Exhausted, tired, worn out.
+
+
+
+Widdershins
+
+In a contrary or counterclockwise direction.
+
+
+
+Yahoo
+
+A rube, a country bumpkin.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="hd.png" id="BfD-xq-emg">
+                                <rect key="frame" x="-2302" y="-1532" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="WWg-su-vGV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Wnu-Ln-HxQ" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1760" y="1267"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="green.jpg" width="1080" height="1920"/>
+        <image name="hd.png" width="248" height="180"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="aOv-g9-9sL"/>
+        <segue reference="WJe-rA-AO4"/>
+        <segue reference="LoS-d8-ZyB"/>
+        <segue reference="1PV-lI-PRj"/>
+        <segue reference="sxH-3t-ufF"/>
+        <segue reference="wkE-0w-uEe"/>
+    </inferredMetricsTieBreakers>
+</document>

@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56A4CFA915DA25E100F040D8 /* hd.png in Resources */ = {isa = PBXBuildFile; fileRef = 56A4CFA815DA25E100F040D8 /* hd.png */; };
+		56AAC0D518A8710800DBDC4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC0D418A8710800DBDC4A /* Images.xcassets */; };
+		56AAC0D718A8715D00DBDC4A /* fe-hd29.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC0D618A8715D00DBDC4A /* fe-hd29.png */; };
+		56AAC0D918A8716400DBDC4A /* fe-hd40.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC0D818A8716400DBDC4A /* fe-hd40.png */; };
+		56AAC0DB18A8716B00DBDC4A /* fe58.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC0DA18A8716B00DBDC4A /* fe58.png */; };
+		56AAC0DD18A8717300DBDC4A /* fe-hd76.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC0DC18A8717300DBDC4A /* fe-hd76.png */; };
+		56AAC0DF18A8717C00DBDC4A /* fe80.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC0DE18A8717C00DBDC4A /* fe80.png */; };
+		56AAC0E118A8718200DBDC4A /* fe120.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC0E018A8718200DBDC4A /* fe120.png */; };
+		56AAC0E318A8719800DBDC4A /* fe-hd152.png in Resources */ = {isa = PBXBuildFile; fileRef = 56AAC0E218A8719800DBDC4A /* fe-hd152.png */; };
+		56C62FBB15D940F40011B67E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C62FBA15D940F40011B67E /* UIKit.framework */; };
+		56C62FBD15D940F40011B67E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C62FBC15D940F40011B67E /* Foundation.framework */; };
+		56C62FBF15D940F40011B67E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C62FBE15D940F40011B67E /* CoreGraphics.framework */; };
+		56C62FC515D940F40011B67E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56C62FC315D940F40011B67E /* InfoPlist.strings */; };
+		56C62FC715D940F40011B67E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C62FC615D940F40011B67E /* main.m */; };
+		56C62FCB15D940F40011B67E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C62FCA15D940F40011B67E /* AppDelegate.m */; };
+		56C62FCE15D940F40011B67E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56C62FCC15D940F40011B67E /* MainStoryboard.storyboard */; };
+		56C62FD115D940F40011B67E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C62FD015D940F40011B67E /* MainViewController.m */; };
+		56C62FD415D940F40011B67E /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C62FD315D940F40011B67E /* FlipsideViewController.m */; };
+		56C62FDC15D940F40011B67E /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C62FDB15D940F40011B67E /* SenTestingKit.framework */; };
+		56C62FDD15D940F40011B67E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C62FBA15D940F40011B67E /* UIKit.framework */; };
+		56C62FDE15D940F40011B67E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56C62FBC15D940F40011B67E /* Foundation.framework */; };
+		56C62FE615D940F40011B67E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 56C62FE415D940F40011B67E /* InfoPlist.strings */; };
+		56C62FE915D940F40011B67E /* Foster_HDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 56C62FE815D940F40011B67E /* Foster_HDTests.m */; };
+		56C62FF315D942560011B67E /* green.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 56C62FF215D942560011B67E /* green.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		56C62FDF15D940F40011B67E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 56C62FAD15D940F40011B67E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56C62FB515D940F40011B67E;
+			remoteInfo = "Foster HD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		56A4CFA815DA25E100F040D8 /* hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hd.png; sourceTree = "<group>"; };
+		56AAC0D418A8710800DBDC4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		56AAC0D618A8715D00DBDC4A /* fe-hd29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fe-hd29.png"; sourceTree = "<group>"; };
+		56AAC0D818A8716400DBDC4A /* fe-hd40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fe-hd40.png"; sourceTree = "<group>"; };
+		56AAC0DA18A8716B00DBDC4A /* fe58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fe58.png; sourceTree = "<group>"; };
+		56AAC0DC18A8717300DBDC4A /* fe-hd76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fe-hd76.png"; sourceTree = "<group>"; };
+		56AAC0DE18A8717C00DBDC4A /* fe80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fe80.png; sourceTree = "<group>"; };
+		56AAC0E018A8718200DBDC4A /* fe120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fe120.png; sourceTree = "<group>"; };
+		56AAC0E218A8719800DBDC4A /* fe-hd152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fe-hd152.png"; sourceTree = "<group>"; };
+		56C62FB615D940F40011B67E /* Foster HD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Foster HD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C62FBA15D940F40011B67E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		56C62FBC15D940F40011B67E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		56C62FBE15D940F40011B67E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		56C62FC215D940F40011B67E /* Foster HD-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Foster HD-Info.plist"; sourceTree = "<group>"; };
+		56C62FC415D940F40011B67E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56C62FC615D940F40011B67E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56C62FC815D940F40011B67E /* Foster HD-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Foster HD-Prefix.pch"; sourceTree = "<group>"; };
+		56C62FC915D940F40011B67E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56C62FCA15D940F40011B67E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56C62FCD15D940F40011B67E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		56C62FCF15D940F40011B67E /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		56C62FD015D940F40011B67E /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		56C62FD215D940F40011B67E /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		56C62FD315D940F40011B67E /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		56C62FDA15D940F40011B67E /* Foster HDTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Foster HDTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56C62FDB15D940F40011B67E /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		56C62FE315D940F40011B67E /* Foster HDTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Foster HDTests-Info.plist"; sourceTree = "<group>"; };
+		56C62FE515D940F40011B67E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		56C62FE715D940F40011B67E /* Foster_HDTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Foster_HDTests.h; sourceTree = "<group>"; };
+		56C62FE815D940F40011B67E /* Foster_HDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Foster_HDTests.m; sourceTree = "<group>"; };
+		56C62FF215D942560011B67E /* green.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = green.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56C62FB315D940F40011B67E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C62FBB15D940F40011B67E /* UIKit.framework in Frameworks */,
+				56C62FBD15D940F40011B67E /* Foundation.framework in Frameworks */,
+				56C62FBF15D940F40011B67E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C62FD615D940F40011B67E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C62FDC15D940F40011B67E /* SenTestingKit.framework in Frameworks */,
+				56C62FDD15D940F40011B67E /* UIKit.framework in Frameworks */,
+				56C62FDE15D940F40011B67E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56C62FAB15D940F40011B67E = {
+			isa = PBXGroup;
+			children = (
+				56AAC0E218A8719800DBDC4A /* fe-hd152.png */,
+				56AAC0E018A8718200DBDC4A /* fe120.png */,
+				56AAC0DE18A8717C00DBDC4A /* fe80.png */,
+				56AAC0DC18A8717300DBDC4A /* fe-hd76.png */,
+				56AAC0DA18A8716B00DBDC4A /* fe58.png */,
+				56AAC0D818A8716400DBDC4A /* fe-hd40.png */,
+				56AAC0D618A8715D00DBDC4A /* fe-hd29.png */,
+				56C62FC015D940F40011B67E /* Foster HD */,
+				56C62FE115D940F40011B67E /* Foster HDTests */,
+				56C62FB915D940F40011B67E /* Frameworks */,
+				56C62FB715D940F40011B67E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		56C62FB715D940F40011B67E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56C62FB615D940F40011B67E /* Foster HD.app */,
+				56C62FDA15D940F40011B67E /* Foster HDTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56C62FB915D940F40011B67E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56C62FBA15D940F40011B67E /* UIKit.framework */,
+				56C62FBC15D940F40011B67E /* Foundation.framework */,
+				56C62FBE15D940F40011B67E /* CoreGraphics.framework */,
+				56C62FDB15D940F40011B67E /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56C62FC015D940F40011B67E /* Foster HD */ = {
+			isa = PBXGroup;
+			children = (
+				56C62FC915D940F40011B67E /* AppDelegate.h */,
+				56C62FCA15D940F40011B67E /* AppDelegate.m */,
+				56C62FCC15D940F40011B67E /* MainStoryboard.storyboard */,
+				56C62FCF15D940F40011B67E /* MainViewController.h */,
+				56C62FD015D940F40011B67E /* MainViewController.m */,
+				56C62FD215D940F40011B67E /* FlipsideViewController.h */,
+				56C62FD315D940F40011B67E /* FlipsideViewController.m */,
+				56C62FF215D942560011B67E /* green.jpg */,
+				56A4CFA815DA25E100F040D8 /* hd.png */,
+				56AAC0D418A8710800DBDC4A /* Images.xcassets */,
+				56C62FC115D940F40011B67E /* Supporting Files */,
+			);
+			path = "Foster HD";
+			sourceTree = "<group>";
+		};
+		56C62FC115D940F40011B67E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56C62FC215D940F40011B67E /* Foster HD-Info.plist */,
+				56C62FC315D940F40011B67E /* InfoPlist.strings */,
+				56C62FC615D940F40011B67E /* main.m */,
+				56C62FC815D940F40011B67E /* Foster HD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		56C62FE115D940F40011B67E /* Foster HDTests */ = {
+			isa = PBXGroup;
+			children = (
+				56C62FE715D940F40011B67E /* Foster_HDTests.h */,
+				56C62FE815D940F40011B67E /* Foster_HDTests.m */,
+				56C62FE215D940F40011B67E /* Supporting Files */,
+			);
+			path = "Foster HDTests";
+			sourceTree = "<group>";
+		};
+		56C62FE215D940F40011B67E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				56C62FE315D940F40011B67E /* Foster HDTests-Info.plist */,
+				56C62FE415D940F40011B67E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56C62FB515D940F40011B67E /* Foster HD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56C62FEC15D940F40011B67E /* Build configuration list for PBXNativeTarget "Foster HD" */;
+			buildPhases = (
+				56C62FB215D940F40011B67E /* Sources */,
+				56C62FB315D940F40011B67E /* Frameworks */,
+				56C62FB415D940F40011B67E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Foster HD";
+			productName = "Foster HD";
+			productReference = 56C62FB615D940F40011B67E /* Foster HD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		56C62FD915D940F40011B67E /* Foster HDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56C62FEF15D940F40011B67E /* Build configuration list for PBXNativeTarget "Foster HDTests" */;
+			buildPhases = (
+				56C62FD515D940F40011B67E /* Sources */,
+				56C62FD615D940F40011B67E /* Frameworks */,
+				56C62FD715D940F40011B67E /* Resources */,
+				56C62FD815D940F40011B67E /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56C62FE015D940F40011B67E /* PBXTargetDependency */,
+			);
+			name = "Foster HDTests";
+			productName = "Foster HDTests";
+			productReference = 56C62FDA15D940F40011B67E /* Foster HDTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56C62FAD15D940F40011B67E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Richards Louis";
+				TargetAttributes = {
+					56C62FB515D940F40011B67E = {
+						DevelopmentTeam = UHDBH2TEY2;
+					};
+				};
+			};
+			buildConfigurationList = 56C62FB015D940F40011B67E /* Build configuration list for PBXProject "Foster HD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 56C62FAB15D940F40011B67E;
+			productRefGroup = 56C62FB715D940F40011B67E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56C62FB515D940F40011B67E /* Foster HD */,
+				56C62FD915D940F40011B67E /* Foster HDTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56C62FB415D940F40011B67E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C62FC515D940F40011B67E /* InfoPlist.strings in Resources */,
+				56AAC0D718A8715D00DBDC4A /* fe-hd29.png in Resources */,
+				56AAC0D918A8716400DBDC4A /* fe-hd40.png in Resources */,
+				56AAC0E318A8719800DBDC4A /* fe-hd152.png in Resources */,
+				56AAC0DB18A8716B00DBDC4A /* fe58.png in Resources */,
+				56AAC0DD18A8717300DBDC4A /* fe-hd76.png in Resources */,
+				56AAC0E118A8718200DBDC4A /* fe120.png in Resources */,
+				56AAC0D518A8710800DBDC4A /* Images.xcassets in Resources */,
+				56AAC0DF18A8717C00DBDC4A /* fe80.png in Resources */,
+				56C62FCE15D940F40011B67E /* MainStoryboard.storyboard in Resources */,
+				56C62FF315D942560011B67E /* green.jpg in Resources */,
+				56A4CFA915DA25E100F040D8 /* hd.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C62FD715D940F40011B67E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C62FE615D940F40011B67E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		56C62FD815D940F40011B67E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56C62FB215D940F40011B67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C62FC715D940F40011B67E /* main.m in Sources */,
+				56C62FCB15D940F40011B67E /* AppDelegate.m in Sources */,
+				56C62FD115D940F40011B67E /* MainViewController.m in Sources */,
+				56C62FD415D940F40011B67E /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C62FD515D940F40011B67E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C62FE915D940F40011B67E /* Foster_HDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		56C62FE015D940F40011B67E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 56C62FB515D940F40011B67E /* Foster HD */;
+			targetProxy = 56C62FDF15D940F40011B67E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		56C62FC315D940F40011B67E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56C62FC415D940F40011B67E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		56C62FCC15D940F40011B67E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56C62FCD15D940F40011B67E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		56C62FE415D940F40011B67E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56C62FE515D940F40011B67E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56C62FEA15D940F40011B67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		56C62FEB15D940F40011B67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56C62FED15D940F40011B67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Foster HD/Foster HD-Prefix.pch";
+				INFOPLIST_FILE = "Foster HD/Foster HD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		56C62FEE15D940F40011B67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Foster HD/Foster HD-Prefix.pch";
+				INFOPLIST_FILE = "Foster HD/Foster HD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		56C62FF015D940F40011B67E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Foster HD.app/Foster HD";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Foster HD/Foster HD-Prefix.pch";
+				INFOPLIST_FILE = "Foster HDTests/Foster HDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		56C62FF115D940F40011B67E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Foster HD.app/Foster HD";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Foster HD/Foster HD-Prefix.pch";
+				INFOPLIST_FILE = "Foster HDTests/Foster HDTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56C62FB015D940F40011B67E /* Build configuration list for PBXProject "Foster HD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56C62FEA15D940F40011B67E /* Debug */,
+				56C62FEB15D940F40011B67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56C62FEC15D940F40011B67E /* Build configuration list for PBXNativeTarget "Foster HD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56C62FED15D940F40011B67E /* Debug */,
+				56C62FEE15D940F40011B67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56C62FEF15D940F40011B67E /* Build configuration list for PBXNativeTarget "Foster HDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56C62FF015D940F40011B67E /* Debug */,
+				56C62FF115D940F40011B67E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56C62FAD15D940F40011B67E /* Project object */;
+}
