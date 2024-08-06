@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>0bc.xyz.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>OneSignalNotificationServiceExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>OneSignalNotificationServiceExtension.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>Xpress.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>XpressShare.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>563D8F3E1D7B679D00D5502A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>564BFE851BFCC397000F8D66</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>56828A5B1D7B58AF0067E813</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>568A7C641D7BE7F600FBB920</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>568A7C911D7C61D900FBB920</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>56D8E4A61D7B5C8F00396A9D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
